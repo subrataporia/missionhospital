@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+:root{
+    --primary-color: #1363B8;
+    --secondary-color: #DA2128;
+}
+@theme inline {
+    --color-primary: var(--primary-color);
+    --color-secondary: var(--secondary-color);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+.animate-pulse-shadow {
+    animation: pulse-shadow 1.5s linear infinite;
+}
+
+@keyframes pulse-shadow {
+
+    0%,
+    100% {
+        box-shadow: 0 0 0 0 rgba(255, 0, 0, .2);
+    }
+
+    50% {
+        box-shadow: 0 0 2px 6px rgba(255, 0, 0, 0);
+    }
+}
+
+.patient_btn {
+    position: relative;
+    --border-angle: 0turn;
+    --main-bg: conic-gradient(from var(--border-angle),
+            #ffffff,
+            #ffffff 5%,
+            #ffffff 60%,
+            #ffffff 95%);
+    background:
+        var(--main-bg) padding-box,
+        var(--gradient-border) border-box,
+        var(--main-bg) border-box;
+    background-position: center center;
+    -webkit-animation: bg-spin 3s linear infinite;
+    animation: bg-spin 3s linear infinite;
+    border: solid 2px transparent;
+    z-index: 1;
+}
+
+@-webkit-keyframes bg-spin {
+    to {
+        --border-angle: 1turn;
+    }
+}
+
+@keyframes bg-spin {
+    to {
+        --border-angle: 1turn;
+    }
+}
+
+@property --border-angle {
+    syntax: "<angle>";
+    inherits: true;
+    initial-value: 0turn;
+}
+
+
+.package_btn {
+    --border-angle: 0turn;
+    background: conic-gradient(from var(--border-angle), #0000, #0000) padding-box, var(--card-border) border-box;
+    animation: r-spin 4s linear infinite;
+}
+.p_btn{
+    --card-border: conic-gradient(from var(--border-angle), #1363B8 15%, #DA2128, #1363B8 90%, #1363B8);
+}
+
+@keyframes r-spin {
+    to {
+        --border-angle: 1turn;
+    }
+}
+
+@property --border-angle {
+    syntax: "<angle>";
+    inherits: true;
+    initial-value: 0turn;
+}
+
+
+/* Dots container */
+.slick-dotted.slick-slider {
+    margin-bottom: 0 !important;
+}
+
+.slick-dots {
+    bottom: 20px;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding-right: 1.5rem;
+}
+
+.slick-dots li {
+    position: relative;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    margin: 0 2px;
+    padding: 0;
+    cursor: pointer;
+}
+
+/* Hide default number */
+.slick-dots li button {
+    font-size: 0;
+    width: 10px;
+    height: 10px;
+    padding: 0;
+}
+
+/* Dot style */
+.slick-dots li button:before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #cbd5e1;
+    opacity: 1;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+/* Active dot */
+.slick-dots li.slick-active button:before {
+    background: var(--secondary-color);
+}
+
+.slick-prev,
+.slick-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 42px;
+    height: 42px;
+    border-radius: 9999px;
+    border: 1px solid rgba(255,255,255,.25);
+    background: rgba(255,255,255,.15);
+    backdrop-filter: blur(10px);
+    color: #fff;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    z-index: 20;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.slick-prev {
+    left: -10px;
+}
+
+.slick-next {
+    right: -10px;
+}
+
+.hero-slider .slick-prev {
+    left: 30px;
+}
+
+.hero-slider .slick-next {
+    right: 30px;
+}
+
+.slick-prev:hover,
+.slick-next:hover {
+    background: var(--secondary-color);
+    border-color: var(--secondary-color);
+    transform: translateY(-50%) scale(1.08);
+}
+
+.slick-prev i,
+.slick-next i {
+    font-size: 18px;
+    line-height: 1;
+    color: #fff;
+}
+
+.slick-prev::before,
+.slick-next::before {
+    display: none;
+}
