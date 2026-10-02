@@ -1,11 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
-:root{
+
+:root {
     --primary-color: #1363B8;
     --secondary-color: #DA2128;
-}
-@theme inline {
-    --color-primary: var(--primary-color);
-    --color-secondary: var(--secondary-color);
 }
 
 * {
@@ -21,6 +18,7 @@ html {
 
 body {
     overflow-x: hidden;
+    line-height: 1.4;
 }
 
 
@@ -83,7 +81,8 @@ body {
     background: conic-gradient(from var(--border-angle), #0000, #0000) padding-box, var(--card-border) border-box;
     animation: r-spin 4s linear infinite;
 }
-.p_btn{
+
+.p_btn {
     --card-border: conic-gradient(from var(--border-angle), #1363B8 15%, #DA2128, #1363B8 90%, #1363B8);
 }
 
@@ -157,9 +156,6 @@ body {
     width: 42px;
     height: 42px;
     border-radius: 9999px;
-    border: 1px solid rgba(255,255,255,.25);
-    background: rgba(255,255,255,.15);
-    backdrop-filter: blur(10px);
     color: #fff;
     display: flex !important;
     align-items: center;
@@ -170,23 +166,36 @@ body {
 }
 
 .slick-prev {
-    left: -10px;
+    left: -40px;
+    background: var(--primary-color);
 }
 
 .slick-next {
-    right: -10px;
-}
-
-.hero-slider .slick-prev {
-    left: 30px;
-}
-
-.hero-slider .slick-next {
-    right: 30px;
+    right: -40px;
+    background: var(--primary-color);
 }
 
 .slick-prev:hover,
 .slick-next:hover {
+    background: var(--secondary-color);
+}
+
+.hero-slider .slick-prev {
+    left: 30px;
+    border: 1px solid rgba(255, 255, 255, .25);
+    background: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(10px);
+}
+
+.hero-slider .slick-next {
+    right: 30px;
+    border: 1px solid rgba(255, 255, 255, .25);
+    background: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(10px);
+}
+
+.hero-slider .slick-prev:hover,
+.hero-slider .slick-next:hover {
     background: var(--secondary-color);
     border-color: var(--secondary-color);
     transform: translateY(-50%) scale(1.08);
@@ -202,4 +211,27 @@ body {
 .slick-prev::before,
 .slick-next::before {
     display: none;
+}
+
+
+/* Footer */
+.flist li {
+    position: relative;
+    padding-left: 14px;
+}
+
+.flist li::before {
+    content: "•";
+    position: absolute;
+    left: 3px;
+    color: rgba(255, 255, 255, .6);
+}
+
+.flist a {
+    color: rgba(255, 255, 255, .75);
+    transition: color .15s;
+}
+
+.flist a:hover {
+    color: yellow;
 }
