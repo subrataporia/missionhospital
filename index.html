@@ -30,14 +30,14 @@
 
 <body>
     <!-- Header -->
-    <header class="bg-white shadow-sm sticky top-0 z-50 2xl:px-3">
-        <div class="2xl:w-[90%] mx-auto flex items-center justify-between gap-4 lg:gap-6 xl:gap-8 2xl:gap-10">
-            <a href="#">
-                <img src="assets/images/logo.webp" class="w-56" alt="">
+    <header class="bg-white shadow-sm z-50 xl:px-3">
+        <div class="mx-auto w-[90%] flex items-center justify-between gap-4 lg:gap-6 xl:gap-8 2xl:gap-10">
+            <a href="#" class="py-2 xl:py-0">
+                <img src="assets/images/logo.webp" class="w-24 lg:w-32 xl:w-64" alt="">
             </a>
-            <div class="flex flex-col w-full">
+            <div class="flex flex-col xl:w-full">
                 <!-- Top Button Section -->
-                <ul class="flex justify-end gap-3 py-3 border-b border-gray-200">
+                <ul class="hidden xl:flex justify-end gap-3 py-3 border-b border-gray-200">
                     <li>
                         <a href="#" class="xl:[zoom:80%] 2xl:[zoom:100%] animate-pulse-shadow flex items-center gap-2 rounded-full border border-dashed border-[#DA2128] px-4 py-2 text-md">
                             <img src="assets/images/icons/emergency-call.svg" alt="">
@@ -81,8 +81,9 @@
                     </li>
                 </ul>
                 <!-- // Top Button Section -->
+
                 <!-- Navigation -->
-                <nav class="hidden md:flex items-center justify-center space-x-5 relative">
+                <nav class="hidden xl:flex items-center justify-center xl:space-x-5 2xl:space-x-8 relative">
                     <div class="group h-full flex items-center">
                         <a href="#" class="flex items-center gap-1 text-black group-hover:text-primary font-medium h-full cursor-pointer transition duration-200 ease-in-out py-3">
                             About Us <i class="ti ti-chevron-down transition-transform group-hover:rotate-180"></i>
@@ -210,8 +211,11 @@
                 </nav>
                 <!-- // Navigation -->
             </div>
-            <div>
-                <img src="assets/images/certified_logo.webp" class="w-48" alt="" srcset="assets/images/certified_logo.webp">
+            <div class="flex items-center gap-4">
+                <img src="assets/images/certified_logo.webp" class="w-24 lg:w-32 xl:w-48" alt="" srcset="assets/images/certified_logo.webp">
+                <button id="mobile-menu-open" class="xl:hidden flex items-center bg-gray-100 h-[36px] text-gray-600 hover:text-gray-900 focus:outline-none p-1.5 leading-none rounded-md" aria-label="Open Menu">
+                    <i class="ti ti-menu-2 text-2xl"></i>
+                </button>
             </div>
         </div>
     </header>
@@ -219,7 +223,7 @@
 
     <div id="mobile-sidebar" class="fixed inset-0 z-50 invisible transition-all duration-300" role="dialog" aria-modal="true">
         <div id="mobile-backdrop" class="fixed inset-0 bg-gray-900/50 opacity-0 transition-opacity duration-300"></div>
-        <div id="sidebar-panel" class="fixed inset-y-0 left-0 w-full max-w-xs bg-white shadow-2xl p-4 flex flex-col justify-between -translate-x-full transition-transform duration-300 ease-in-out">
+        <div id="sidebar-panel" class="fixed inset-y-0 right-0 flex w-full max-w-xs translate-x-full flex-col justify-between bg-white p-4 shadow-2xl transition-transform duration-300 ease-in-out">
             <div>
                 <div class="flex items-center justify-between pb-4 border-b border-gray-100">
                     <a href="#" class="text-xl font-bold text-indigo-600"><img src="assets/images/logo.webp" class="w-32" alt=""></a>
@@ -325,27 +329,27 @@
     <!-- Hero Section -->
     <section class="relative">
         <div class="hero-slider">
-            <div class="relative 2xl:h-[650px] xl:h-[550px] h-[400px]">
+            <div class="relative 2xl:h-[700px] xl:h-[600px] lg:h-[500px] h-[350px]">
                 <img src="assets/images/banner/slider1.webp" alt="" class="w-full h-full object-cover object-center">
                 <div class="absolute inset-0 bg-gradient-to-b from-[#000]/0 to-[#000]/70"></div>
-                <div class="xxl:w-2/5 lg:w-3/5 w-4/5 text-white absolute z-10 text-center top-2/3 left-1/2 -translate-x-1/2 -translate-y-2/3 space-y-2">
-                    <h2 class="text-2xl lg:text-4xl font-bold">The Future of Robotic Surgery is here in Durgapur</h2>
-                    <p class="hidden md:block lg:text-xl"><span class="text-yellow-400 font-bold text-2xl lg:text-3xl">da Vinci Xi</span> is now at The Mission Hospital</p>
+                <div class="2xl:w-2/5 xl:w-3/5 w-4/5 text-white absolute z-10 text-center top-2/3 left-1/2 -translate-x-1/2 -translate-y-2/3 space-y-2">
+                    <h2 class="text-2xl lg:text-3xl xl:text-4xl font-bold">The Future of Robotic Surgery is here in Durgapur</h2>
+                    <p class="text-lg lg:text-xl"><span class="text-yellow-400 font-bold text-2xl lg:text-3xl">da Vinci Xi</span> is now at The Mission Hospital</p>
                 </div>
             </div>
-            <div class="relative 2xl:h-[650px] xl:h-[550px] h-[400px]">
+            <div class="relative 2xl:h-[700px] xl:h-[600px] lg:h-[500px] h-[350px]">
                 <img src="assets/images/banner/slider2.webp" alt="" class="w-full h-full object-cover object-center">
                 <div class="absolute inset-0 "></div>
-                <div class="xxl:w-2/5 lg:w-3/5 w-4/5 text-white absolute z-10 text-center top-2/3 left-1/2 -translate-x-1/2 -translate-y-2/3 space-y-2">
-                    <h2 class="text-2xl lg:text-4xl font-bold">The Future of Robotic Surgery is here in Durgapur</h2>
-                    <p class="hidden md:block lg:text-xl"><span class="text-yellow-400 font-bold text-2xl lg:text-3xl">da Vinci Xi</span> is now at The Mission Hospital</p>
+                <div class="2xl:w-2/5 xl:w-3/5 w-4/5 text-white absolute z-10 text-center top-2/3 left-1/2 -translate-x-1/2 -translate-y-2/3 space-y-2">
+                    <h2 class="text-2xl lg:text-3xl xl:text-4xl font-bold">The Future of Robotic Surgery is here in Durgapur</h2>
+                    <p class="text-lg lg:text-xl"><span class="text-yellow-400 font-bold text-2xl lg:text-3xl">da Vinci Xi</span> is now at The Mission Hospital</p>
                 </div>
             </div>
         </div>
-        <div class="xl:w-2/5 lg:w-3/5 w-4/5 text-white absolute z-10 text-center top-3/4 left-1/2 -translate-x-1/2 -translate-y-3/4 mt-4 lg:mt-6">
+        <div class="xl:w-2/5 lg:w-3/5 w-full bg-[#F3F6F7] lg:bg-transparent lg:py-0 lg:px-0 py-5 px-4 text-white lg:absolute z-10 text-center xl:top-3/4 lg:bottom-16 lg:left-1/2 lg:-translate-x-1/2 xl:-translate-y-3/4 lg:mt-6 lg:mt-10">
             <form class="flex flex-col md:flex-row">
                 <input type="search" autocomplete="off" placeholder="Search for Doctors/Diseases or Specialities" class="w-full bg-white/80 backdrop-blur-md border-0 text-black py-3.5 px-4 lg:px-6 text-sm outline-none transition">            
-                <button class="bg-secondary flex items-center px-7 py-2.5 text-white transition hover:bg-red-600">
+                <button class="bg-secondary flex items-center justify-center px-7 py-2.5 text-white transition hover:bg-red-600">
                     Search 
                     <i class="ti ti-arrow-right ml-1"></i>
                 </button>
@@ -355,22 +359,22 @@
     <!-- // Hero Section -->
 
     <!-- Search Section -->
-    <section class="z-10 -mt-12 relative">
-        <div class="container mx-auto">
-            <div class="flex justify-center whitespace-nowrap gap-x-1">
-                <button class="tab-btn px-6 py-3 rounded-t-lg border border-b-0 border-white font-semibold text-white bg-secondary" onclick="showTab('tab1', this)">
+    <section class="z-10 xl:-mt-[45px] lg:-mt-[41px] relative">
+        <div class="w-[90%] lg:max-w-7xl mx-auto">
+            <div class="flex justify-center whitespace-nowrap gap-x-1 pt-6 lg:pt-0">
+                <button class="tab-btn xl:px-6 xl:py-2.5 lg:px-5 lg:py-2 px-4 py-1.5 lg:rounded-t-lg border lg:border-b-0 lg:border-white border-slate-100 font-semibold text-white bg-secondary" onclick="showTab('tab1', this)">
                     Diseases
                 </button>
-                <button class="tab-btn px-6 py-3 rounded-t-lg border border-b-0 border-white font-semibold text-black bg-white" onclick="showTab('tab2', this)">
+                <button class="tab-btn xl:px-6 xl:py-2.5 lg:px-5 lg:py-2 px-4 py-1.5 lg:rounded-t-lg border lg:border-b-0 lg:border-white border-slate-100 font-semibold text-black bg-white" onclick="showTab('tab2', this)">
                     Specialties
                 </button>
-                <button class="tab-btn px-6 py-3 rounded-t-lg border border-b-0 border-white font-semibold text-black bg-white" onclick="showTab('tab3', this)">
+                <button class="tab-btn xl:px-6 xl:py-2.5 lg:px-5 lg:py-2 px-4 py-1.5 lg:rounded-t-lg border lg:border-b-0 lg:border-white border-slate-100 font-semibold text-black bg-white" onclick="showTab('tab3', this)">
                     Doctors
                 </button>
             </div>
             <div class="py-6 lg:py-8 2xl:py-12">
                 <!-- Disease Cards -->
-                <div id="tab1" class="tab-content px-4 lg:px-6 space-y-4 lg:space-y-6 max-w-7xl mx-auto">
+                <div id="tab1" class="tab-content lg:px-6 space-y-4 lg:space-y-6">
                     <!-- Upper Section -->
                     <div class="grid grid-cols-1 lg:grid-cols-[220px_1fr] 2xl:grid-cols-[350px_1fr] gap-6 lg:gap-10 items-center">
                         <!-- Heading -->
@@ -379,7 +383,7 @@
                             <p class="text-gray-600">Explore diseases, specialties and doctors to find the right care for your health needs.</p>
                         </div>
                         <!-- Alphabet -->
-                        <div class="grid grid-cols-6 lg:grid-cols-[repeat(13,minmax(0,1fr))] gap-2 justify-start lg:justify-center">
+                        <div class="grid grid-cols-8 md:grid-cols-[repeat(13,minmax(0,1fr))] gap-2 justify-start lg:justify-center">
                             <button class="w-full h-10 rounded-full bg-red-600 text-white text-sm lg:text-lg font-semibold">A</button>
                             <button class="w-full h-10 rounded-full border border-gray-200 text-[#4B4B4B] text-sm lg:text-lg font-semibold">B</button>
                             <button class="w-full h-10 rounded-full border border-gray-200 text-[#4B4B4B] text-sm lg:text-lg font-semibold">C</button>
@@ -411,7 +415,7 @@
                     </div>
 
                     <!-- Lower Section -->                        
-                    <div class="relative">
+                    <div class="relative px-4 lg:px-0">
                         <div class="search-slider">
                             <!-- Card 1 -->
                             <div class="m-2 group rounded-xl border border-gray-200 bg-white p-3 lg:p-4 shadow hover:shadow-md transition-all duration-300">
@@ -483,13 +487,13 @@
                         </a>
                     </div>
                 </div>    
-                <div id="tab2" class="tab-content px-4 lg:px-6 space-y-4 lg:space-y-6 hidden">
+                <div id="tab2" class="tab-content lg:px-6 space-y-4 lg:space-y-6 hidden">
                     <h3 class="text-xl font-bold mb-2">Specialties</h3>
                     <p class="text-gray-600">
                         Customer reviews and testimonials go here.
                     </p>
                 </div>    
-                <div id="tab3" class="tab-content px-4 lg:px-6 space-y-4 lg:space-y-6 hidden">
+                <div id="tab3" class="tab-content lg:px-6 space-y-4 lg:space-y-6 hidden">
                     <h3 class="text-xl font-bold mb-2">Doctors</h3>
                     <p class="text-gray-600">
                         Customer reviews and testimonials go here.
@@ -501,26 +505,26 @@
     <!-- // Search -->
 
     <!-- Departments -->
-    <section class="py-6 lg:py-8 2xl:py-12 relative bg-[#F3F6F7] space-y-4 lg:space-y-6">
-        <div class="max-w-3xl mx-auto space-y-2 lg:space-y-4 text-center">
+    <section class="py-8 lg:py-12 2xl:py-16 relative bg-[#F3F6F7] space-y-4 lg:space-y-6">
+        <div class="w-[80%] lg:max-w-3xl mx-auto space-y-2 lg:space-y-4 text-center">
             <!-- Content for specialities -->
             <h2 class="text-2xl md:text-3xl xl:text-4xl font-bold text-center text-sky-600 leading-tight">Centres of Excellence</h2>
             <p class="text-sm leading-relaxed md:text-base lg:text-lg">
                 Our specialist doctors provide advanced, patient-focused care across multiple disciplines, combining medical expertise, innovation, and compassion for better outcomes.
             </p>
         </div>
-        <div class="2xl:w-[90%] mx-auto">
-            <div class="relative space-y-4 lg:space-y-6">
+        <div class="mx-auto w-[90%]">
+            <div class="relative space-y-4 lg:space-y-6 px-4 lg:px-0">
                 <div class="departments-slider">
                     <div class="m-3">
                         <div class="grid grid-cols-1 lg:grid-cols-2 items-center gap-5 bg-white p-3 shadow-[0_4px_10px_rgba(0,0,0,0.05)]">
                             <img src="assets/images/specialities/sp1.jpg" alt="Heart model" class="h-full w-full object-cover object-center">
                             <div class="pb-2 sm:pr-4">
                                 <h3 class="text-xl font-bold">Cardiology</h3>
-                                <p class="mt-3">
+                                <p class="mt-3 line-clamp-2">
                                     Advanced diagnosis and treatment for heart diseases, circulation disorders, and cardiac care.
                                 </p>
-                                <a href="#" class="mt-4 inline-flex items-center font-medium text-secondary hover:underline">
+                                <a href="#" class="mt-4 inline-flex items-center font-medium text-sm text-secondary hover:underline">
                                     LEARN MORE <i class="ti ti-arrow-right ps-1"></i>
                                 </a>
                             </div>
@@ -531,10 +535,10 @@
                             <img src="assets/images/specialities/sp2.jpg" alt="Heart model" class="h-full w-full object-cover object-center">
                             <div class="pb-2 sm:pr-4">
                                 <h3 class="text-xl font-bold">Orthopedic</h3>
-                                <p class="mt-3">
+                                <p class="mt-3 line-clamp-2">
                                     Expert care for bones, joints, muscles, ligaments, fractures, and mobility issues.
                                 </p>
-                                <a href="#" class="mt-4 inline-flex items-center font-medium text-secondary hover:underline">
+                                <a href="#" class="mt-4 inline-flex items-center font-medium text-sm text-secondary hover:underline">
                                     LEARN MORE <i class="ti ti-arrow-right ps-1"></i>
                                 </a>
                             </div>
@@ -545,10 +549,10 @@
                             <img src="assets/images/specialities/sp3.jpg" alt="Heart model" class="h-full w-full object-cover object-center">
                             <div class="pb-2 sm:pr-4">
                                 <h3 class="text-xl font-bold">Gastroenterology</h3>
-                                <p class="mt-3">
+                                <p class="mt-3 line-clamp-2">
                                     Expert care for digestive system disorders, liver diseases, and gastrointestinal conditions.
                                 </p>
-                                <a href="#" class="mt-4 inline-flex items-center font-medium text-secondary hover:underline">
+                                <a href="#" class="mt-4 inline-flex items-center font-medium text-sm text-secondary hover:underline">
                                     LEARN MORE <i class="ti ti-arrow-right ps-1"></i>
                                 </a>
                             </div>
@@ -559,10 +563,10 @@
                             <img src="assets/images/specialities/sp4.jpg" alt="Heart model" class="h-full w-full object-cover object-center">
                             <div class="pb-2 sm:pr-4">
                                 <h3 class="text-xl font-bold">Gynaecology</h3>
-                                <p class="mt-3">
+                                <p class="mt-3 line-clamp-2">
                                     Expert care for reproductive health and women's medical conditions.
                                 </p>
-                                <a href="#" class="mt-4 inline-flex items-center font-medium text-secondary hover:underline">
+                                <a href="#" class="mt-4 inline-flex items-center font-medium text-sm text-secondary hover:underline">
                                     LEARN MORE <i class="ti ti-arrow-right ps-1"></i>
                                 </a>
                             </div>
@@ -581,177 +585,198 @@
     <!-- // Departments -->
 
     <!-- Why Choose Us -->
-    <section class="py-6 lg:py-8 2xl:py-12 relative overflow-hidden bg-tertiary text-white 2xl:px-3">
+    <section class="py-8 lg:py-12 2xl:py-16 relative overflow-hidden bg-primary text-white xl:px-3">
         <!-- decorative hexagon patterns -->
-        <img src="assets/images/left-top.png" class="pointer-events-none absolute left-0 top-0 z-10 w-40 md:w-64" />
-        <img src="assets/images/right-bottom.png" class="pointer-events-none absolute bottom-0 right-0 z-10 w-40 md:w-64" />
+        <img src="assets/images/left-top.png" class="pointer-events-none absolute left-0 top-0 w-40 md:w-64" />
+        <img src="assets/images/right-bottom.png" class="pointer-events-none absolute bottom-0 right-0 w-40 md:w-64" />
 
-        <div class="2xl:w-[90%] mx-auto">
-            <div class="grid items-start gap-8 md:grid-cols-[minmax(0,5fr)_minmax(0,7fr)] lg:gap-10">
+        <div class="mx-auto w-[90%] relative">
+            <div class="grid items-start gap-8 lg:grid-cols-[minmax(0,5fr)_minmax(0,7fr)] lg:gap-10">
                 <div>
-                    <img src="assets/images/Chairman.webp" alt="Dr. Satyajit Bose" class="aspect-square w-full object-cover" />
+                    <div class="xl:aspect-[3/2] lg:aspect-square overflow-hidden">
+                        <img src="assets/images/Chairman.webp" alt="Dr. Satyajit Bose" class="w-full h-full object-cover" />
+                    </div>
+                    <div class="relative bg-white text-slate-900 rounded-r-[50px] lg:pl-[calc(5%+3rem)] md:pl-6 pl-3 lg:hidden flex items-center justify-between">
+                        <div class="sm:py-2">
+                            <div class="text-md md:text-xl lg:text-2xl font-bold leading-tight">Dr. Satyajit Bose 
+                                <span class="text-[70%] font-[400] text-slate-500 block md:inline">(MS, MCh., FIACS)</span>
+                            </div>
+                            <p class="text-xs md:text-sm">Chairman &amp; Senior Cardiac Surgeon</p>
+                        </div>
+                        <a href="#" aria-label="Learn more" class="flex h-[74px] w-[74px] shrink-0 items-center justify-center lg:rounded-full bg-secondary text-white">
+                            <svg class="h-8 w-8" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M5 12h14M13 6l6 6-6 6" />
+                            </svg>
+                        </a>
+                    </div>
                 </div>
                 <!-- Right: copy -->
-                <div class="lg:pl-16 space-y-4 lg:space-y-6 2xl:space-y-8">
+                <div class="xl:pl-16 space-y-4 lg:space-y-6 2xl:space-y-8">
                     <h2 class="text-2xl md:text-3xl xl:text-4xl font-bold">Why Choose The Mission Hospital?</h2>
-                    <p class="text-lg xl:text-xl 2xl:text-2xl font-thin leading-relaxed text-white/85">Our clinic is committed to delivering high-quality medical care with experienced doctors and a patient-focused approach.</p>
-                    <div class="grid gap-x-8 gap-y-8 md:grid-cols-2">
+                    <p class="text-lg xl:text-xl 2xl:text-2xl font-thin lg:leading-relaxed leading-snug text-white/85">Our clinic is committed to delivering high-quality medical care with experienced doctors and a patient-focused approach.</p>
+                    <div class="grid md:grid-cols-2 xl:gap-8 lg:gap-6 gap-4">
                         <div class="flex items-start gap-3">
-                            <img src="assets/images/icons/why1.png" alt="Expert Doctors" class="h-16 w-16 shrink-0" />
+                            <img src="assets/images/icons/why1.png" alt="Expert Doctors" class="xl:h-16 xl:w-16 w-10 h-10 shrink-0" />
                             <div>
                                 <h4 class="text-xl xl:text-2xl">Expert Doctors</h4>
-                                <p class="mt-2 leading-snug text-white/75">Our skilled and experienced doctors provide trusted medical care.</p>
+                                <p class="mt-2 text-xs xl:text-base leading-snug text-white/75">Our skilled and experienced doctors provide trusted medical care.</p>
                             </div>
                         </div>
                         <div class="flex items-start gap-3">
-                            <img src="assets/images/icons/why2.png" alt="Modern Equipment" class="h-16 w-16 shrink-0" />
+                            <img src="assets/images/icons/why2.png" alt="Modern Equipment" class="xl:h-16 xl:w-16 w-10 h-10 shrink-0" />
                             <div>
                                 <h4 class="text-xl xl:text-2xl">Modern Equipment</h4>
-                                <p class="mt-2 leading-snug text-white/75">We use advanced medical technology to ensure safe, effective, and reliable treatments.</p>
+                                <p class="mt-2 text-xs xl:text-base leading-snug text-white/75">We use advanced medical technology to ensure safe, effective, and reliable treatments.</p>
                             </div>
                         </div>
                         <div class="flex items-start gap-3">
-                            <img src="assets/images/icons/why3.png" alt="Patient First" class="h-16 w-16 shrink-0" />
+                            <img src="assets/images/icons/why3.png" alt="Patient First" class="xl:h-16 xl:w-16 w-10 h-10 shrink-0" />
                             <div>
                                 <h4 class="text-xl xl:text-2xl">Patient First</h4>
-                                <p class="mt-2 leading-snug text-white/75">Your comfort and health are our priority. We provide personalized care for every patient.</p>
+                                <p class="mt-2 text-xs xl:text-base leading-snug text-white/75">Your comfort and health are our priority. We provide personalized care for every patient.</p>
                             </div>
                         </div>
                         <div class="flex items-start gap-3">
-                            <img src="assets/images/icons/why4.png" alt="Fast Service" class="h-16 w-16 shrink-0" />
+                            <img src="assets/images/icons/why4.png" alt="Fast Service" class="xl:h-16 xl:w-16 w-10 h-10 shrink-0" />
                             <div>
                                 <h4 class="text-xl xl:text-2xl">Fast Service</h4>
-                                <p class="mt-2 leading-snug text-white/75">Quick appointments and efficient treatment without long waiting times.</p>
+                                <p class="mt-2 text-xs xl:text-base leading-snug text-white/75">Quick appointments and efficient treatment without long waiting times.</p>
                             </div>
                         </div>
                     </div>
+                    <div class="lg:hidden flex items-center gap-3 md:gap-4 bg-white rounded-l-[50px] xl:pr-[20%] lg:pr-[calc(5%+3rem)] pr-3">
+                        <span class="h-[72px] lg:w-[100px] w-[80px] lg:rounded-full bg-secondary text-white flex shrink-0 items-center justify-center text-xl lg:text-2xl xl:text-3xl font-bold">19+</span>
+                        <p class="text-black text-xs md:text-lg xl:text-xl">19+ years diagnosing complex conditions with compassionate patient-focused care</p>
+                    </div>
                 </div>
             </div>
-            <!-- Name bar + 19+ highlight -->
-            <div class="mt-0 flex flex-col md:mt-0 md:flex-row md:items-center">
-                <div class="flex items-center gap-4 bg-white py-3 pl-4 pr-4 text-slate-900 md:w-[46%] md:pr-0">
-                    <div>
-                        <div class="text-sm font-bold text-brand">Dr. Satyajit Bose <span class="text-[9px] font-normal text-slate-500">(MS, MCh., FIACS)</span>
-                        </div>
-                        <div class="mt-1 text-[10px] font-medium">Chairman &amp; Senior Cardiac Surgeon</div>
+        </div>      
+
+        <div class="hidden lg:grid grid-cols-2 gap-4 md:gap-6 lg:gap-8 !-mx-3 lg:mt-0 md:mt-6">
+            <div class="relative bg-white text-slate-900 rounded-r-[50px] pl-[calc(5%+3rem)] flex items-center justify-between">
+                <div class="py-2">
+                    <div class="text-lg md:text-xl lg:text-2xl font-bold text-brand">Dr. Satyajit Bose 
+                        <span class="text-[70%] font-[400] text-slate-500">(MS, MCh., FIACS)</span>
                     </div>
-                    <a href="#" aria-label="Learn more" class="ml-auto flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-cta text-white hover:opacity-90 md:translate-x-1/2">
-                        <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M5 12h14M13 6l6 6-6 6" />
-                        </svg>
-                    </a>
+                    <p>Chairman &amp; Senior Cardiac Surgeon</p>
                 </div>
-                <div class="mt-4 flex items-center gap-4 md:ml-10 md:mt-0">
-                    <span class="rounded-full bg-cta px-6 py-2 text-xl font-bold">19+</span>
-                    <p class="max-w-xs text-sm leading-snug">19+ years diagnosing complex conditions with compassionate patient-focused care</p>
-                </div>
+                <a href="#" aria-label="Learn more" class="flex h-full w-[74px] shrink-0 items-center justify-center rounded-full bg-secondary text-white">
+                    <svg class="h-8 w-8" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M5 12h14M13 6l6 6-6 6" />
+                    </svg>
+                </a>
+            </div>
+            <div class="flex items-center gap-4 bg-white rounded-l-[50px] xl:pr-[20%] lg:pr-[calc(5%+3rem)]">
+                <span class="h-full w-[100px] rounded-full bg-secondary text-white flex shrink-0 items-center justify-center text-xl lg:text-2xl xl:text-3xl font-bold">19+</span>
+                <p class="text-black text-md xl:text-xl">19+ years diagnosing complex conditions with compassionate patient-focused care</p>
             </div>
         </div>
+
         <!-- Stats -->
-        <div class="mt-8 bg-deep/90 py-8">
-            <div class="mx-auto grid max-w-6xl grid-cols-2 gap-y-6 px-6 md:grid-cols-4">
-            <div class="px-4 py-2 text-center md:border-r md:border-white/25">
-                <div class="text-3xl font-bold">25+</div>
-                <div class="mt-1 text-sm font-medium">Medical excellence</div>
-                <div class="mt-0.5 text-[10px] text-white/70">Quality-driven medical standards</div>
+        <div class="mt-10 xl:mt-16">
+            <div class="mx-auto grid max-w-7xl grid-cols-2 md:grid-cols-2 lg:grid-cols-4 md:gap-8">
+            <div class="pe-4 text-center md:border-r md:border-white/25">
+                <div class="text-3xl lg:text-4xl xl:text-6xl font-bold">25+</div>
+                <div class="mt-3 text-xl font-medium">Medical excellence</div>
+                <div class="mt-0.5 text-sm font-thin text-white/70">Quality-driven medical standards</div>
             </div>
-            <div class="px-4 py-2 text-center md:border-r md:border-white/25">
-                <div class="text-3xl font-bold">90%</div>
-                <div class="mt-1 text-sm font-medium">Successfully treated</div>
-                <div class="mt-0.5 text-[10px] text-white/70">Effective patient treatment results</div>
+            <div class="pe-4 text-center md:border-r md:border-white/25">
+                <div class="text-3xl lg:text-4xl xl:text-6xl font-bold">90%</div>
+                <div class="mt-3 text-xl font-medium">Successfully treated</div>
+                <div class="mt-0.5 text-sm font-thin text-white/70">Effective patient treatment results</div>
             </div>
-            <div class="px-4 py-2 text-center md:border-r md:border-white/25">
-                <div class="text-3xl font-bold">1.5 lac+</div>
-                <div class="mt-1 text-sm font-medium">Patients satisfaction</div>
-                <div class="mt-0.5 text-[10px] text-white/70">High patient satisfaction guaranteed</div>
+            <div class="pe-4 text-center md:border-r md:border-white/25">
+                <div class="text-3xl lg:text-4xl xl:text-6xl font-bold">1.5 lac+</div>
+                <div class="mt-3 text-xl font-medium">Patients satisfaction</div>
+                <div class="mt-0.5 text-sm font-thin text-white/70">High patient satisfaction guaranteed</div>
             </div>
             <div class="px-4 py-2 text-center ">
-                <div class="text-3xl font-bold">48+</div>
-                <div class="mt-1 text-sm font-medium">Medical specialties</div>
-                <div class="mt-0.5 text-[10px] text-white/70">Comprehensive medical specialty care</div>
+                <div class="text-3xl lg:text-4xl xl:text-6xl font-bold">48+</div>
+                <div class="mt-3 text-xl font-medium">Medical specialties</div>
+                <div class="mt-0.5 text-sm font-thin text-white/70">Comprehensive medical specialty care</div>
             </div>
             </div>
         </div>
-        </section>
+    </section>
     <!-- // Why Choose Us -->
 
     <!-- Docotors -->
-    <section class="py-6 lg:py-8 2xl:py-12 relative bg-white space-y-4 lg:space-y-6">
-        <div class="max-w-3xl mx-auto space-y-2 lg:space-y-4 text-center">
+    <section class="py-8 lg:py-12 2xl:py-16 relative bg-white space-y-4 lg:space-y-6">
+        <div class="w-[80%] lg:max-w-3xl mx-auto space-y-2 lg:space-y-4 text-center">
             <!-- Content for specialities -->
             <h2 class="text-2xl md:text-3xl xl:text-4xl font-bold text-center text-sky-600 leading-tight">Meet Our Experts</h2>
             <p class="text-sm leading-relaxed md:text-base lg:text-lg">
                 Our medical team is made up of highly qualified doctors, nurses, and healthcare professionals who are dedicated to providing exceptional patient care.
             </p>
         </div>
-        <div class="2xl:w-[90%] mx-auto">
-            <div class="relative space-y-4 lg:space-y-6">
+        <div class="mx-auto w-[90%]">
+            <div class="relative space-y-4 lg:space-y-6 px-4 lg:px-0">
                 <div class="doctors-slider">
-                    <div class="m-3">
+                    <div class="lg:m-3 m-2">
                         <div class="border border-dashed border-black/15 bg-white p-2 shadow-[0_4px_10px_rgba(0,0,0,0.05)]">
                             <img src="assets/images/doctors/d1.jpg" alt="" class="h-full w-full object-cover object-center">
                             <div class="px-2 py-4 text-center">
-                                <h3 class="text-xl font-bold text-tertiary">Dr. Arijit Ghosh</h3>
-                                <p class="mt-2 line-clamp-2 text-tertiary min-h-[3rem]" title="ORTHOPAEDICS(MBBS,MS,MRCS(ENGLAND),FRCS(TRAUMA & ORTHOPAEDICS))">
-                                    ORTHOPAEDICS(MBBS,MS,MRCS(ENGLAND),FRCS(TRAUMA & ORTHOPAEDICS))
+                                <h3 class="text-base xl:text-xl font-bold text-tertiary">Dr. Arijit Ghosh</h3>
+                                <p class="mt-2 line-clamp-2 text-xs lg:text-md xl:text-base text-tertiary xl:min-h-[3rem] min-h-[2rem]" title="ORTHOPAEDICS(MBBS,MS,MRCS(ENGLAND),FRCS(TRAUMA & ORTHOPAEDICS))">
+                                    ORTHOPAEDICS (MBBS, MS, MRCS(ENGLAND),FRCS (TRAUMA & ORTHOPAEDICS))
                                 </p>
-                                <a href="#" class="mt-4 inline-flex items-center gap-3 border border-tertiary px-8 py-2.5 text-sm font-medium text-tertiary transition hover:bg-tertiary hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-tertiary">
+                                <a href="#" class="mt-4 inline-flex items-center gap-3 border border-tertiary px-3 lg:px-8 py-1.5 lg:py-2.5 text-xs lg:text-sm font-medium text-tertiary transition hover:bg-tertiary hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-tertiary">
                                     BOOK APPOINTMENT <i class="ti ti-arrow-right text-lg leading-none"></i>
                                 </a>
                             </div>
                         </div>
                     </div>
-                    <div class="m-3">
+                    <div class="lg:m-3 m-2">
                         <div class="border border-dashed border-black/15 bg-white p-2 shadow-[0_4px_10px_rgba(0,0,0,0.05)]">
                             <img src="assets/images/doctors/d2.jpg" alt="" class="h-full w-full object-cover object-center">
                             <div class="px-2 py-4 text-center">
-                                <h3 class="text-xl font-bold text-tertiary">Dr. Shantanu Kumar Das</h3>
-                                <p class="mt-2 line-clamp-2 text-tertiary min-h-[3rem]" title="Pulmonology (MD, FCCP, FCCS)">
+                                <h3 class="text-base xl:text-xl font-bold text-tertiary">Dr. Shantanu Kumar Das</h3>
+                                <p class="mt-2 line-clamp-2 text-xs lg:text-md xl:text-base text-tertiary xl:min-h-[3rem] min-h-[2rem]" title="Pulmonology (MD, FCCP, FCCS)">
                                     Pulmonology (MD, FCCP, FCCS)
                                 </p>
-                                <a href="#" class="mt-4 inline-flex items-center gap-3 border border-tertiary px-8 py-2.5 text-sm font-medium text-tertiary transition hover:bg-tertiary hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-tertiary">
+                                <a href="#" class="mt-4 inline-flex items-center gap-3 border border-tertiary px-3 lg:px-8 py-1.5 lg:py-2.5 text-xs lg:text-sm font-medium text-tertiary transition hover:bg-tertiary hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-tertiary">
                                     BOOK APPOINTMENT <i class="ti ti-arrow-right text-lg leading-none"></i>
                                 </a>
                             </div>
                         </div>
                     </div>
-                    <div class="m-3">
+                    <div class="lg:m-3 m-2">
                         <div class="border border-dashed border-black/15 bg-white p-2 shadow-[0_4px_10px_rgba(0,0,0,0.05)]">
                             <img src="assets/images/doctors/d3.jpg" alt="" class="h-full w-full object-cover object-center">
                             <div class="px-2 py-4 text-center">
-                                <h3 class="text-xl font-bold text-tertiary">Dr. Urmi Sanyal</h3>
-                                <p class="mt-2 line-clamp-2 text-tertiary min-h-[3rem]" title="Obstetrics and Gynaecology(MBBS, MS, DNB,MRCOG,FMAS)">
+                                <h3 class="text-base xl:text-xl font-bold text-tertiary">Dr. Urmi Sanyal</h3>
+                                <p class="mt-2 line-clamp-2 text-xs lg:text-md xl:text-base text-tertiary xl:min-h-[3rem] min-h-[2rem]" title="Obstetrics and Gynaecology(MBBS, MS, DNB,MRCOG,FMAS)">
                                     Obstetrics and Gynaecology(MBBS, MS, DNB,MRCOG,FMAS)
                                 </p>
-                                <a href="#" class="mt-4 inline-flex items-center gap-3 border border-tertiary px-8 py-2.5 text-sm font-medium text-tertiary transition hover:bg-tertiary hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-tertiary">
+                                <a href="#" class="mt-4 inline-flex items-center gap-3 border border-tertiary px-3 lg:px-8 py-1.5 lg:py-2.5 text-xs lg:text-sm font-medium text-tertiary transition hover:bg-tertiary hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-tertiary">
                                     BOOK APPOINTMENT <i class="ti ti-arrow-right text-lg leading-none"></i>
                                 </a>
                             </div>
                         </div>
                     </div>
-                    <div class="m-3">
+                    <div class="lg:m-3 m-2">
                         <div class="border border-dashed border-black/15 bg-white p-2 shadow-[0_4px_10px_rgba(0,0,0,0.05)]">
                             <img src="assets/images/doctors/d4.jpg" alt="" class="h-full w-full object-cover object-center">
                             <div class="px-2 py-4 text-center">
-                                <h3 class="text-xl font-bold text-tertiary">Dr. Rahul Bose</h3>
-                                <p class="mt-2 line-clamp-2 text-tertiary min-h-[3rem]" title="CTVS (M.Ch)">
+                                <h3 class="text-base xl:text-xl font-bold text-tertiary">Dr. Rahul Bose</h3>
+                                <p class="mt-2 line-clamp-2 text-xs lg:text-md xl:text-base text-tertiary xl:min-h-[3rem] min-h-[2rem]" title="CTVS (M.Ch)">
                                     CTVS (M.Ch)
                                 </p>
-                                <a href="#" class="mt-4 inline-flex items-center gap-3 border border-tertiary px-8 py-2.5 text-sm font-medium text-tertiary transition hover:bg-tertiary hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-tertiary">
+                                <a href="#" class="mt-4 inline-flex items-center gap-3 border border-tertiary px-3 lg:px-8 py-1.5 lg:py-2.5 text-xs lg:text-sm font-medium text-tertiary transition hover:bg-tertiary hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-tertiary">
                                     BOOK APPOINTMENT <i class="ti ti-arrow-right text-lg leading-none"></i>
                                 </a>
                             </div>
                         </div>
                     </div>
-                    <div class="m-3">
+                    <div class="lg:m-3 m-2">
                         <div class="border border-dashed border-black/15 bg-white p-2 shadow-[0_4px_10px_rgba(0,0,0,0.05)]">
                             <img src="assets/images/doctors/d4.jpg" alt="" class="h-full w-full object-cover object-center">
                             <div class="px-2 py-4 text-center">
-                                <h3 class="text-xl font-bold text-tertiary">Dr. Rahul Bose</h3>
-                                <p class="mt-2 line-clamp-2 text-tertiary min-h-[3rem]" title="CTVS (M.Ch)">
+                                <h3 class="text-base xl:text-xl font-bold text-tertiary">Dr. Rahul Bose</h3>
+                                <p class="mt-2 line-clamp-2 text-xs lg:text-md xl:text-base text-tertiary xl:min-h-[3rem] min-h-[2rem]" title="CTVS (M.Ch)">
                                     CTVS (M.Ch)
                                 </p>
-                                <a href="#" class="mt-4 inline-flex items-center gap-3 border border-tertiary px-8 py-2.5 text-sm font-medium text-tertiary transition hover:bg-tertiary hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-tertiary">
+                                <a href="#" class="mt-4 inline-flex items-center gap-3 border border-tertiary px-3 lg:px-8 py-1.5 lg:py-2.5 text-xs lg:text-sm font-medium text-tertiary transition hover:bg-tertiary hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-tertiary">
                                     BOOK APPOINTMENT <i class="ti ti-arrow-right text-lg leading-none"></i>
                                 </a>
                             </div>
@@ -770,27 +795,27 @@
     <!-- // Docotors -->
 
     <!-- Health Packages -->
-    <section class="py-6 lg:py-8 2xl:py-12 relative space-y-4 lg:space-y-6 bg-[url('assets/images/health_bg.webp')] bg-cover bg-center bg-no-repeat">
-        <div class="max-w-3xl mx-auto space-y-2 lg:space-y-4 text-center">
+    <section class="py-8 lg:py-12 2xl:py-16 relative space-y-4 lg:space-y-6 bg-[url('assets/images/health_bg.webp')] bg-cover bg-center bg-no-repeat">
+        <div class="w-[80%] lg:max-w-3xl mx-auto space-y-2 lg:space-y-4 text-center">
             <!-- Content for Health Packages -->
             <h2 class="text-2xl md:text-3xl xl:text-4xl font-bold text-center text-sky-600 leading-tight">Recommended Health Packages</h2>
             <p class="text-sm leading-relaxed md:text-base lg:text-lg">
                 Comprehensive health checkups designed for early detection, prevention, and better long-term wellness.
             </p>
         </div>
-        <div class="2xl:w-[90%] mx-auto">
-            <div class="relative space-y-4 lg:space-y-6">
+        <div class="mx-auto w-[90%]">
+            <div class="relative space-y-4 lg:space-y-6 px-4 lg:px-0">
                 <div class="health-slider">
                     <div class="m-3 bg-tertiary">
                         <div class="overflow-hidden aspect-square">
                             <img src="assets/images/healthpackage/h1.jpg" alt="health-package" class="w-full h-full object-cover">
                         </div>    
-                        <div class="p-3 lg:p-5 text-white space-y-3">
-                            <h3 class="text-lg lg:text-xl font-semibold line-clamp-2">
+                        <div class="p-3 md:p-4 lg:p-5 text-white space-y-3">
+                            <h3 class="text-base lg:text-lg xl:text-xl font-semibold line-clamp-2 lg:min-h-[56px]">
                                 Healthy Heart Package
                             </h3> 
-                            <p>Heart-focused screening to assess key risk markers and heart health</p>
-                            <a href="#" class="inline-flex items-center font-medium hover:text-yellow-400">
+                            <p class="line-clamp-2 text-white/70">Heart-focused screening to assess key risk markers and heart health</p>
+                            <a href="#" class="inline-flex items-center font-medium text-sm hover:text-yellow-400">
                                 LEARN MORE <i class="ti ti-arrow-right ps-1"></i>
                             </a>
                         </div>  
@@ -799,12 +824,12 @@
                         <div class="overflow-hidden aspect-square">
                             <img src="assets/images/healthpackage/h1.jpg" alt="health-package" class="w-full h-full object-cover">
                         </div>    
-                        <div class="p-3 lg:p-5 text-white space-y-3">
-                            <h3 class="text-lg lg:text-xl font-semibold line-clamp-2">
+                        <div class="p-3 md:p-4 lg:p-5 text-white space-y-3">
+                            <h3 class="text-base lg:text-lg xl:text-xl font-semibold line-clamp-2 lg:min-h-[56px]">
                                 Wellness 360 Health Check Package
                             </h3> 
-                            <p>Comprehensive health assessment to evaluate overall well-being and identify potential health risks</p>
-                            <a href="#" class="inline-flex items-center font-medium hover:text-yellow-400">
+                            <p class="line-clamp-2 text-white/70">Comprehensive health assessment to evaluate overall well-being and identify potential health risks</p>
+                            <a href="#" class="inline-flex items-center font-medium text-sm hover:text-yellow-400">
                                 LEARN MORE <i class="ti ti-arrow-right ps-1"></i>
                             </a>
                         </div>  
@@ -813,12 +838,12 @@
                         <div class="overflow-hidden aspect-square">
                             <img src="assets/images/healthpackage/h1.jpg" alt="health-package" class="w-full h-full object-cover">
                         </div>    
-                        <div class="p-3 lg:p-5 text-white space-y-3">
-                            <h3 class="text-lg lg:text-xl font-semibold line-clamp-2">
+                        <div class="p-3 md:p-4 lg:p-5 text-white space-y-3">
+                            <h3 class="text-base lg:text-lg xl:text-xl font-semibold line-clamp-2 lg:min-h-[56px]">
                                 Special Screening Packages
                             </h3> 
-                            <p>Renal/kidney, diabetes, rheumatology, urology, liver, spine and stroke-risk screening packages</p>
-                            <a href="#" class="inline-flex items-center font-medium hover:text-yellow-400">
+                            <p class="line-clamp-2 text-white/70">Renal/kidney, diabetes, rheumatology, urology, liver, spine and stroke-risk screening packages</p>
+                            <a href="#" class="inline-flex items-center font-medium text-sm hover:text-yellow-400">
                                 LEARN MORE <i class="ti ti-arrow-right ps-1"></i>
                             </a>
                         </div>  
@@ -827,12 +852,12 @@
                         <div class="overflow-hidden aspect-square">
                             <img src="assets/images/healthpackage/h1.jpg" alt="health-package" class="w-full h-full object-cover">
                         </div>    
-                        <div class="p-3 lg:p-5 text-white space-y-3">
-                            <h3 class="text-lg lg:text-xl font-semibold line-clamp-2">
+                        <div class="p-3 md:p-4 lg:p-5 text-white space-y-3">
+                            <h3 class="text-base lg:text-lg xl:text-xl font-semibold line-clamp-2 lg:min-h-[56px]">
                                 Healthy Heart Package
                             </h3> 
-                            <p>Heart-focused screening to assess key risk markers and heart health</p>
-                            <a href="#" class="inline-flex items-center font-medium hover:text-yellow-400">
+                            <p class="line-clamp-2 text-white/70">Heart-focused screening to assess key risk markers and heart health</p>
+                            <a href="#" class="inline-flex items-center font-medium text-sm hover:text-yellow-400">
                                 LEARN MORE <i class="ti ti-arrow-right ps-1"></i>
                             </a>
                         </div>  
@@ -850,7 +875,7 @@
     <!-- // Health Packages -->
 
     <!-- Patient Feedback -->
-    <section class="relative pt-6 lg:pt-8 2xl:pt-12 pb-12 lg:pb-16 2xl:pb-24 space-y-4 lg:space-y-6 bg-white bg-[url('assets/images/testimonial_bg.webp')] bg-cover bg-center bg-no-repeat after:absolute after:inset-0 after:bg-white/50 after:content-['']">
+    <section class="relative pt-6 lg:pt-8 2xl:pt-12 pb-12 lg:pb-16 2xl:pb-24 xl:px-3 space-y-4 lg:space-y-6 bg-white bg-[url('assets/images/testimonial_bg.webp')] bg-cover bg-center bg-no-repeat after:absolute after:inset-0 after:bg-white/50 after:content-['']">
         <div class="max-w-xl mx-auto space-y-2 lg:space-y-4 text-center relative z-10">
             <!-- Content for specialities -->
             <h2 class="text-2xl md:text-3xl xl:text-4xl font-bold text-center text-sky-600 leading-tight">Voices of Trust, Stories of Care</h2>
@@ -858,7 +883,7 @@
                 Real patient experiences reflecting our commitment to excellence in healthcare.
             </p>
         </div>
-        <div class="2xl:w-[90%] mx-auto relative z-10 grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-6 xl:gap-8 items-end">
+        <div class="mx-auto w-[90%] relative z-10 grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-6 xl:gap-8 items-end">
             <div class="grid grid-cols-2 gap-4 lg:gap-6 items-start [&>.videoCard:nth-child(even)]:translate-y-10">
                 <div class="videoCard bg-white p-1.5 relative">
                     <div class="aspect-[3/4] overflow-hidden relative">
@@ -1012,16 +1037,16 @@
     <!-- // Patient Feedback -->
 
     <!-- Health Blog -->
-    <section class="py-6 lg:py-8 2xl:py-12 relative space-y-4 lg:space-y-6 bg-[#F3F6F7]">
-        <div class="max-w-3xl mx-auto space-y-2 lg:space-y-4 text-center">
+    <section class="py-8 lg:py-12 2xl:py-16 relative space-y-4 lg:space-y-6 bg-[#F3F6F7]">
+        <div class="w-[80%] lg:max-w-3xl mx-auto space-y-2 lg:space-y-4 text-center">
             <!-- Content for Health Packages -->
             <h2 class="text-2xl md:text-3xl xl:text-4xl font-bold text-center text-sky-600 leading-tight">Latest News & Blogs</h2>
             <p class="text-sm leading-relaxed md:text-base lg:text-lg">
                 Discover the latest medical trends, breakthroughs, and expert insights. Stay informed on health tips, treatments, and innovations shaping the future of healthcare.
             </p>
         </div>
-        <div class="2xl:w-[90%] mx-auto">
-            <div class="relative space-y-4 lg:space-y-6">
+        <div class="mx-auto w-[90%]">
+            <div class="relative space-y-4 lg:space-y-6 px-4 lg:px-0">
                 <div class="blog-slider">
                     <div class="m-3 bg-white shadow-[0_4px_10px_rgba(0,0,0,0.05)]">
                         <div class="overflow-hidden aspect-[4/3]">
@@ -1031,8 +1056,8 @@
                             <h3 class="text-lg md:text-xl lg:text-2xl font-semibold line-clamp-2">
                                 The Future of Cancer Treatment: Latest Breakthroughs
                             </h3> 
-                            <p>Heart-focused screening to assess key risk markers and heart health</p>
-                            <a href="#" class="inline-flex items-center font-medium text-secondary hover:text-primary">
+                            <p class="line-clamp-2">Heart-focused screening to assess key risk markers and heart health</p>
+                            <a href="#" class="inline-flex items-center text-sm font-medium text-secondary hover:text-primary">
                                 LEARN MORE <i class="ti ti-arrow-right ps-1"></i>
                             </a>
                         </div>  
@@ -1045,8 +1070,8 @@
                             <h3 class="text-lg md:text-xl lg:text-2xl font-semibold line-clamp-2">
                                 How Modern Hospitals Are Transforming Patient Care
                             </h3> 
-                            <p>Comprehensive health assessment to evaluate overall well-being and identify potential health risks</p>
-                            <a href="#" class="inline-flex items-center font-medium text-secondary hover:text-primary">
+                            <p class="line-clamp-2">Comprehensive health assessment to evaluate overall well-being and identify potential health risks</p>
+                            <a href="#" class="inline-flex items-center text-sm font-medium text-secondary hover:text-primary">
                                 LEARN MORE <i class="ti ti-arrow-right ps-1"></i>
                             </a>
                         </div>  
@@ -1059,8 +1084,8 @@
                             <h3 class="text-lg md:text-xl lg:text-2xl font-semibold line-clamp-2">
                                 How Preventive Health Checkups Can Save Your Life
                             </h3> 
-                            <p>Renal/kidney, diabetes, rheumatology, urology, liver, spine and stroke-risk screening packages</p>
-                            <a href="#" class="inline-flex items-center font-medium text-secondary hover:text-primary">
+                            <p class="line-clamp-2">Renal/kidney, diabetes, rheumatology, urology, liver, spine and stroke-risk screening packages</p>
+                            <a href="#" class="inline-flex items-center text-sm font-medium text-secondary hover:text-primary">
                                 LEARN MORE <i class="ti ti-arrow-right ps-1"></i>
                             </a>
                         </div>  
@@ -1073,8 +1098,8 @@
                             <h3 class="text-lg md:text-xl lg:text-2xl font-semibold line-clamp-2">
                                 Healthy Heart Package
                             </h3> 
-                            <p>Heart-focused screening to assess key risk markers and heart health</p>
-                            <a href="#" class="inline-flex items-center font-medium text-secondary hover:text-primary">
+                            <p class="line-clamp-2">Heart-focused screening to assess key risk markers and heart health</p>
+                            <a href="#" class="inline-flex items-center text-sm font-medium text-secondary hover:text-primary">
                                 LEARN MORE <i class="ti ti-arrow-right ps-1"></i>
                             </a>
                         </div>  
@@ -1092,9 +1117,9 @@
     <!-- // Health Blog -->
 
     <!-- FAQ -->
-    <section class="py-6 lg:py-8 2xl:py-12 relative bg-[url('assets/images/faq_bg.webp')] bg-cover bg-center bg-no-repeat">
-        <div class="2xl:w-[90%] mx-auto relative z-10 grid grid-cols-12 gap-4 lg:gap-6 xl:gap-8 items-start">
-            <div class="col-span-5 space-y-6 lg:space-y-8 xl:space-y-12">
+    <section class="py-8 lg:py-12 2xl:py-16 relative xl:px-3 relative bg-[url('assets/images/faq_bg.webp')] bg-cover bg-center bg-no-repeat">
+        <div class="mx-auto w-[90%] relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-4 lg:gap-6 xl:gap-8 items-start">
+            <div class="lg:col-span-5 space-y-6 lg:space-y-8 xl:space-y-12">
                 <div class="space-y-2 lg:space-y-4 xl:space-y-6 text-left">
                     <!-- Content for specialities -->
                     <h2 class="text-2xl md:text-3xl xl:text-4xl font-bold text-sky-600 leading-tight">Frequently Asked Questions</h2>
@@ -1114,7 +1139,7 @@
                 </div>
             </div>
 
-            <div class="col-span-7 space-y-3 2xl:pl-10 lg:pl-6">
+            <div class="lg:col-span-7 space-y-3 2xl:pl-10 lg:pl-6">
                 <!-- FAQ 1 -->
                 <div class="faq-item bg-white/50 backdrop-blur-md border-2 border-white rounded-xl overflow-hidden">
                     <button type="button" class="faq-btn w-full flex items-center justify-between gap-4 px-6 py-5 text-left" onclick="toggleFaq(this)">
@@ -1234,10 +1259,9 @@
     <!-- // FAQ -->
 
     <!-- Footer -->
-    <footer class="bg-tertiary text-white py-6 lg:py-8 2xl:py-12 relative">
-        <div class="2xl:w-[90%] mx-auto space-y-6 lg:space-y-8 xl:space-y-12">
-            <div class="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
-        
+    <footer class="bg-tertiary text-white py-8 lg:py-12 2xl:py-16 relative xl:px-3">
+        <div class="mx-auto w-[90%] space-y-6 lg:space-y-8 xl:space-y-12">
+            <div class="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">        
                 <!-- Column 1 -->
                 <div class="space-y-6">
                     <div>
@@ -1419,38 +1443,6 @@
             cssEase: 'cubic-bezier(0.22,1,0.36,1)'
         });
 
-        // Search Slider
-        $('.search-slider').slick({
-            slidesToShow: 4,
-            slidesToScroll: 1,
-            autoplay: true,
-            autoplaySpeed: 3000,
-            dots: false,
-            arrows: true,
-            prevArrow: '<button type="button" class="slick-prev"><i class="ti ti-arrow-left"></i></button>',
-            nextArrow: '<button type="button" class="slick-next"><i class="ti ti-arrow-right"></i></button>',
-            responsive: [
-                {
-                    breakpoint: 1024,
-                    settings: {
-                        slidesToShow: 3
-                    }
-                },
-                {
-                    breakpoint: 768,
-                    settings: {
-                        slidesToShow: 2
-                    }
-                },
-                {
-                    breakpoint: 480,
-                    settings: {
-                        slidesToShow: 1
-                    }
-                }
-            ]
-        });
-
         // Departments Slider
         $('.departments-slider').slick({
             slidesToShow: 2,
@@ -1489,13 +1481,13 @@
             nextArrow: '<button type="button" class="slick-next"><i class="ti ti-arrow-right"></i></button>',
             responsive: [
                 {
-                    breakpoint: 1024,
+                    breakpoint: 1100,
                     settings: {
                         slidesToShow: 3
                     }
                 },
                 {
-                    breakpoint: 768,
+                    breakpoint: 991,
                     settings: {
                         slidesToShow: 2
                     }
@@ -1509,8 +1501,8 @@
             ]
         });
 
-        // Health & Blog Slider
-        $('.health-slider, .blog-slider').slick({
+        // Search & Health & Blog Slider
+        $('.search-slider, .health-slider, .blog-slider').slick({
             slidesToShow: 3,
             slidesToScroll: 1,
             autoplay: true,

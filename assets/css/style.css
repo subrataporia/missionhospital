@@ -235,3 +235,32 @@ body {
 .flist a:hover {
     color: yellow;
 }
+
+@media(max-width: 1440px){
+
+    .hero-slider .slick-prev {
+        left: 20px;
+    }
+    
+    .hero-slider .slick-next {
+        right: 20px;
+    }
+}
+
+@media(max-width: 991px){
+    .slick-prev,
+    .slick-next {
+        width: 30px;
+        height: 30px;
+    }
+
+    .slick-prev {
+        left: -30px;
+        background: var(--primary-color);
+    }
+    
+    .slick-next {
+        right: -30px;
+        background: var(--primary-color);
+    }
+}

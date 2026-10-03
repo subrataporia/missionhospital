@@ -13,7 +13,7 @@ function openMenu() {
     mobileSidebar.classList.remove('invisible');
 
     setTimeout(() => {
-        sidebarPanel.classList.remove('-translate-x-full');
+        sidebarPanel.classList.remove('translate-x-full');
 
         mobileBackdrop.classList.remove('opacity-0');
         mobileBackdrop.classList.add('opacity-100');
@@ -21,11 +21,12 @@ function openMenu() {
 }
 
 
+
 // ==============================
 // Close Sidebar
 // ==============================
 function closeMenu() {
-    sidebarPanel.classList.add('-translate-x-full');
+    sidebarPanel.classList.add('translate-x-full');
 
     mobileBackdrop.classList.remove('opacity-100');
     mobileBackdrop.classList.add('opacity-0');
