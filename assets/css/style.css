@@ -214,6 +214,17 @@ body {
 }
 
 
+.health-slider .slick-track, .blog-slider .slick-track {
+    display: flex;
+}
+
+.health-slider .slick-slide, .blog-slider .slick-slide {
+    height: auto;
+    /* display: flex; */
+}
+
+
+
 /* Footer */
 .flist li {
     position: relative;
