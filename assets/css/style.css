@@ -236,6 +236,18 @@ body {
     color: yellow;
 }
 
+@media (max-width: 1920px){
+    nav > *:not(:first-child) {
+        margin-left: 2.5rem;
+    }
+}
+
+@media (max-width: 1600px){
+    nav > *:not(:first-child) {
+        margin-left: 1.5rem;
+    }
+}
+
 @media(max-width: 1440px){
 
     .hero-slider .slick-prev {
