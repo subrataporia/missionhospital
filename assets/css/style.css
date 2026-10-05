@@ -247,6 +247,22 @@ body {
     color: yellow;
 }
 
+
+@keyframes mihuMove {
+    0%,
+    100% {
+        transform: translateX(-5px);
+    }
+
+    50% {
+        transform: translateX(5px);
+    }
+}
+
+.mihu-bubble {
+    animation: mihuMove 1.5s ease-in-out infinite;
+}
+
 @media (max-width: 1920px){
     nav > *:not(:first-child) {
         margin-left: 2.5rem;
