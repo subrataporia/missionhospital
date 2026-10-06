@@ -248,6 +248,19 @@ body {
 }
 
 
+
+
+/* Inner Page */
+.layer-tile {
+    z-index: -1;
+    pointer-events: none;
+    background-image: url("../images/hero_tile.avif");
+    background-size: 44px;
+    position: absolute;
+    inset: 0%;
+}
+
+
 @keyframes mihuMove {
     0%,
     100% {
