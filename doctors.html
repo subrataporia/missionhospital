@@ -632,7 +632,491 @@
     <!-- // Doctor List -->
     
     <!-- Faq Section -->
-    
+    <section class="py-8 lg:py-12 2xl:py-16 relative xl:px-3 relative bg-slate-100">
+        <div class="mx-auto w-[90%] relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-4 lg:gap-6 xl:gap-8 items-start">
+            <div class="lg:col-span-5 space-y-6 lg:space-y-8 xl:space-y-12 sticky top-36">
+                <div class="space-y-2 lg:space-y-4 xl:space-y-6 text-left">
+                    <!-- Content for specialities -->
+                    <h2 class="text-2xl md:text-3xl xl:text-4xl font-bold text-sky-600 leading-tight">Frequently Asked Questions</h2>
+                    <p class="text-sm leading-relaxed md:text-base lg:text-lg">
+                        Find answers to common questions about our doctors, specialties, appointments, consultations, and healthcare services.
+                    </p>
+                </div>
+                <div class="rounded-2xl bg-white/50 backdrop-blur-md border-2 border-white p-5 lg:p-7 xl:p-10 space-y-3 lg:space-y-4 xl:space-y-6 flex flex-col">
+                    <div class="overflow-hidden w-16 h-16 rounded-full border border-white shadow-[0_0_20px_rgba(255,0,0,0.25)]">
+                        <img src="assets/images/author.jpg" alt="faq" class="w-full h-full object-cover">
+                    </div>
+                    <h2 class="text-tertiary font-bold text-xl lg:text-2xl">Book a 15 min call</h2>
+                    <p class="text-lg">If you any questions, just book a 15-minute call with us before any doubts.</p>
+                    <a href="#" class="inline-flex items-center justify-center uppercase gap-3 bg-red-600 hover:bg-red-700 text-white font-medium lg:px-6 px-4 py-3 transition-all duration-300">
+                        View All packages <i class="ti ti-arrow-right text-lg leading-none"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="lg:col-span-7 2xl:space-y-4 space-y-3 2xl:pl-10 lg:pl-6">
+                <!-- FAQ 1 -->
+                <div class="faq-item bg-white/50 backdrop-blur-md border-2 border-white rounded-xl overflow-hidden">
+                    <button type="button" class="faq-btn w-full flex items-center justify-between gap-4 px-6 py-5 text-left" onclick="toggleFaq(this)">
+                        <span class="text-md lg:text-xl font-semibold text-gray-900">
+                            How can I find the right doctor for my health condition?
+                        </span>
+                        <span class="faq-icon shrink-0 text-xl font-medium transition-transform duration-300 ease-in-out rotate-45">
+                            <i class="ti ti-plus"></i>
+                        </span>
+                    </button>
+                    <div class="faq-content max-h-[200px] opacity-100 overflow-hidden transition-all duration-500 ease-in-out">
+                        <p class="px-5 pb-4 text-gray-600">
+                            You can browse our doctor list by department or specialty and choose a doctor based on their area of expertise, experience, and consultation availability.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ 2 -->
+                <div class="faq-item bg-white/50 backdrop-blur-md border-2 border-white rounded-xl overflow-hidden">
+                    <button type="button"
+                            class="faq-btn w-full flex items-center justify-between gap-4 px-6 py-5 text-left"
+                            onclick="toggleFaq(this)">
+                        <span class="text-md lg:text-xl font-semibold text-gray-900">
+                            How can I book an appointment with a doctor?
+                        </span>
+                        <span class="faq-icon shrink-0 text-xl font-medium transform transition-transform duration-300 ease-in-out">
+                            <i class="ti ti-plus"></i>
+                        </span>
+                    </button>
+            
+                    <div class="faq-content max-h-0 opacity-0 overflow-hidden transition-all duration-500 ease-in-out">
+                        <p class="px-5 pb-4 text-gray-600">
+                            You can book an appointment through our online appointment system
+                            or contact The Mission Hospital directly for assistance with scheduling your consultation.
+                        </p>
+                    </div>
+                </div>
+            
+            
+                <!-- FAQ 03 -->
+                <div class="faq-item bg-white/50 backdrop-blur-md border-2 border-white rounded-xl overflow-hidden">
+                    <button type="button"
+                            class="faq-btn w-full flex items-center justify-between gap-4 px-6 py-5 text-left"
+                            onclick="toggleFaq(this)">
+                        <span class="text-md lg:text-xl font-semibold text-gray-900">
+                            Can I choose a doctor based on their specialty?
+                        </span>
+                        <span class="faq-icon shrink-0 text-xl font-medium transform transition-transform duration-300 ease-in-out">
+                            <i class="ti ti-plus"></i>
+                        </span>
+                    </button>
+            
+                    <div class="faq-content max-h-0 opacity-0 overflow-hidden transition-all duration-500 ease-in-out">
+                        <p class="px-5 pb-4 text-gray-600">
+                            Yes. Our doctors are listed according to their respective departments
+                            and specialties, making it easier to find the right specialist for your healthcare needs.
+                        </p>
+                    </div>
+                </div>
+            
+            
+                <!-- FAQ 04 -->
+                <div class="faq-item bg-white/50 backdrop-blur-md border-2 border-white rounded-xl overflow-hidden">
+                    <button type="button"
+                            class="faq-btn w-full flex items-center justify-between gap-4 px-6 py-5 text-left"
+                            onclick="toggleFaq(this)">
+                        <span class="text-md lg:text-xl font-semibold text-gray-900">
+                            Can I book a doctor's appointment online?
+                        </span>
+                        <span class="faq-icon shrink-0 text-xl font-medium transform transition-transform duration-300 ease-in-out">
+                            <i class="ti ti-plus"></i>
+                        </span>
+                    </button>
+            
+                    <div class="faq-content max-h-0 opacity-0 overflow-hidden transition-all duration-500 ease-in-out">
+                        <p class="px-5 pb-4 text-gray-600">
+                            Yes, you can conveniently request an appointment online by selecting
+                            your preferred department, doctor, date, and available consultation time.
+                        </p>
+                    </div>
+                </div>
+            
+            
+                <!-- FAQ 05 -->
+                <div class="faq-item bg-white/50 backdrop-blur-md border-2 border-white rounded-xl overflow-hidden">
+                    <button type="button"
+                            class="faq-btn w-full flex items-center justify-between gap-4 px-6 py-5 text-left"
+                            onclick="toggleFaq(this)">
+                        <span class="text-md lg:text-xl font-semibold text-gray-900">
+                            What should I bring for my doctor consultation?
+                        </span>
+                        <span class="faq-icon shrink-0 text-xl font-medium transform transition-transform duration-300 ease-in-out">
+                            <i class="ti ti-plus"></i>
+                        </span>
+                    </button>
+            
+                    <div class="faq-content max-h-0 opacity-0 overflow-hidden transition-all duration-500 ease-in-out">
+                        <p class="px-5 pb-4 text-gray-600">
+                            Please carry your previous medical reports, prescriptions, diagnostic
+                            reports, medication details, and other relevant medical records for your consultation.
+                        </p>
+                    </div>
+                </div>
+            
+            
+                <!-- FAQ 06 -->
+                <div class="faq-item bg-white/50 backdrop-blur-md border-2 border-white rounded-xl overflow-hidden">
+                    <button type="button"
+                            class="faq-btn w-full flex items-center justify-between gap-4 px-6 py-5 text-left"
+                            onclick="toggleFaq(this)">
+                        <span class="text-md lg:text-xl font-semibold text-gray-900">
+                            Can I consult the same doctor for a follow-up visit?
+                        </span>
+                        <span class="faq-icon shrink-0 text-xl font-medium transform transition-transform duration-300 ease-in-out">
+                            <i class="ti ti-plus"></i>
+                        </span>
+                    </button>
+            
+                    <div class="faq-content max-h-0 opacity-0 overflow-hidden transition-all duration-500 ease-in-out">
+                        <p class="px-5 pb-4 text-gray-600">
+                            Yes. You can request a follow-up appointment with the same doctor,
+                            subject to the doctor's availability and schedule.
+                        </p>
+                    </div>
+                </div>
+            
+            
+                <!-- FAQ 07 -->
+                <div class="faq-item bg-white/50 backdrop-blur-md border-2 border-white rounded-xl overflow-hidden">
+                    <button type="button"
+                            class="faq-btn w-full flex items-center justify-between gap-4 px-6 py-5 text-left"
+                            onclick="toggleFaq(this)">
+                        <span class="text-md lg:text-xl font-semibold text-gray-900">
+                            How can I check a doctor's consultation schedule?
+                        </span>
+                        <span class="faq-icon shrink-0 text-xl font-medium transform transition-transform duration-300 ease-in-out">
+                            <i class="ti ti-plus"></i>
+                        </span>
+                    </button>
+            
+                    <div class="faq-content max-h-0 opacity-0 overflow-hidden transition-all duration-500 ease-in-out">
+                        <p class="px-5 pb-4 text-gray-600">
+                            You can check the doctor's profile and available appointment
+                            information or contact The Mission Hospital for the latest consultation schedule.
+                        </p>
+                    </div>
+                </div>
+            
+            
+                <!-- FAQ 08 -->
+                <div class="faq-item bg-white/50 backdrop-blur-md border-2 border-white rounded-xl overflow-hidden">
+                    <button type="button"
+                            class="faq-btn w-full flex items-center justify-between gap-4 px-6 py-5 text-left"
+                            onclick="toggleFaq(this)">
+                        <span class="text-md lg:text-xl font-semibold text-gray-900">
+                            Can I consult a specialist without a referral?
+                        </span>
+                        <span class="faq-icon shrink-0 text-xl font-medium transform transition-transform duration-300 ease-in-out">
+                            <i class="ti ti-plus"></i>
+                        </span>
+                    </button>
+            
+                    <div class="faq-content max-h-0 opacity-0 overflow-hidden transition-all duration-500 ease-in-out">
+                        <p class="px-5 pb-4 text-gray-600">
+                            Depending on the specialty and clinical requirement, you may be able
+                            to book a consultation directly. The doctor may recommend another specialist
+                            or department if required.
+                        </p>
+                    </div>
+                </div>
+            
+            
+                <!-- FAQ 09 -->
+                <div class="faq-item bg-white/50 backdrop-blur-md border-2 border-white rounded-xl overflow-hidden">
+                    <button type="button"
+                            class="faq-btn w-full flex items-center justify-between gap-4 px-6 py-5 text-left"
+                            onclick="toggleFaq(this)">
+                        <span class="text-md lg:text-xl font-semibold text-gray-900">
+                            What should I do if I need immediate medical attention?
+                        </span>
+                        <span class="faq-icon shrink-0 text-xl font-medium transform transition-transform duration-300 ease-in-out">
+                            <i class="ti ti-plus"></i>
+                        </span>
+                    </button>
+            
+                    <div class="faq-content max-h-0 opacity-0 overflow-hidden transition-all duration-500 ease-in-out">
+                        <p class="px-5 pb-4 text-gray-600">
+                            For emergencies, please contact The Mission Hospital's Emergency &
+                            Accident Department immediately rather than waiting for a routine doctor appointment.
+                        </p>
+                    </div>
+                </div>
+            
+            
+                <!-- FAQ 10 -->
+                <div class="faq-item bg-white/50 backdrop-blur-md border-2 border-white rounded-xl overflow-hidden">
+                    <button type="button"
+                            class="faq-btn w-full flex items-center justify-between gap-4 px-6 py-5 text-left"
+                            onclick="toggleFaq(this)">
+                        <span class="text-md lg:text-xl font-semibold text-gray-900">
+                            Can I change or cancel my doctor appointment?
+                        </span>
+                        <span class="faq-icon shrink-0 text-xl font-medium transform transition-transform duration-300 ease-in-out">
+                            <i class="ti ti-plus"></i>
+                        </span>
+                    </button>
+            
+                    <div class="faq-content max-h-0 opacity-0 overflow-hidden transition-all duration-500 ease-in-out">
+                        <p class="px-5 pb-4 text-gray-600">
+                            Yes. Appointment changes or cancellations may be possible depending
+                            on the hospital's appointment policy. Please contact the hospital as early as possible.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
     <!-- // Faq Section -->
+
+    <!-- Footer -->
+    <footer class="bg-tertiary text-white py-8 lg:py-12 2xl:py-16 relative xl:px-3">
+        <div class="mx-auto w-[90%] space-y-6 lg:space-y-8 xl:space-y-12">
+            <div class="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">        
+                <!-- Column 1 -->
+                <div class="space-y-6">
+                    <div>
+                        <h4 class="text-lg lg:text-xl font-bold">About Us</h4>
+                        <ul class="flist mt-2 space-y-1.5 text-sm">
+                            <li><a href="#">Overview</a></li>
+                            <li><a href="#">Chairman's Message</a></li>
+                            <li><a href="#">Managing Director's Message</a></li>
+                            <li><a href="#">Mission &amp; Vision</a></li>
+                            <li><a href="#">Awards &amp; Recognition</a></li>
+                            <li><a href="#">Infrastructure &amp; Facilities</a></li>
+                            <li><a href="#">CSR Activities</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="text-lg lg:text-xl font-bold">Diagnostics</h4>
+                        <ul class="flist mt-2 space-y-1.5 text-sm">
+                            <li><a href="#">Pathology</a></li>
+                            <li><a href="#">Radiology</a></li>
+                            <li><a href="#">Nuclear Medicine</a></li>
+                            <li><a href="#">Laboratory Services</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="text-lg lg:text-xl font-bold">News &amp; Media</h4>
+                        <ul class="flist mt-2 space-y-1.5 text-sm">
+                            <li><a href="#">News &amp; Events</a></li>
+                            <li><a href="#">Press Releases</a></li>
+                            <li><a href="#">Gallery</a></li>
+                            <li><a href="#">Blogs</a></li>
+                            <li><a href="#">FAQs</a></li>
+                        </ul>
+                    </div>
+                </div>
+        
+                <!-- Column 2 -->
+                <div class="space-y-6">
+                    <div>
+                        <h4 class="text-lg lg:text-xl font-bold">Clinical Departments</h4>
+                        <ul class="flist mt-2 space-y-1.5 text-sm">
+                            <li><a href="#">Cardiology</a></li>
+                            <li><a href="#">Cardiothoracic Surgery</a></li>
+                            <li><a href="#">Neurology</a></li>
+                            <li><a href="#">Orthopaedics</a></li>
+                            <li><a href="#">General Medicine</a></li>
+                            <li><a href="#">Gastroenterology</a></li>
+                            <li><a href="#">Nephrology</a></li>
+                            <li><a href="#">Urology</a></li>
+                            <li><a href="#">Oncology</a></li>
+                            <li><a href="#">Medical Oncology</a></li>
+                            <li><a href="#">Obstetrics &amp; Gynaecology</a></li>
+                            <li><a href="#">Paediatrics</a></li>
+                            <li><a href="#">ENT</a></li>
+                            <li><a href="#">Dermatology</a></li>
+                            <li><a href="#">Psychiatry</a></li>
+                            <li><a href="#">Endocrinology</a></li>
+                            <li><a href="#">Rheumatology</a></li>
+                            <li><a href="#">Pulmonology</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="text-lg lg:text-xl font-bold">Doctors &amp; Patients</h4>
+                        <ul class="flist mt-2 space-y-1.5 text-sm">
+                            <li><a href="#">Find a Doctor</a></li>
+                            <li><a href="#">Patient Corner</a></li>
+                        </ul>
+                    </div>
+                </div>
+        
+                <!-- Column 3 -->
+                <div class="space-y-6">
+                <div>
+                    <h4 class="text-lg lg:text-xl font-bold">Services</h4>
+                    <ul class="flist mt-2 space-y-1.5 text-sm">
+                        <li><a href="#">Emergency &amp; Trauma (24x7)</a></li>
+                        <li><a href="#">Ambulance Service</a></li>
+                        <li><a href="#">Blood Bank</a></li>
+                        <li><a href="#">Pharmacy (24x7)</a></li>
+                        <li><a href="#">Dialysis Centre</a></li>
+                        <li><a href="#">Health Check-up</a></li>
+                        <li><a href="#">Home Care Services</a></li>
+                        <li><a href="#">Physiotherapy &amp; Rehabilitation</a></li>
+                        <li><a href="#">Organ Transplant Services</a></li>
+                        <li><a href="#">Pain Management</a></li>
+                        <li><a href="#">Vaccination Centre</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg lg:text-xl font-bold">Others Link</h4>
+                    <ul class="flist mt-2 space-y-1.5 text-sm">
+                        <li><a href="#">Health Packages</a></li>
+                        <li><a href="#">TPA &amp; Insurance</a></li>
+                        <li><a href="#">Career</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg lg:text-xl font-bold">Legal Information</h4>
+                    <ul class="flist mt-2 space-y-1.5 text-sm">
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms &amp; Conditions</a></li>
+                    </ul>
+                </div>
+                </div>
+        
+                <!-- Column 4 -->
+                <div>
+                <!-- Replace with: <img src="logo.png" alt="The Mission Hospital Durgapur" class="h-14"> -->
+                <img src="assets/images/logo_footer.webp" alt="The Mission Hospital Durgapur" class="h-20">
+        
+                <h4 class="mt-8 text-lg lg:text-xl font-bold">Location</h4>
+                <address class="mt-2 not-italic leading-relaxed text-white/90">
+                    Immon Kalyan Sarani, Sector IIC Bidhan Nagar, Durgapur – 713212, Paschim Bardhaman, West Bengal
+                </address>
+        
+                <a href="tel:+918687500500" class="mt-6 block text-2xl font-medium tracking-wide">+91 86875 00500</a>
+                <a href="mailto:info@themissionhospital.com" class="mt-1 block text-white/90 hover:underline">info@themissionhospital.com</a>
+        
+                <h4 class="mt-6 text-lg lg:text-xl font-bold">Social Media</h4>
+                <div class="mt-3 flex items-center gap-3">
+                    <a href="#" aria-label="Facebook" class="hover:opacity-80">
+                    <svg class="h-8 w-8" viewBox="0 0 24 24" fill="currentColor"><path d="M20 2H4a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h8.6v-8.2H9.8V10h2.8V7.6c0-2.8 1.7-4.3 4.2-4.3 1.2 0 2.2.1 2.5.1v2.9h-1.7c-1.4 0-1.6.6-1.6 1.600V10h3.2l-.4 3.800h-2.800V22H20a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2z"/></svg>
+                    </a>
+                    <a href="#" aria-label="X" class="hover:opacity-80">
+                    <svg class="h-8 w-8" viewBox="0 0 24 24" fill="currentColor"><path d="M18.200 2.300h3.300l-7.200 8.300 8.500 11.200h-6.700l-5.200-6.800-6 6.800H1.600l7.700-8.800L1.200 2.300H8l4.700 6.200 5.500-6.200zm-1.200 17.500h1.800L7.100 4.100H5.100l11.900 15.700z"/></svg>
+                    </a>
+                    <a href="#" aria-label="YouTube" class="hover:opacity-80">
+                    <svg class="h-8 w-8" viewBox="0 0 24 24" fill="currentColor"><path d="M22.500 7.200a2.800 2.800 0 0 0-2-2C18.800 4.800 12 4.800 12 4.800s-6.800 0-8.500.4a2.800 2.800 0 0 0-2 2C1.100 8.900 1.100 12 1.100 12s0 3.100.4 4.800a2.800 2.800 0 0 0 2 2c1.700.4 8.500.4 8.500.4s6.800 0 8.500-.4a2.800 2.800 0 0 0 2-2c.4-1.700.4-4.800.4-4.800s0-3.100-.4-4.800zM9.900 15.100V8.900l5.700 3.100-5.700 3.100z"/></svg>
+                    </a>
+                    <a href="#" aria-label="Instagram" class="hover:opacity-80">
+                    <svg class="h-8 w-8" viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm5 5.500A4.500 4.500 0 1 0 12 16.500 4.500 4.500 0 0 0 12 7.500zm0 2A2.500 2.500 0 1 1 12 14.500 2.500 2.500 0 0 1 12 9.500zm5.200-3.700a1.100 1.100 0 1 0 0 2.200 1.100 1.100 0 0 0 0-2.200z"/></svg>
+                    </a>
+                    <a href="#" aria-label="LinkedIn" class="hover:opacity-80">
+                    <svg class="h-8 w-8" viewBox="0 0 24 24" fill="currentColor"><path d="M20.500 2h-17A1.500 1.500 0 0 0 2 3.500v17A1.500 1.500 0 0 0 3.500 22h17a1.500 1.500 0 0 0 1.500-1.500v-17A1.500 1.500 0 0 0 20.500 2zM8 19H5V9.500h3V19zM6.500 8.200a1.700 1.700 0 1 1 0-3.400 1.700 1.700 0 0 1 0 3.400zM19 19h-3v-4.600c0-1.100 0-2.500-1.500-2.500s-1.800 1.200-1.800 2.400V19h-3V9.500h2.800v1.300h.1c.4-.7 1.400-1.500 2.800-1.500 3 0 3.600 2 3.600 4.600V19z"/></svg>
+                    </a>
+                </div>
+                </div>
+            </div>        
+            <div class="border-t border-white/20 py-5 text-center text-white/90">
+                Copyright © 2008-2026 The Mission Hospital. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+    <!-- // Footer -->
+
+    <!-- Chatbot -->     
+    <div class="fixed right-5 bottom-5 z-50 flex flex-col items-center">
+        <!-- MIHU Bubble -->
+        <a href="#" class="mihu-bubble relative mb-2 flex h-11 w-16 flex-col items-center justify-center rounded-full bg-[#173B59] text-white shadow-lg">
+            <span class="text-[13px] font-medium leading-none">
+                MIHU?
+            </span>
+            <span class="mt-0.5 text-[9px] font-normal leading-none">
+                Click Here
+            </span>
+            <!-- Arrow -->
+            <span class="absolute -bottom-1.5 left-1/2 h-3 w-3 -translate-x-1/2 rotate-45 bg-[#173B59]"></span>
+        </a>
+        <!-- Main Button -->
+        <a href="#" class="relative flex h-14 w-14 items-center justify-center rounded-full bg-[#E51D2A] shadow-lg transition-all duration-300 hover:scale-110">
+            <!-- Pulse Ring -->
+            <span class="absolute inset-0 rounded-full bg-[#E51D2A] animate-ping opacity-30"></span>
+            <!-- Icon -->
+            <span class="relative z-10 flex h-10 w-10 items-center justify-center rounded-full">
+                <img src="assets/images/chat_icon.png" alt="MIHU" class="h-10 w-10 object-contain">
+            </span>
+        </a>
+    </div>
+
+
+<script src="https://unpkg.com/lenis@1.3.11/dist/lenis.min.js"></script>
+<script src="assets/js/menu.js"></script>
+<script>
+    // Smooth Scroll (Lenis)
+    if (typeof Lenis !== "undefined") {
+        const lenis = new Lenis({
+            duration: 1.2,
+            smooth: true,
+            direction: 'vertical'
+        });
+
+        function raf(time) {
+            lenis.raf(time);
+            requestAnimationFrame(raf);
+        }
+        requestAnimationFrame(raf);
+    }
+
+
+    // FAQ Toggle
+    function toggleFaq(button) {
+
+        const currentItem = button.closest('.faq-item');
+        const currentContent = currentItem.querySelector('.faq-content');
+        const currentIcon = currentItem.querySelector('.faq-icon');
+
+        // Close other FAQs
+        document.querySelectorAll('.faq-item').forEach(item => {
+
+            if (item !== currentItem) {
+
+                const content = item.querySelector('.faq-content');
+                const icon = item.querySelector('.faq-icon');
+
+                content.style.maxHeight = '0px';
+                content.classList.remove('opacity-100');
+                content.classList.add('opacity-0');
+
+                icon.classList.remove('rotate-45');
+            }
+        });
+
+        // Current FAQ
+        const isOpen =
+            currentContent.style.maxHeight &&
+            currentContent.style.maxHeight !== '0px';
+
+        if (isOpen) {
+
+            currentContent.style.maxHeight = '0px';
+
+            currentContent.classList.remove('opacity-100');
+            currentContent.classList.add('opacity-0');
+
+            currentIcon.classList.remove('rotate-45');
+
+        } else {
+
+            currentContent.style.maxHeight =
+                currentContent.scrollHeight + 'px';
+
+            currentContent.classList.remove('opacity-0');
+            currentContent.classList.add('opacity-100');
+
+            currentIcon.classList.add('rotate-45');
+        }
+    }
+</script>
+
 </body>
 </html>

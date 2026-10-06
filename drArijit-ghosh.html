@@ -484,23 +484,23 @@
     <!-- // Header -->
 
     <!-- Breadcrumb -->
-    <div class="bg-gray-100 py-4">
-        <div class="w-[90%] mx-auto px-4">
+    <div class="bg-slate-100 py-4">
+        <div class="w-[90%] mx-auto">
             <nav class="flex" aria-label="Breadcrumb">
                 <ol class="inline-flex items-center space-x-1 md:space-x-2">
                     <li class="inline-flex items-center">
-                        <a href="#" class="text-sm font-medium text-gray-700 hover:text-primary">Home</a>
+                        <a href="#" class="text-sm font-medium text-black hover:text-primary">Home</a>
                     </li>
                     <li>
-                        <div class="flex items-center">
+                        <div class="flex items-center gap-2">
                             <i class="ti ti-chevron-right text-gray-500"></i>
-                            <a href="#" class="text-sm font-medium text-gray-700 hover:text-primary">Doctors</a>
+                            <a href="#" class="text-sm font-medium text-black hover:text-primary">Doctors</a>
                         </div>
                     </li>
                     <li>
-                        <div class="flex items-center">
+                        <div class="flex items-center gap-2">
                             <i class="ti ti-chevron-right text-gray-500"></i>
-                            <span class="text-sm font-medium text-gray-700">Dr. Arijit Ghosh</span>
+                            <span class="text-sm font-medium text-black">Dr. Arijit Ghosh</span>
                         </div>
                     </li>
                 </ol>
@@ -510,9 +510,48 @@
     <!-- // Breadcrumb -->
 
     <!-- Hero Section -->
-    <section class="relative overflow-hidden py-6 lg:py-8 2xl:py-12">
-        <div class="absolute inset-[-15%_0%_0%] h-[100%] -z-[1] bg-[linear-gradient(#0080C6_0%,#fff_100%)]"></div>
+    <section class="relative overflow-hidden py-6 lg:py-8 2xl:py-12 bg-primary/80">
+        <!-- <div class="absolute inset-[-15%_0%_0%] h-[100%] -z-[1] bg-[linear-gradient(#0080C6_0%,#fff_100%)]"></div> -->
         <div class="layer-tile"></div>
+
+        <div class="max-w-7xl mx-auto grid 2xl:grid-cols-12 lg:grid-cols-8 gap-4 md:gap-6 lg:gap-8 2xl:gap-12 items-center">
+            <div class="2xl:col-span-4 lg:col-span-5">
+                <div class="aspect-squre 2xl:p-2 lg:p-1.5 bg-white shadow-[0_0_15px_rgba(0,0,0,0.1)]">
+                    <img src="assets/images/doctors/d1.jpg" class="w-full object-cover" alt="">
+                </div>
+            </div>
+            <div class="2xl:col-span-8 lg:col-span-7 text-white">
+                <p>Reg. No : 849613</p>
+                <h1 class="text-xl lg:text-2xl 2xl:text-4xl font-bold my-3">Dr. Arijit Ghosh</h1>
+                <p class="inline-flex bg-white/10 rounded-2xl px-3 py-1.5 border border-white/20">Orthopaedics</p>
+                <div class="space-y-3 grid grid-cols-3 gap-4 my-6">
+                    <div class="flex flex-col gap-1">
+                        <span class="flex items-center gap-1 text-sm font-thin uppercase tracking-widest"><i class="ti ti-school text-md"></i> Qualification:</span>
+                        <p>MBBS, MS (Orthopaedics), MRCS (England), FRCS ( Trauma & Orthopaedics)</p>
+                    </div>
+                    <div class="flex flex-col gap-1">
+                        <span class="flex items-center gap-1 text-sm font-thin uppercase tracking-widest"><i class="ti ti-clipboard-list text-md"></i> Experience:</span>
+                        <p>15+ Years Of Experience </p>
+                    </div>
+                    <div class="flex flex-col gap-1">
+                        <span class="flex items-center gap-1 text-sm font-thin uppercase tracking-widest"><i class="ti ti-language-hiragana text-md"></i> Language:</span>
+                        <p>Bengali, English, Hindi</p>
+                    </div>
+                </div>
+                <div class="flex">
+                    <a href="#" class="flex items-center justify-center uppercase gap-3 bg-white text-black hover:bg-red-700 hover:text-white font-medium 2xl:px-6 px-4 py-3 transition-all duration-300">
+                        Book Appointment <i class="ti ti-arrow-right text-lg leading-none"></i>
+                    </a>
+                    <a href="tel:8687500500" class="group flex items-center gap-2 border border-white px-4 py-2 text-md bg-primary transition">
+                        <i class="ti ti-phone-call text-2xl"></i>
+                        <div class="flex flex-col">
+                            <small class="block text-[10px] text-white/70 transition group-hover:text-white">Call to book an appointment</small>
+                            <span class="font-bold text-white text-sm transition group-hover:text-white">8687500500</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
     </section>
     <!-- // Hero Section -->
 </body>
