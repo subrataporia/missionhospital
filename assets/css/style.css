@@ -214,11 +214,11 @@ body {
 }
 
 
-.health-slider .slick-track, .blog-slider .slick-track {
+.health-slider .slick-track, .blog-slider .slick-track, .treatment-slider .slick-track {
     display: flex;
 }
 
-.health-slider .slick-slide, .blog-slider .slick-slide {
+.health-slider .slick-slide, .blog-slider .slick-slide, .treatment-slider .slick-slide {
     height: auto;
     /* display: flex; */
 }

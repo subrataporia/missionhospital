@@ -31,7 +31,7 @@
     <!-- Header -->
     <header class="bg-white shadow-sm z-50 sticky top-0">
         <div class="mx-auto w-[90%] flex items-center justify-between gap-4 lg:gap-6 xl:gap-8 2xl:gap-10">
-            <a href="#" class="py-2 xl:py-0">
+            <a href="index.html" class="py-2 xl:py-0">
                 <img src="assets/images/logo.webp" class="w-24 lg:w-32 xl:w-64" alt="">
             </a>
             <div class="flex flex-col xl:w-full">
@@ -102,7 +102,7 @@
                         </div>
                     </div>
                     <div class="group h-full flex items-center">
-                        <a href="#" class="flex items-center gap-1 text-black group-hover:text-primary font-medium h-full cursor-pointer transition duration-200 ease-in-out py-3">
+                        <a href="specialities.html" class="flex items-center gap-1 text-black group-hover:text-primary font-medium h-full cursor-pointer transition duration-200 ease-in-out py-3">
                             Departments <i class="ti ti-chevron-down transition-transform group-hover:rotate-180"></i>
                         </a>
                         <div class="absolute top-12 left-0 w-full bg-gray-100 border-b border-gray-200 shadow-xl opacity-0 pointer-events-none translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 group-hover:pointer-events-auto transition-all duration-200 z-50">
@@ -483,9 +483,29 @@
     </header>
     <!-- // Header -->
 
+    <!-- Breadcrumb -->
+    <div class="bg-slate-100 py-4">
+        <div class="w-[90%] mx-auto">
+            <nav class="flex" aria-label="Breadcrumb">
+                <ol class="inline-flex items-center space-x-1 md:space-x-2">
+                    <li class="inline-flex items-center">
+                        <a href="#" class="text-sm font-medium text-black hover:text-primary">Home</a>
+                    </li>
+                    <li>
+                        <div class="flex items-center gap-2">
+                            <i class="ti ti-chevron-right text-gray-500"></i>
+                            <a href="#" class="text-sm font-medium text-black hover:text-primary">Doctors</a>
+                        </div>
+                    </li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+    <!-- // Breadcrumb -->
+
     <!-- Hero Section -->
-    <section class="relative overflow-hidden py-6 lg:py-8 2xl:py-12">
-        <div class="absolute inset-[-15%_0%_0%] h-[100%] -z-[1] bg-[linear-gradient(#0080C6_0%,#fff_100%)]"></div>
+    <section class="relative overflow-hidden py-8 lg:py-12 2xl:py-16">
+        <div class="absolute inset-[-20%_0%_0%] h-[100%] -z-[1] bg-[linear-gradient(#0080C6_0%,#fff_100%)]"></div>
         <div class="layer-tile"></div>
         <div class="max-w-4xl mx-auto text-center">
             <h1 class="text-2xl md:text-4xl xl:text-5xl font-bold text-white">Meet Our Specialists</h1>
@@ -632,7 +652,7 @@
     <!-- // Doctor List -->
     
     <!-- Faq Section -->
-    <section class="py-8 lg:py-12 2xl:py-16 relative relative bg-slate-100">
+    <section class="py-8 lg:py-12 2xl:py-16 relative relative bg-slate-200">
         <div class="mx-auto w-[90%] relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-4 lg:gap-6 xl:gap-8 items-start">
             <div class="lg:col-span-5 space-y-6 lg:space-y-8 xl:space-y-12 sticky top-36">
                 <div class="space-y-2 lg:space-y-4 xl:space-y-6 text-left">
@@ -649,7 +669,7 @@
                     <h2 class="text-tertiary font-bold text-xl lg:text-2xl">Book a 15 min call</h2>
                     <p class="text-lg">If you any questions, just book a 15-minute call with us before any doubts.</p>
                     <a href="#" class="inline-flex items-center justify-center uppercase gap-3 bg-red-600 hover:bg-red-700 text-white font-medium lg:px-6 px-4 py-3 transition-all duration-300">
-                        View All packages <i class="ti ti-arrow-right text-lg leading-none"></i>
+                        Request a call back <i class="ti ti-arrow-right text-lg leading-none"></i>
                     </a>
                 </div>
             </div>
@@ -1049,74 +1069,74 @@
     </div>
 
 
-<script src="https://unpkg.com/lenis@1.3.11/dist/lenis.min.js"></script>
-<script src="assets/js/menu.js"></script>
-<script>
-    // Smooth Scroll (Lenis)
-    if (typeof Lenis !== "undefined") {
-        const lenis = new Lenis({
-            duration: 1.2,
-            smooth: true,
-            direction: 'vertical'
-        });
+    <script src="https://unpkg.com/lenis@1.3.11/dist/lenis.min.js"></script>
+    <script src="assets/js/menu.js"></script>
+    <script>
+        // Smooth Scroll (Lenis)
+        if (typeof Lenis !== "undefined") {
+            const lenis = new Lenis({
+                duration: 1.2,
+                smooth: true,
+                direction: 'vertical'
+            });
 
-        function raf(time) {
-            lenis.raf(time);
+            function raf(time) {
+                lenis.raf(time);
+                requestAnimationFrame(raf);
+            }
             requestAnimationFrame(raf);
         }
-        requestAnimationFrame(raf);
-    }
 
 
-    // FAQ Toggle
-    function toggleFaq(button) {
+        // FAQ Toggle
+        function toggleFaq(button) {
 
-        const currentItem = button.closest('.faq-item');
-        const currentContent = currentItem.querySelector('.faq-content');
-        const currentIcon = currentItem.querySelector('.faq-icon');
+            const currentItem = button.closest('.faq-item');
+            const currentContent = currentItem.querySelector('.faq-content');
+            const currentIcon = currentItem.querySelector('.faq-icon');
 
-        // Close other FAQs
-        document.querySelectorAll('.faq-item').forEach(item => {
+            // Close other FAQs
+            document.querySelectorAll('.faq-item').forEach(item => {
 
-            if (item !== currentItem) {
+                if (item !== currentItem) {
 
-                const content = item.querySelector('.faq-content');
-                const icon = item.querySelector('.faq-icon');
+                    const content = item.querySelector('.faq-content');
+                    const icon = item.querySelector('.faq-icon');
 
-                content.style.maxHeight = '0px';
-                content.classList.remove('opacity-100');
-                content.classList.add('opacity-0');
+                    content.style.maxHeight = '0px';
+                    content.classList.remove('opacity-100');
+                    content.classList.add('opacity-0');
 
-                icon.classList.remove('rotate-45');
+                    icon.classList.remove('rotate-45');
+                }
+            });
+
+            // Current FAQ
+            const isOpen =
+                currentContent.style.maxHeight &&
+                currentContent.style.maxHeight !== '0px';
+
+            if (isOpen) {
+
+                currentContent.style.maxHeight = '0px';
+
+                currentContent.classList.remove('opacity-100');
+                currentContent.classList.add('opacity-0');
+
+                currentIcon.classList.remove('rotate-45');
+
+            } else {
+
+                currentContent.style.maxHeight =
+                    currentContent.scrollHeight + 'px';
+
+                currentContent.classList.remove('opacity-0');
+                currentContent.classList.add('opacity-100');
+
+                currentIcon.classList.add('rotate-45');
             }
-        });
-
-        // Current FAQ
-        const isOpen =
-            currentContent.style.maxHeight &&
-            currentContent.style.maxHeight !== '0px';
-
-        if (isOpen) {
-
-            currentContent.style.maxHeight = '0px';
-
-            currentContent.classList.remove('opacity-100');
-            currentContent.classList.add('opacity-0');
-
-            currentIcon.classList.remove('rotate-45');
-
-        } else {
-
-            currentContent.style.maxHeight =
-                currentContent.scrollHeight + 'px';
-
-            currentContent.classList.remove('opacity-0');
-            currentContent.classList.add('opacity-100');
-
-            currentIcon.classList.add('rotate-45');
         }
-    }
-</script>
+    </script>
 
 </body>
 </html>
