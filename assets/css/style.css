@@ -167,17 +167,17 @@ body {
 
 .slick-prev {
     left: -40px;
-    background: var(--primary-color);
+    background: var(--primary-color) !important;
 }
 
 .slick-next {
     right: -40px;
-    background: var(--primary-color);
+    background: var(--primary-color) !important;
 }
 
 .slick-prev:hover,
 .slick-next:hover {
-    background: var(--secondary-color);
+    background: var(--secondary-color) !important;
 }
 
 .hero-slider .slick-prev {
