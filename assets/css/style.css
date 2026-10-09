@@ -224,6 +224,31 @@ body {
 }
 
 
+.career-marquee .slick-track {
+    display: flex;
+    align-items: center;
+}
+
+.career-marquee .slick-slide {
+    height: auto;
+}
+
+.career-marquee .slick-slide > div {
+    display: block;
+}
+
+.career-marquee img {
+    display: block;
+}
+
+.customIcon svg, .customIcon i {
+    width: 50px;
+    height: 50px;
+    color: var(--secondary-color);
+    font-size: 40px;
+    stroke-width: 0.8;
+}
+
 
 /* Footer */
 .flist li {

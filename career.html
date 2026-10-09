@@ -27,6 +27,7 @@
         }
     </script>
 </head>
+
 <body>
     <!-- Header -->
     <header class="bg-white shadow-sm z-50 sticky top-0">
@@ -494,7 +495,7 @@
                     <li>
                         <div class="flex items-center gap-2">
                             <i class="ti ti-chevron-right text-gray-500"></i>
-                            <a href="#" class="text-sm font-medium text-black hover:text-primary">Contact Us</a>
+                            <a href="#" class="text-sm font-medium text-black hover:text-primary">Career</a>
                         </div>
                     </li>
                 </ol>
@@ -503,312 +504,221 @@
     </div>
     <!-- // Breadcrumb -->
 
-    <!-- Contact Details -->
-    <section class="bg-white relative py-8 lg:py-12 2xl:py-16">
-        <div class="w-[90%] mx-auto">
-            <div class="grid grid-cols-1 md:grid-cols-7 gap-4 md:gap-8 lg:gap-12">
-                <div class="col-span-1 md:col-span-5 flex flex-col gap-4 md:gap-8 lg:gap-12">
-                    <!-- Heading -->
-                    <div class="space-y-4 md:space-y-6">
-                        <h1 class="text-2xl md:text-3xl lg:text-4xl xl:text-5xl uppercase font-bold text-gray-800"> Let's Connect </h1>
-                        <p class="text-gray-700 text-xl italic mx-auto">Do not hesitate to contact us if you have any questions or concerns. Our committed staff is here to assist you around-the-clock. Reach out to us at the mentioned address. Get in touch with us via phone or email. We'll respond to you as soon as possible</p>
+    <!-- Hero Section -->
+
+    <section class="py-8 lg:py-12 2xl:py-16 relative space-y-8 xl:space-y-12">
+        <div class="w-[90%] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-6 xl:gap-8">
+            <div class="space-y-6">
+                <span class="text-xl font-[300] text-secondary">BUILD YOUR CAREER WITH US</span>
+                <h1 class="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-gray-800">Make a Difference. Build a Meaningful Career.</h1>
+            </div>
+            <div class="space-y-6">
+                <p class="text-gray-700 text-xl italic mx-auto">Join a team of dedicated healthcare professionals committed to delivering compassionate care, clinical excellence, and a better healthcare experience for every patient.</p>
+                <a href="#" class="inline-flex items-center justify-center uppercase gap-3 bg-secondary text-white hover:bg-red-700 hover:text-white font-medium 2xl:px-8 px-6 py-3 transition-all duration-300">
+                    Explore Oprtunities <i class="ti ti-arrow-right text-lg leading-none"></i>
+                </a>
+            </div>
+        </div>
+        <div class="overflow-hidden">
+            <div class="career-marquee">
+
+                <!-- Image 1: Healthcare professional -->
+                <div class="p-2">
+                    <div class="h-[145px] w-[180px] overflow-hidden rounded-md md:h-[180px] md:w-[220px]">
+                        <img
+                            src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=500&q=80"
+                            alt="Healthcare professional"
+                            class="h-full w-full object-cover"
+                            loading="eager">
                     </div>
-                    <!-- Contact Form -->
-                    <form action="" method="post">
-                        <div class="grid grid-cols-1 gap-6 sm:grid-cols-2">
-                            <!-- Name -->
-                            <div>
-                                <label for="name" class="mb-1 block font-medium uppercase font-secondary text-sm"> Name </label>
-                                <input id="name" type="text" placeholder="Your full name" class="w-full border border-[#b8b8b2] bg-transparent px-4 py-3 outline-none placeholder:text-[#8a8a84] placeholder:font-[300] focus:border-[#222]">
-                            </div>
-                            <!-- Email -->
-                            <div>
-                                <label for="email" class="mb-1 block font-medium uppercase font-secondary text-sm"> Email </label>
-                                <input id="email" type="email" placeholder="your@email.com" class="w-full border border-[#b8b8b2] bg-transparent px-4 py-3 outline-none placeholder:text-[#8a8a84] placeholder:font-[300] focus:border-[#222]">
-                            </div>
-                        </div>
-                        
-                        <div class="mt-6 grid grid-cols-1 gap-6 sm:grid-cols-2">
-                            <!-- Phone -->
-                            <div>
-                                <label for="phone" class="mb-1 block font-medium uppercase font-secondary text-sm"> Phone </label>
-                                <input id="phone" type="tel" placeholder="Enter your phone number" class="w-full border border-[#b8b8b2] bg-transparent px-4 py-3 outline-none placeholder:text-[#8a8a84] placeholder:font-[300] focus:border-[#222]">
-                            </div>
-                            <!-- Purpose -->
-                            <div>
-                                <label for="purpose" class="mb-1 block font-medium uppercase font-secondary text-sm"> Purpose </label>
-                                <div class="relative">
-                                    <select id="purpose" class="w-full border border-[#b8b8b2] bg-transparent px-4 py-3 outline-none focus:border-[#222]">
-                                        <option>Normal Query</option>
-                                        <option>Request An Appointment</option>
-                                        <option>Request Your Bill</option>
-                                    </select>
-                                    <!-- Arrow -->
-                                    <i class="ri-arrow-down-s-line absolute right-0 top-1/2 -translate-y-1/2 text-lg"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Message -->
-                        <div class="mt-6">
-                            <label for="message" class="mb-3 block font-medium uppercase font-secondary text-sm"> Message </label>
-                            <textarea id="message" rows="5" placeholder="How can I help you?" class="w-full resize-none border border-[#b8b8b2] bg-white px-3 py-3 outline-none placeholder:text-[#8a8a84] placeholder:font-[300] focus:border-[#222]"></textarea>
-                        </div>
-                        <!-- Submit -->
-                        <div class="mt-5">
-                            <button type="submit" class="flex items-center justify-center uppercase gap-3 bg-secondary text-white hover:bg-red-700 hover:text-white font-medium 2xl:px-6 px-4 py-3 transition-all duration-300">
-                                SEND MESSAGE <i class="ti ti-arrow-right text-lg leading-none"></i>
-                            </button>
-                        </div>
-                    </form>
                 </div>
-                <aside class="md:col-span-2 border-l border-[#d6d6d1] pl-6 lg:pl-8 flex flex-col justify-between">
-                    <!-- Image -->
-                    <div class="overflow-hidden">
-                        <img src="assets/images/hospital-img.jpg" alt="The Mission Hospital" class="h-[200px] w-full object-cover">
+
+                <!-- Image 2: Medical team -->
+                <div class="p-2">
+                    <div class="h-[150px] w-[190px] overflow-hidden rounded-md md:h-[180px] md:w-[230px]">
+                        <img
+                            src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=500&q=80"
+                            alt="Healthcare team collaborating"
+                            class="h-full w-full object-cover"
+                            loading="eager">
                     </div>
-                    <!-- Direct Contact -->
-                    <div>
-                        <h3 class="mb-2 text-xs font-medium font-secondary uppercase pb-2 border-b"> Direct Contact</h3>
-                        <a href="mailto:info@themissionhospital.com" class="block underline underline-offset-2 hover:text-primary mb-2"> info@themissionhospital.com </a>
-                        <div class="flex items-center gap-3"><a href="tel:9800885000" class="block hover:text-primary"> +91 98008 85000</a> <span class="text-xs">(Ambulance)</span></div>
-                        <div class="flex items-center gap-3"><a href="tel:8687500500" class="block hover:text-primary"> +91 86875 00500</a> <span class="text-xs">(Appointment)</span></div>
-                        <div class="flex items-center gap-3"><a href="tel:9800881600" class="block hover:text-primary"> +91 98008 81600</a> <span class="text-xs">(Emergency)</span></div>
+                </div>
+
+                <!-- Image 3: Professional collaboration -->
+                <div class="p-2">
+                    <div class="h-[145px] w-[180px] overflow-hidden rounded-md md:h-[180px] md:w-[220px]">
+                        <img
+                            src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=500&q=80"
+                            alt="Team collaboration"
+                            class="h-full w-full object-cover"
+                            loading="eager">
                     </div>
-                    <!-- Address -->
-                    <div>
-                        <h3 class="mb-2 text-xs font-medium font-secondary uppercase pb-2 border-b"> Address</h3>
-                        <a href="https://maps.app.goo.gl/14DtA3BwCLccsS4G6" class="block hover:text-primary">Immon Kalyan Sarani, Sector IIC Bidhan Nagar, Durgapur - 713212, Paschim Bardhaman, West Bengal</a>
+                </div>
+
+                <!-- Image 4: Doctors at work -->
+                <div class="p-2">
+                    <div class="h-[150px] w-[190px] overflow-hidden rounded-md md:h-[180px] md:w-[230px]">
+                        <img
+                            src="https://images.unsplash.com/photo-1551601651-2a8555f1a136?auto=format&fit=crop&w=500&q=80"
+                            alt="Medical professionals at work"
+                            class="h-full w-full object-cover"
+                            loading="eager">
                     </div>
-                    <!-- Social -->
-                    <div>
-                        <h3 class="mb-2 text-xs font-medium font-secondary uppercase pb-2 border-b"> Social </h3>
-                        <div class="space-y-1.5">
-                            <a href="#" class="inline-flex items-center gap-1 px-2 py-1 border border-primary text-primary transition hover:text-white hover:bg-primary">
-                                <i class="ti ti-brand-facebook"></i> Facebook
-                            </a>
-                            <a href="#" class="inline-flex items-center gap-1 px-2 py-1 border border-black text-black transition hover:text-white hover:bg-black">
-                                <i class="ti ti-brand-x"></i> Twitter
-                            </a>
-                            <a href="#" class="inline-flex items-center gap-1 px-2 py-1 border border-red-500 text-red-500 transition hover:text-white hover:bg-red-500">
-                               <i class="ti ti-brand-youtube"></i> Youtube
-                            </a>
-                            <a href="#" class="inline-flex items-center gap-1 px-2 py-1 border border-[#E1306C] text-[#E1306C] transition hover:text-white hover:bg-[#E1306C]">
-                                <i class="ti ti-brand-instagram"></i> Instagram 
-                            </a>
-                            <a href="#" class="inline-flex items-center gap-1 px-2 py-1 border border-[#0077B5] text-[#0077B5] transition hover:text-white hover:bg-[#0077B5]">
-                                Linkedin
-                            </a>
-                        </div>
+                </div>
+
+                <!-- Image 5: Professional team -->
+                <div class="p-2">
+                    <div class="h-[145px] w-[180px] overflow-hidden rounded-md md:h-[180px] md:w-[220px]">
+                        <img
+                            src="https://images.unsplash.com/photo-1526256262350-7da7584cf5eb?auto=format&fit=crop&w=500&q=80"
+                            alt="Healthcare team"
+                            class="h-full w-full object-cover"
+                            loading="eager">
                     </div>
-                    
-                </aside>
+                </div>
+
+                <!-- Image 6: Workplace collaboration -->
+                <div class="p-2">
+                    <div class="h-[150px] w-[190px] overflow-hidden rounded-md md:h-[180px] md:w-[230px]">
+                        <img
+                            src="https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=500&q=80"
+                            alt="Professional teamwork"
+                            class="h-full w-full object-cover"
+                            loading="eager">
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
-    <!-- // Speciality List -->
+    <!-- // Hero Section -->
 
-    <!-- Map Section -->
-    <section>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.3453370081234!2d87.352926274785!3d23.5200785975807!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f770441b6a2cb7%3A0xc7c4abf33d85de56!2sThe%20Mission%20Hospital%20%2C%20Durgapur!5e0!3m2!1sen!2sin!4v1791515412297!5m2!1sen!2sin" width="100%" height="300" style="border:0; display: block;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
-    </section>
-    <!-- // Map Section -->
+    <!-- Why Work With Us -->
+    <section class="bg-[#e7eef0] py-8 lg:py-12 2xl:py-16 relative space-y-8 xl:space-y-12">
+        <div class="w-[90%] mx-auto grid lg:grid-cols-8">
+            <div class="lg:col-span-5 space-y-3 lg:space-y-4">
+                <span class="text-xl font-[300] text-secondary uppercase">Why Work With Us?</span>
+                <h2 class="text-2xl md:text-3xl xl:text-4xl font-bold leading-tight">More Than a Job. A Purpose Worth Pursuing.</h2>
+                <p class="text-sm leading-relaxed md:text-base lg:text-lg">Build your professional journey in an environment that values patient care, collaboration, continuous learning, and personal growth.</p>
+            </div>
+        </div>
+        <div class="w-[90%] mx-auto">
+            <!-- Benefits Grid -->
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-6">
 
-    <!-- Faq Section -->
-    <section class="py-8 lg:py-12 2xl:py-16 relative relative bg-slate-100">
-        <div class="mx-auto w-[90%] relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-4 lg:gap-6 xl:gap-8 items-start">
-            <div class="lg:col-span-5 space-y-6 lg:space-y-8 xl:space-y-12 sticky top-36">
-                <div class="space-y-2 lg:space-y-4 xl:space-y-6 text-left">
-                    <!-- Content for specialities -->
-                    <h2 class="text-2xl md:text-3xl xl:text-4xl font-bold text-sky-600 leading-tight">Frequently Asked Questions</h2>
-                    <p class="text-sm leading-relaxed md:text-base lg:text-lg">
-                        Find answers to common questions about our doctors, specialties, appointments, consultations, and healthcare services.
+                <!-- 1. Meaningful Work -->
+                <div class="customIcon bg-white p-6 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-heart-handshake">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                        <path d="M12 6l-3.293 3.293a1 1 0 0 0 0 1.414l.543 .543c.69 .69 1.81 .69 2.5 0l1 -1a3.182 3.182 0 0 1 4.5 0l2.25 2.25" />
+                        <path d="M12.5 15.5l2 2" />
+                        <path d="M15 13l2 2" />
+                    </svg>
+                    <h3 class="text-xl lg:text-2xl tracking-wide font-[300] my-3">
+                        Meaningful Work
+                    </h3>
+                    <p class="text-gray-600">
+                        Make a positive impact on patients and families through
+                        compassionate care and a commitment to better health.
                     </p>
                 </div>
-                <div class="rounded-2xl bg-white/50 backdrop-blur-md border-2 border-white p-5 lg:p-7 xl:p-10 space-y-3 lg:space-y-4 xl:space-y-6 flex flex-col">
-                    <div class="overflow-hidden w-16 h-16 rounded-full border border-white shadow-[0_0_20px_rgba(255,0,0,0.25)]">
-                        <img src="assets/images/author.jpg" alt="faq" class="w-full h-full object-cover">
-                    </div>
-                    <h2 class="text-tertiary font-bold text-xl lg:text-2xl">Book a 15 min call</h2>
-                    <p class="text-lg">If you any questions, just book a 15-minute call with us before any doubts.</p>
-                    <a href="#" class="inline-flex items-center justify-center uppercase gap-3 bg-red-600 hover:bg-red-700 text-white font-medium lg:px-6 px-4 py-3 transition-all duration-300">
-                        Request a call back <i class="ti ti-arrow-right text-lg leading-none"></i>
-                    </a>
+
+                <!-- 2. Professional Growth -->
+                <div class="customIcon bg-white p-6 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-trending-up-3">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M18 5l3 3l-3 3" />
+                        <path d="M3 18h2.397a5 5 0 0 0 4.096 -2.133l4.014 -5.734a5 5 0 0 1 4.096 -2.133h3.397" />
+                    </svg>
+                    <h3 class="text-xl lg:text-2xl tracking-wide font-[300] my-3">
+                        Professional Growth
+                    </h3>
+                    <p class="text-gray-600">
+                        Build your expertise, strengthen your capabilities, and
+                        explore opportunities to advance your professional journey.
+                    </p>
                 </div>
+
+                <!-- 3. Collaborative Culture -->
+                <div class="customIcon bg-white p-6 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-users-group">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M10 13a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+                        <path d="M8 21v-1a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v1" />
+                        <path d="M15 5a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+                        <path d="M17 10h2a2 2 0 0 1 2 2v1" />
+                        <path d="M5 5a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+                        <path d="M3 13v-1a2 2 0 0 1 2 -2h2" />
+                    </svg>
+                    <h3 class="text-xl lg:text-2xl tracking-wide font-[300] my-3">
+                        Collaborative Culture
+                    </h3>
+                    <p class="text-gray-600">
+                        Work alongside dedicated professionals who value teamwork,
+                        mutual respect, and patient-centred healthcare.
+                    </p>
+                </div>
+
+                <!-- 4. Learning & Development -->
+                <div class="customIcon bg-white p-6 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-book-2">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M19 4v16h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12" />
+                        <path d="M19 16h-12a2 2 0 0 0 -2 2" />
+                        <path d="M9 8h6" />
+                    </svg>
+                    <h3 class="text-2xl lg:2ext-3xl tracking-wide font-[300] my-3">
+                        Learning & Development
+                    </h3>
+                    <p class="text-gray-600">
+                        Keep learning, share knowledge, and stay engaged with
+                        evolving practices and advancements in healthcare.
+                    </p>
+                </div>
+
+                <!-- 5. Excellence & Innovation -->
+                <div class="customIcon bg-white p-6 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-award">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M6 9a6 6 0 1 0 12 0a6 6 0 1 0 -12 0" />
+                        <path d="M12 15l3.4 5.89l1.598 -3.233l3.598 .232l-3.4 -5.889" />
+                        <path d="M6.802 12l-3.4 5.89l3.598 -.233l1.598 3.232l3.4 -5.889" />
+                    </svg>
+                    <h3 class="text-2xl lg2text-3xl tracking-wide font-[300] my-3">
+                        Excellence in Care
+                    </h3>
+                    <p class="text-gray-600">
+                        Contribute to a culture that values clinical responsibility,
+                        quality standards, and continuous improvement.
+                    </p>
+                </div>
+
+                <!-- 6. Diverse Opportunities -->
+                <div class="customIcon bg-white p-6 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-stethoscope">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M6 4h-1a2 2 0 0 0 -2 2v3.5a5.5 5.5 0 0 0 11 0v-3.5a2 2 0 0 0 -2 -2h-1" />
+                        <path d="M8 15a6 6 0 1 0 12 0v-3" />
+                        <path d="M11 3v2" />
+                        <path d="M6 3v2" />
+                        <path d="M18 10a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                    </svg>
+                    <h3 class="text-xl lg:text-2xl tracking-wide font-[300] my-3">
+                        Diverse Career Opportunities
+                    </h3>
+                    <p class="text-gray-600">
+                        Explore career paths across medical, nursing, allied health,
+                        and hospital administration roles.
+                    </p>
+                </div>
+
             </div>
-
-            <div class="lg:col-span-7 2xl:space-y-4 space-y-3 2xl:pl-10 lg:pl-6">
-
-                <!-- FAQ 1 -->
-                <div class="faq-item bg-white/50 backdrop-blur-md border-2 border-white rounded-xl overflow-hidden">
-                    <button type="button" class="faq-btn w-full flex items-center justify-between gap-4 px-6 py-5 text-left" onclick="toggleFaq(this)">
-                        <span class="text-md lg:text-xl font-semibold text-gray-900">
-                            How can I contact The Mission Hospital?
-                        </span>
-                        <span class="faq-icon shrink-0 text-xl font-medium transition-transform duration-300 ease-in-out rotate-45">
-                            <i class="ti ti-plus"></i>
-                        </span>
-                    </button>
-                    <div class="faq-content max-h-[200px] opacity-100 overflow-hidden transition-all duration-500 ease-in-out">
-                        <p class="px-5 pb-4 text-gray-600">
-                            You can contact The Mission Hospital through our phone numbers, email, or by visiting the hospital directly. Our team will assist you with your queries and healthcare-related requirements.
-                        </p>
-                    </div>
-                </div>
-            
-            
-                <!-- FAQ 2 -->
-                <div class="faq-item bg-white/50 backdrop-blur-md border-2 border-white rounded-xl overflow-hidden">
-                    <button type="button"
-                            class="faq-btn w-full flex items-center justify-between gap-4 px-6 py-5 text-left"
-                            onclick="toggleFaq(this)">
-                        <span class="text-md lg:text-xl font-semibold text-gray-900">
-                            Where is The Mission Hospital located?
-                        </span>
-                        <span class="faq-icon shrink-0 text-xl font-medium transform transition-transform duration-300 ease-in-out">
-                            <i class="ti ti-plus"></i>
-                        </span>
-                    </button>
-            
-                    <div class="faq-content max-h-0 opacity-0 overflow-hidden transition-all duration-500 ease-in-out">
-                        <p class="px-5 pb-4 text-gray-600">
-                            The Mission Hospital is located in Durgapur, West Bengal. You can visit our Contact Us page for the complete address and location details.
-                        </p>
-                    </div>
-                </div>
-            
-            
-                <!-- FAQ 3 -->
-                <div class="faq-item bg-white/50 backdrop-blur-md border-2 border-white rounded-xl overflow-hidden">
-                    <button type="button"
-                            class="faq-btn w-full flex items-center justify-between gap-4 px-6 py-5 text-left"
-                            onclick="toggleFaq(this)">
-                        <span class="text-md lg:text-xl font-semibold text-gray-900">
-                            How can I make an appointment?
-                        </span>
-                        <span class="faq-icon shrink-0 text-xl font-medium transform transition-transform duration-300 ease-in-out">
-                            <i class="ti ti-plus"></i>
-                        </span>
-                    </button>
-            
-                    <div class="faq-content max-h-0 opacity-0 overflow-hidden transition-all duration-500 ease-in-out">
-                        <p class="px-5 pb-4 text-gray-600">
-                            You can request an appointment online through our appointment booking system or contact our hospital team for assistance with scheduling your visit.
-                        </p>
-                    </div>
-                </div>
-            
-            
-                <!-- FAQ 4 -->
-                <div class="faq-item bg-white/50 backdrop-blur-md border-2 border-white rounded-xl overflow-hidden">
-                    <button type="button"
-                            class="faq-btn w-full flex items-center justify-between gap-4 px-6 py-5 text-left"
-                            onclick="toggleFaq(this)">
-                        <span class="text-md lg:text-xl font-semibold text-gray-900">
-                            How can I get information about hospital services?
-                        </span>
-                        <span class="faq-icon shrink-0 text-xl font-medium transform transition-transform duration-300 ease-in-out">
-                            <i class="ti ti-plus"></i>
-                        </span>
-                    </button>
-            
-                    <div class="faq-content max-h-0 opacity-0 overflow-hidden transition-all duration-500 ease-in-out">
-                        <p class="px-5 pb-4 text-gray-600">
-                            You can explore our website to learn about our medical departments, specialties, healthcare services, doctors, facilities, and other hospital services.
-                        </p>
-                    </div>
-                </div>
-            
-            
-                <!-- FAQ 5 -->
-                <div class="faq-item bg-white/50 backdrop-blur-md border-2 border-white rounded-xl overflow-hidden">
-                    <button type="button"
-                            class="faq-btn w-full flex items-center justify-between gap-4 px-6 py-5 text-left"
-                            onclick="toggleFaq(this)">
-                        <span class="text-md lg:text-xl font-semibold text-gray-900">
-                            How can I contact the hospital for an emergency?
-                        </span>
-                        <span class="faq-icon shrink-0 text-xl font-medium transform transition-transform duration-300 ease-in-out">
-                            <i class="ti ti-plus"></i>
-                        </span>
-                    </button>
-            
-                    <div class="faq-content max-h-0 opacity-0 overflow-hidden transition-all duration-500 ease-in-out">
-                        <p class="px-5 pb-4 text-gray-600">
-                            For medical emergencies, please contact the hospital's emergency department directly or use the emergency contact number provided on our website.
-                        </p>
-                    </div>
-                </div>
-            
-            
-                <!-- FAQ 6 -->
-                <div class="faq-item bg-white/50 backdrop-blur-md border-2 border-white rounded-xl overflow-hidden">
-                    <button type="button"
-                            class="faq-btn w-full flex items-center justify-between gap-4 px-6 py-5 text-left"
-                            onclick="toggleFaq(this)">
-                        <span class="text-md lg:text-xl font-semibold text-gray-900">
-                            Can I send an enquiry through the Contact Us page?
-                        </span>
-                        <span class="faq-icon shrink-0 text-xl font-medium transform transition-transform duration-300 ease-in-out">
-                            <i class="ti ti-plus"></i>
-                        </span>
-                    </button>
-            
-                    <div class="faq-content max-h-0 opacity-0 overflow-hidden transition-all duration-500 ease-in-out">
-                        <p class="px-5 pb-4 text-gray-600">
-                            Yes. You can use the enquiry or contact form to share your query with our team. Please provide accurate contact details so that our team can get back to you.
-                        </p>
-                    </div>
-                </div>
-            
-            
-                <!-- FAQ 7 -->
-                <div class="faq-item bg-white/50 backdrop-blur-md border-2 border-white rounded-xl overflow-hidden">
-                    <button type="button"
-                            class="faq-btn w-full flex items-center justify-between gap-4 px-6 py-5 text-left"
-                            onclick="toggleFaq(this)">
-                        <span class="text-md lg:text-xl font-semibold text-gray-900">
-                            How can I reach the hospital?
-                        </span>
-                        <span class="faq-icon shrink-0 text-xl font-medium transform transition-transform duration-300 ease-in-out">
-                            <i class="ti ti-plus"></i>
-                        </span>
-                    </button>
-            
-                    <div class="faq-content max-h-0 opacity-0 overflow-hidden transition-all duration-500 ease-in-out">
-                        <p class="px-5 pb-4 text-gray-600">
-                            You can use the location and map details available on our Contact Us page to find the hospital and plan your visit.
-                        </p>
-                    </div>
-                </div>
-            
-            
-                <!-- FAQ 8 -->
-                <div class="faq-item bg-white/50 backdrop-blur-md border-2 border-white rounded-xl overflow-hidden">
-                    <button type="button"
-                            class="faq-btn w-full flex items-center justify-between gap-4 px-6 py-5 text-left"
-                            onclick="toggleFaq(this)">
-                        <span class="text-md lg:text-xl font-semibold text-gray-900">
-                            How can I provide feedback or share a concern?
-                        </span>
-                        <span class="faq-icon shrink-0 text-xl font-medium transform transition-transform duration-300 ease-in-out">
-                            <i class="ti ti-plus"></i>
-                        </span>
-                    </button>
-            
-                    <div class="faq-content max-h-0 opacity-0 overflow-hidden transition-all duration-500 ease-in-out">
-                        <p class="px-5 pb-4 text-gray-600">
-                            You can contact our hospital team through the available contact channels and share your feedback, suggestion, or concern. Our team will review your message and assist you accordingly.
-                        </p>
-                    </div>
-                </div>
-            
-            </div>
-
         </div>
     </section>
-    <!-- // Faq Section -->
-    
-    <!-- Footer -->
+    <!-- // Why Work With Us -->
+
+
     <footer class="bg-tertiary text-white py-8 lg:py-12 2xl:py-16 relative">
         <div class="mx-auto w-[90%] space-y-6 lg:space-y-8 xl:space-y-12">
             <div class="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">        
@@ -922,7 +832,7 @@
                     <!-- Replace with: <img src="logo.png" alt="The Mission Hospital Durgapur" class="h-14"> -->
                     <img src="assets/images/logo_footer.webp" alt="The Mission Hospital Durgapur" class="h-20">
             
-                    <h4 class="mt-8 text-lg lg:text-xl font-bold">Location</h4>
+                    <h4 class="text-lg lg:text-xl font-bold">Location</h4>
                     <address class="mt-2 not-italic leading-relaxed text-white/90">
                         Immon Kalyan Sarani, Sector IIC Bidhan Nagar, Durgapur – 713212, Paschim Bardhaman, West Bengal
                     </address>
@@ -981,7 +891,7 @@
         </a>
     </div>
 
-
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="https://unpkg.com/lenis@1.3.11/dist/lenis.min.js"></script>
     <script src="assets/js/menu.js"></script>
     <script>
@@ -999,6 +909,27 @@
             }
             requestAnimationFrame(raf);
         }
+
+
+        $('.career-marquee').slick({
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            infinite: true,
+            autoplay: true,
+            autoplaySpeed: 0,
+            speed: 6000,
+            cssEase: 'linear',
+            arrows: false,
+            dots: false,
+            pauseOnHover: false,
+            pauseOnFocus: false,
+            draggable: false,
+            swipe: false,
+            touchMove: false,
+            variableWidth: true,
+            adaptiveHeight: false,
+            rtl: false
+        });
 
 
         // FAQ Toggle
