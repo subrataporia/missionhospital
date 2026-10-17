@@ -1,0 +1,1421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>International Patient Care | The Mission Hospital</title>
+    <meta name="keywords"
+        content="International patient care, international patient services, medical treatment in India, The Mission Hospital Durgapur">
+    <meta name="description"
+        content="International patient support at The Mission Hospital, Durgapur. Get help with appointments, treatment enquiries, travel planning and more.">
+    <link href="https://themissionhospital.com/images/favicon.ico" type="image/x-icon" rel="icon" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: { primary: '#1363B8', secondary: '#DA2128', tertiary: '#0E4681' },
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="bg-white shadow-sm z-50 sticky top-0">
+        <div class="mx-auto w-[90%] flex items-center justify-between gap-4 lg:gap-6 xl:gap-8 2xl:gap-10">
+            <a href="index.html" class="py-2 xl:py-0">
+                <img src="assets/images/logo.webp" class="w-24 lg:w-32 xl:w-64" alt="">
+            </a>
+            <div class="flex flex-col xl:w-full">
+                <!-- Top Button Section -->
+                <ul class="hidden xl:flex justify-end gap-3 py-3 border-b border-gray-200">
+                    <li>
+                        <a href="#"
+                            class="group xl:[zoom:80%] 2xl:[zoom:100%] animate-pulse-shadow flex items-center gap-2 rounded-full border border-dashed border-[#DA2128] px-4 py-2 text-md hover:bg-secondary hover:text-white transition"
+                            title="Emergency Call">
+                            <img src="assets/images/icons/emergency-call.svg" alt=""
+                                class="transition group-hover:brightness-0 group-hover:invert">
+                            <div class="flex flex-col">
+                                <small
+                                    class="block text-[10px] text-[#4B4B4B] transition group-hover:text-white">Emergency
+                                    Call</small>
+                                <span
+                                    class="font-bold text-[#DA2128] text-sm transition group-hover:text-white">9800881600</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="xl:[zoom:80%] 2xl:[zoom:100%] flex items-center gap-2 rounded-full bg-gradient-to-b from-[#0080C6] to-[#0E4681] hover:bg-gradient-to-t px-4 py-2 text-md transition-all duration-300"
+                            title="Ambulance Service">
+                            <img src="assets/images/icons/ambulance.svg" alt="">
+                            <div class="flex flex-col text-white">
+                                <small class="block text-[10px]">Ambulance</small>
+                                <span class="font-bold text-sm">9800885000</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="xl:[zoom:80%] 2xl:[zoom:100%] flex items-center gap-2 rounded-full px-4 py-1.5 text-md patient_btn overflow-hidden hover:bg-primary"
+                            style="--gradient-border: conic-gradient(from var(--border-angle), transparent 15%, #00B59C, #1df0d4 90%, transparent); text-align: center;"
+                            title="Patient Portal">
+                            <img src="assets/images/icons/medical-access.svg" alt="">
+                            <div
+                                class="flex flex-col bg-gradient-to-r from-[#00B59C] to-[#0080C6] bg-clip-text text-transparent">
+                                <small class="block text-[10px]">Medical Access</small>
+                                <span class="font-bold text-sm">Patient Portal</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="health-packages.html"
+                            class="xl:[zoom:80%] 2xl:[zoom:100%] package_btn p_btn rounded-full px-4 py-1.5 text-center flex"
+                            title="Book Your Health Packages">
+                            <span class="font-bold text-white text-sm">Book Your <br>Health Packages</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="group xl:[zoom:80%] 2xl:[zoom:100%] flex items-center gap-2 rounded-full border border-[#0080C6] px-4 py-2 text-md hover:bg-primary hover:text-white transition"
+                            title="Trusted Partners">
+                            <img src="assets/images/icons/partner.svg" alt=""
+                                class="transition group-hover:brightness-0 group-hover:invert">
+                            <div class="flex flex-col">
+                                <small
+                                    class="block text-[10px] text-[#3D6E89] transition group-hover:text-white">Trusted
+                                    Partners</small>
+                                <span
+                                    class="font-bold text-[#0080C6] text-sm transition group-hover:text-white">Empanelments</span>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+                <!-- // Top Button Section -->
+
+                <!-- Navigation -->
+                <nav class="hidden xl:flex items-center justify-center relative">
+                    <div class="group h-full flex items-center">
+                        <a href="#"
+                            class="flex items-center gap-1 text-black group-hover:text-primary font-medium h-full cursor-pointer transition duration-200 ease-in-out py-3">
+                            About Us <i class="ti ti-chevron-down transition-transform group-hover:rotate-180"></i>
+                        </a>
+                        <div
+                            class="w-[260px] absolute top-12 left-50 bg-gray-100 border-b border-gray-200 shadow-xl opacity-0 translate-y-2 pointer-events-none group-hover:opacity-100 group-hover:translate-y-0 group-hover:pointer-events-auto transition-all duration-200 z-50">
+                            <div class="p-5">
+                                <ul class="gap-4 flex flex-col">
+                                    <li><a href="#"
+                                            class="block text-sm text-gray-700 hover:text-primary font-medium">Overview</a>
+                                    </li>
+                                    <li><a href="#"
+                                            class="block text-sm text-gray-700 hover:text-primary font-medium">Chairman’s
+                                            Message</a></li>
+                                    <li><a href="#"
+                                            class="block text-sm text-gray-700 hover:text-primary font-medium">Managing
+                                            Director’s Message</a></li>
+                                    <li><a href="#"
+                                            class="block text-sm text-gray-700 hover:text-primary font-medium">Mission &
+                                            Vision</a></li>
+                                    <li><a href="#"
+                                            class="block text-sm text-gray-700 hover:text-primary font-medium">Awards &
+                                            Recognition</a></li>
+                                    <li><a href="#"
+                                            class="block text-sm text-gray-700 hover:text-primary font-medium">Infrastructure
+                                            & Facilities</a></li>
+                                    <li><a href="#"
+                                            class="block text-sm text-gray-700 hover:text-primary font-medium">CSR
+                                            Activities</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="group h-full flex items-center">
+                        <a href="specialities.html"
+                            class="flex items-center gap-1 text-black group-hover:text-primary font-medium h-full cursor-pointer transition duration-200 ease-in-out py-3">
+                            Departments <i class="ti ti-chevron-down transition-transform group-hover:rotate-180"></i>
+                        </a>
+                        <div
+                            class="absolute top-12 left-0 w-full bg-gray-100 border-b border-gray-200 shadow-xl opacity-0 pointer-events-none translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 group-hover:pointer-events-auto transition-all duration-200 z-50">
+                            <ul class="max-w-7xl mx-auto grid grid-cols-4 gap-6 p-6">
+                                <!-- Accident & Emergency Medicine -->
+                                <li>
+                                    <a href="#"
+                                        class="group flex leading-4 items-center gap-3 text-sm text-gray-700 hover:text-primary font-medium transition">
+                                        <div class="bg-primary p-1">
+                                            <img src="https://api.iconify.design/medical-icon:i-emergency.svg"
+                                                alt="Accident & Emergency Medicine"
+                                                class="w-4 h-4 object-contain brightness-0 invert">
+                                        </div>
+                                        <span>Accident & Emergency Medicine</span>
+                                    </a>
+                                </li>
+
+                                <!-- Pediatric Cardiology -->
+                                <li>
+                                    <a href="#"
+                                        class="group flex leading-4 items-center gap-3 text-sm text-gray-700 hover:text-primary font-medium transition">
+                                        <div class="bg-primary p-1">
+                                            <img src="https://api.iconify.design/medical-icon:i-cardiology.svg"
+                                                alt="Pediatric Cardiology"
+                                                class="w-4 h-4 object-contain brightness-0 invert">
+                                        </div>
+                                        <span>Pediatric Cardiology</span>
+                                    </a>
+                                </li>
+
+                                <!-- Plastic Reconstructive Surgery -->
+                                <li>
+                                    <a href="#"
+                                        class="group flex leading-4 items-center gap-3 text-sm text-gray-700 hover:text-primary font-medium transition">
+                                        <div class="bg-primary p-1">
+                                            <img src="https://api.iconify.design/medical-icon:i-surgery.svg"
+                                                alt="Plastic Reconstructive Surgery"
+                                                class="w-4 h-4 object-contain brightness-0 invert">
+                                        </div>
+                                        <span>Plastic Reconstructive Surgery</span>
+                                    </a>
+                                </li>
+
+                                <!-- Psychiatry -->
+                                <li>
+                                    <a href="#"
+                                        class="group flex leading-4 items-center gap-3 text-sm text-gray-700 hover:text-primary font-medium transition">
+                                        <div class="bg-primary p-1">
+                                            <img src="https://api.iconify.design/medical-icon:i-mental-health.svg"
+                                                alt="Psychiatry" class="w-4 h-4 object-contain brightness-0 invert">
+                                        </div>
+                                        <span>Psychiatry</span>
+                                    </a>
+                                </li>
+
+                                <!-- Urology & Kidneys -->
+                                <li>
+                                    <a href="#"
+                                        class="group flex leading-4 items-center gap-3 text-sm text-gray-700 hover:text-primary font-medium transition">
+                                        <div class="bg-primary p-1">
+                                            <img src="https://api.iconify.design/medical-icon:i-kidney.svg"
+                                                alt="Urology & Kidneys"
+                                                class="w-4 h-4 object-contain brightness-0 invert">
+                                        </div>
+                                        <span>Urology &amp; Kidneys</span>
+                                    </a>
+                                </li>
+
+                                <!-- General & Minimally Surgery Department -->
+                                <li>
+                                    <a href="#"
+                                        class="group flex leading-4 items-center gap-3 text-sm text-gray-700 hover:text-primary font-medium transition">
+                                        <div class="bg-primary p-1">
+                                            <img src="https://api.iconify.design/medical-icon:i-surgery.svg"
+                                                alt="General & Minimally Surgery Department"
+                                                class="w-4 h-4 object-contain brightness-0 invert">
+                                        </div>
+                                        <span>General &amp; Minimally Surgery Department</span>
+                                    </a>
+                                </li>
+
+                                <!-- Anesthesiology -->
+                                <li>
+                                    <a href="#"
+                                        class="group flex leading-4 items-center gap-3 text-sm text-gray-700 hover:text-primary font-medium transition">
+                                        <div class="bg-primary p-1">
+                                            <img src="https://api.iconify.design/medical-icon:i-anesthesia.svg"
+                                                alt="Anesthesiology" class="w-4 h-4 object-contain brightness-0 invert">
+                                        </div>
+                                        <span>Anesthesiology</span>
+                                    </a>
+                                </li>
+
+                                <!-- Cardio Thoracic & Vascular Surgery -->
+                                <li>
+                                    <a href="#"
+                                        class="group flex leading-4 items-center gap-3 text-sm text-gray-700 hover:text-primary font-medium transition">
+                                        <div class="bg-primary p-1">
+                                            <img src="https://api.iconify.design/medical-icon:i-cardiology.svg"
+                                                alt="Cardio Thoracic & Vascular Surgery"
+                                                class="w-4 h-4 object-contain brightness-0 invert">
+                                        </div>
+                                        <span>Cardio Thoracic &amp; Vascular Surgery</span>
+                                    </a>
+                                </li>
+
+                                <!-- Cardiology -->
+                                <li>
+                                    <a href="#"
+                                        class="group flex leading-4 items-center gap-3 text-sm text-gray-700 hover:text-primary font-medium transition">
+                                        <div class="bg-primary p-1">
+                                            <img src="https://api.iconify.design/medical-icon:i-cardiology.svg"
+                                                alt="Pediatric Cardiology"
+                                                class="w-4 h-4 object-contain brightness-0 invert">
+                                        </div>
+                                        <span>Cardiology</span>
+                                    </a>
+                                </li>
+
+                                <!-- Dermatologist -->
+                                <li>
+                                    <a href="#"
+                                        class="group flex leading-4 items-center gap-3 text-sm text-gray-700 hover:text-primary font-medium transition">
+                                        <div class="bg-primary p-1">
+                                            <img src="https://api.iconify.design/medical-icon:i-dermatology.svg"
+                                                alt="Dermatologist" class="w-4 h-4 object-contain brightness-0 invert">
+                                        </div>
+                                        <span>Dermatologist</span>
+                                    </a>
+                                </li>
+
+                                <!-- Radio-Diagnosis & Imaging Sciences -->
+                                <li>
+                                    <a href="#"
+                                        class="group flex leading-4 items-center gap-3 text-sm text-gray-700 hover:text-primary font-medium transition">
+                                        <div class="bg-primary p-1">
+                                            <img src="https://api.iconify.design/medical-icon:i-radiology.svg"
+                                                alt="Radio-Diagnosis & Imaging Sciences"
+                                                class="w-4 h-4 object-contain brightness-0 invert">
+                                        </div>
+                                        <span>Radio-Diagnosis &amp; Imaging Sciences</span>
+                                    </a>
+                                </li>
+
+                                <!-- Endocrinology & Metabolism -->
+                                <li>
+                                    <a href="#"
+                                        class="group flex leading-4 items-center gap-3 text-sm text-gray-700 hover:text-primary font-medium transition">
+                                        <div class="bg-primary p-1">
+                                            <img src="https://api.iconify.design/medical-icon:i-diabetes-education.svg"
+                                                alt="Endocrinology & Metabolism"
+                                                class="w-4 h-4 object-contain brightness-0 invert">
+                                        </div>
+                                        <span>Endocrinology &amp; Metabolism</span>
+                                    </a>
+                                </li>
+
+                                <!-- Dentistry -->
+                                <li>
+                                    <a href="#"
+                                        class="group flex leading-4 items-center gap-3 text-sm text-gray-700 hover:text-primary font-medium transition">
+                                        <div class="bg-primary p-1">
+                                            <img src="https://api.iconify.design/medical-icon:i-dental.svg"
+                                                alt="Dentistry" class="w-4 h-4 object-contain brightness-0 invert">
+                                        </div>
+                                        <span>Dentistry</span>
+                                    </a>
+                                </li>
+
+                                <!-- ENT -->
+                                <li>
+                                    <a href="#"
+                                        class="group flex leading-4 items-center gap-3 text-sm text-gray-700 hover:text-primary font-medium transition">
+                                        <div class="bg-primary p-1">
+                                            <img src="https://api.iconify.design/medical-icon:i-ear-nose-throat.svg"
+                                                alt="ENT" class="w-4 h-4 object-contain brightness-0 invert">
+                                        </div>
+                                        <span>ENT</span>
+                                    </a>
+                                </li>
+
+                                <!-- Gastroenterology & Gastrointestinal Surgery -->
+                                <li>
+                                    <a href="#"
+                                        class="group flex leading-4 items-center gap-3 text-sm text-gray-700 hover:text-primary font-medium transition">
+                                        <div class="bg-primary p-1">
+                                            <img src="https://api.iconify.design/medical-icon:i-internal-medicine.svg"
+                                                alt="Gastroenterology & Gastrointestinal Surgery"
+                                                class="w-4 h-4 object-contain brightness-0 invert">
+                                        </div>
+                                        <span>Gastroenterology &amp; Gastrointestinal Surgery</span>
+                                    </a>
+                                </li>
+
+                                <!-- General Medicine -->
+                                <li>
+                                    <a href="#"
+                                        class="group flex leading-4 items-center gap-3 text-sm text-gray-700 hover:text-primary font-medium transition">
+                                        <div class="bg-primary p-1">
+                                            <img src="https://api.iconify.design/medical-icon:i-internal-medicine.svg"
+                                                alt="General Medicine"
+                                                class="w-4 h-4 object-contain brightness-0 invert">
+                                        </div>
+                                        <span>General Medicine</span>
+                                    </a>
+                                </li>
+
+                                <!-- Obstetrics & Gynaecology -->
+                                <li>
+                                    <a href="#"
+                                        class="group flex leading-4 items-center gap-3 text-sm text-gray-700 hover:text-primary font-medium transition">
+                                        <div class="bg-primary p-1">
+                                            <img src="https://api.iconify.design/medical-icon:i-womens-health.svg"
+                                                alt="Obstetrics & Gynaecology"
+                                                class="w-4 h-4 object-contain brightness-0 invert">
+                                        </div>
+                                        <span>Obstetrics &amp; Gynaecology</span>
+                                    </a>
+                                </li>
+
+                                <!-- Oncology -->
+                                <li>
+                                    <a href="#"
+                                        class="group flex leading-4 items-center gap-3 text-sm text-gray-700 hover:text-primary font-medium transition">
+                                        <div class="bg-primary p-1">
+                                            <img src="https://api.iconify.design/medical-icon:i-oncology.svg"
+                                                alt="Oncology" class="w-4 h-4 object-contain brightness-0 invert">
+                                        </div>
+                                        <span>Oncology</span>
+                                    </a>
+                                </li>
+
+                                <!-- Orthopedics -->
+                                <li>
+                                    <a href="#"
+                                        class="group flex leading-4 items-center gap-3 text-sm text-gray-700 hover:text-primary font-medium transition">
+                                        <div class="bg-primary p-1">
+                                            <img src="https://api.iconify.design/medical-icon:i-physical-therapy.svg"
+                                                alt="Orthopedics" class="w-4 h-4 object-contain brightness-0 invert">
+                                        </div>
+                                        <span>Orthopedics</span>
+                                    </a>
+                                </li>
+
+                                <!-- Paediatrics & Neonatology -->
+                                <li>
+                                    <a href="#"
+                                        class="group flex leading-4 items-center gap-3 text-sm text-gray-700 hover:text-primary font-medium transition">
+                                        <div class="bg-primary p-1">
+                                            <img src="https://api.iconify.design/medical-icon:i-pediatrics.svg"
+                                                alt="Paediatrics & Neonatology"
+                                                class="w-4 h-4 object-contain brightness-0 invert">
+                                        </div>
+                                        <span>Paediatrics &amp; Neonatology</span>
+                                    </a>
+                                </li>
+
+                                <!-- Pediatric and Preventive Dentistry -->
+                                <li>
+                                    <a href="#"
+                                        class="group flex leading-4 items-center gap-3 text-sm text-gray-700 hover:text-primary font-medium transition">
+                                        <div class="bg-primary p-1">
+                                            <img src="https://api.iconify.design/medical-icon:i-dental.svg"
+                                                alt="Pediatric and Preventive Dentistry"
+                                                class="w-4 h-4 object-contain brightness-0 invert">
+                                        </div>
+                                        <span>Pediatric and Preventive Dentistry</span>
+                                    </a>
+                                </li>
+
+                                <!-- Infectious Disease -->
+                                <li>
+                                    <a href="#"
+                                        class="group flex leading-4 items-center gap-3 text-sm text-gray-700 hover:text-primary font-medium transition">
+                                        <div class="bg-primary p-1">
+                                            <img src="https://api.iconify.design/medical-icon:i-infectious-diseases.svg"
+                                                alt="Infectious Disease"
+                                                class="w-4 h-4 object-contain brightness-0 invert">
+                                        </div>
+                                        <span>Infectious Disease</span>
+                                    </a>
+                                </li>
+
+                                <!-- Neuroscience -->
+                                <li>
+                                    <a href="#"
+                                        class="group flex leading-4 items-center gap-3 text-sm text-gray-700 hover:text-primary font-medium transition">
+                                        <div class="bg-primary p-1">
+                                            <img src="https://api.iconify.design/medical-icon:i-neurology.svg"
+                                                alt="Neuroscience" class="w-4 h-4 object-contain brightness-0 invert">
+                                        </div>
+                                        <span>Neuroscience</span>
+                                    </a>
+                                </li>
+
+                                <!-- Nephrology -->
+                                <li>
+                                    <a href="#"
+                                        class="group flex leading-4 items-center gap-3 text-sm text-gray-700 hover:text-primary font-medium transition">
+                                        <div class="bg-primary p-1">
+                                            <img src="https://api.iconify.design/medical-icon:i-kidney.svg"
+                                                alt="Nephrology" class="w-4 h-4 object-contain brightness-0 invert">
+                                        </div>
+                                        <span>Nephrology</span>
+                                    </a>
+                                </li>
+
+                                <!-- Gynaecological Oncology -->
+                                <li>
+                                    <a href="#"
+                                        class="group flex leading-4 items-center gap-3 text-sm text-gray-700 hover:text-primary font-medium transition">
+                                        <div class="bg-primary p-1">
+                                            <img src="https://api.iconify.design/medical-icon:i-oncology.svg"
+                                                alt="Gynaecological Oncology"
+                                                class="w-4 h-4 object-contain brightness-0 invert">
+                                        </div>
+                                        <span>Gynaecological Oncology</span>
+                                    </a>
+                                </li>
+
+                                <!-- Ophthalmology -->
+                                <li>
+                                    <a href="#"
+                                        class="group flex leading-4 items-center gap-3 text-sm text-gray-700 hover:text-primary font-medium transition">
+                                        <div class="bg-primary p-1">
+                                            <img src="https://api.iconify.design/medical-icon:i-ophthalmology.svg"
+                                                alt="Ophthalmology" class="w-4 h-4 object-contain brightness-0 invert">
+                                        </div>
+                                        <span>Ophthalmology</span>
+                                    </a>
+                                </li>
+
+                                <!-- Pulmonology / Respiratory Medicine -->
+                                <li>
+                                    <a href="#"
+                                        class="group flex leading-4 items-center gap-3 text-sm text-gray-700 hover:text-primary font-medium transition">
+                                        <div class="bg-primary p-1">
+                                            <img src="https://api.iconify.design/medical-icon:i-respiratory.svg"
+                                                alt="Pulmonology / Respiratory Medicine"
+                                                class="w-4 h-4 object-contain brightness-0 invert">
+                                        </div>
+                                        <span>Pulmonology / Respiratory Medicine</span>
+                                    </a>
+                                </li>
+
+                                <!-- Interventional Pain Management -->
+                                <li>
+                                    <a href="#"
+                                        class="group flex leading-4 items-center gap-3 text-sm text-gray-700 hover:text-primary font-medium transition">
+                                        <div class="bg-primary p-1">
+                                            <img src="https://api.iconify.design/medical-icon:i-physical-therapy.svg"
+                                                alt="Interventional Pain Management"
+                                                class="w-4 h-4 object-contain brightness-0 invert">
+                                        </div>
+                                        <span>Interventional Pain Management</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="group h-full flex items-center">
+                        <a href="#"
+                            class="flex items-center gap-1 text-black group-hover:text-primary font-medium h-full cursor-pointer transition duration-200 ease-in-out py-3">
+                            Diagnostics <i class="ti ti-chevron-down transition-transform group-hover:rotate-180"></i>
+                        </a>
+                        <div
+                            class="w-[260px] absolute top-12 left-50 bg-gray-100 border-b border-gray-200 shadow-xl opacity-0 translate-y-2 pointer-events-none group-hover:opacity-100 group-hover:translate-y-0 group-hover:pointer-events-auto transition-all duration-200 z-50">
+                            <div class="p-5">
+                                <ul class="gap-4 flex flex-col">
+                                    <li><a href="#"
+                                            class="block text-sm text-gray-700 hover:text-primary font-medium">Pathology</a>
+                                    </li>
+                                    <li><a href="#"
+                                            class="block text-sm text-gray-700 hover:text-primary font-medium">Radiology</a>
+                                    </li>
+                                    <li><a href="#"
+                                            class="block text-sm text-gray-700 hover:text-primary font-medium">Nuclear
+                                            Medicine</a></li>
+                                    <li><a href="#"
+                                            class="block text-sm text-gray-700 hover:text-primary font-medium">Laboratory
+                                            Services</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="doctors.html"
+                        class="text-black hover:text-primary font-medium transition duration-200 ease-in-out py-3">Doctors</a>
+
+                    <div class="group h-full flex items-center">
+                        <a href="#"
+                            class="flex items-center gap-1 text-black group-hover:text-primary font-medium h-full cursor-pointer transition duration-200 ease-in-out py-3">
+                            Patients Desk <i class="ti ti-chevron-down transition-transform group-hover:rotate-180"></i>
+                        </a>
+                        <div
+                            class="w-[260px] absolute top-12 left-50 bg-gray-100 border-b border-gray-200 shadow-xl opacity-0 translate-y-2 pointer-events-none group-hover:opacity-100 group-hover:translate-y-0 group-hover:pointer-events-auto transition-all duration-200 z-50">
+                            <div class="p-5">
+                                <ul class="gap-4 flex flex-col">
+                                    <li><a href="#"
+                                            class="block text-sm text-gray-700 hover:text-primary font-medium">Admission
+                                            Process</a></li>
+                                    <li><a href="#"
+                                            class="block text-sm text-gray-700 hover:text-primary font-medium">Discharge
+                                            Process</a></li>
+                                    <li><a href="#"
+                                            class="block text-sm text-gray-700 hover:text-primary font-medium">Guidelines
+                                            for Visitors</a></li>
+                                    <li><a href="#"
+                                            class="block text-sm text-gray-700 hover:text-primary font-medium">Patient
+                                            and Attendant rights</a></li>
+                                    <li><a href="#"
+                                            class="block text-sm text-gray-700 hover:text-primary font-medium">Insurance</a>
+                                    </li>
+                                    <li><a href="#"
+                                            class="block text-sm text-gray-700 hover:text-primary font-medium">Patient
+                                            Services</a></li>
+                                    <li><a href="#"
+                                            class="block text-sm text-gray-700 hover:text-primary font-medium">Second
+                                            Opinion</a></li>
+                                    <li><a href="#"
+                                            class="block text-sm text-gray-700 hover:text-primary font-medium">24 x 7
+                                            Pharmacy</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="group h-full flex items-center">
+                        <a href="#"
+                            class="flex items-center gap-1 text-black group-hover:text-primary font-medium h-full cursor-pointer transition duration-200 ease-in-out py-3">
+                            Services <i class="ti ti-chevron-down transition-transform group-hover:rotate-180"></i>
+                        </a>
+                        <div
+                            class="w-[260px] absolute top-12 left-50 bg-gray-100 border-b border-gray-200 shadow-xl opacity-0 translate-y-2 pointer-events-none group-hover:opacity-100 group-hover:translate-y-0 group-hover:pointer-events-auto transition-all duration-200 z-50">
+                            <div class="p-5">
+                                <ul class="gap-4 flex flex-col">
+                                    <li><a href="#"
+                                            class="block text-sm text-gray-700 hover:text-primary font-medium">Emergency
+                                            & Trauma (24x7)</a></li>
+                                    <li><a href="#"
+                                            class="block text-sm text-gray-700 hover:text-primary font-medium">Ambulance
+                                            Service</a></li>
+                                    <li><a href="#"
+                                            class="block text-sm text-gray-700 hover:text-primary font-medium">Blood
+                                            Bank</a></li>
+                                    <li><a href="#"
+                                            class="block text-sm text-gray-700 hover:text-primary font-medium">Pharmacy
+                                            (24x7)</a></li>
+                                    <li><a href="#"
+                                            class="block text-sm text-gray-700 hover:text-primary font-medium">Dialysis
+                                            Centre</a></li>
+                                    <li><a href="#"
+                                            class="block text-sm text-gray-700 hover:text-primary font-medium">Health
+                                            Check-up</a></li>
+                                    <li><a href="#"
+                                            class="block text-sm text-gray-700 hover:text-primary font-medium">Home Care
+                                            Services</a></li>
+                                    <li><a href="#"
+                                            class="block text-sm text-gray-700 hover:text-primary font-medium">Physiotherapy
+                                            & Rehabilitation</a></li>
+                                    <li><a href="#"
+                                            class="block text-sm text-gray-700 hover:text-primary font-medium">Organ
+                                            Transplant Services</a></li>
+                                    <li><a href="#"
+                                            class="block text-sm text-gray-700 hover:text-primary font-medium">Pain
+                                            Management</a></li>
+                                    <li><a href="#"
+                                            class="block text-sm text-gray-700 hover:text-primary font-medium">Vaccination
+                                            Centre</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="#"
+                        class="text-black hover:text-primary font-medium transition duration-200 ease-in-out py-3">International
+                        Patients</a>
+
+                    <div class="group h-full flex items-center">
+                        <a href="#"
+                            class="flex items-center gap-1 text-black group-hover:text-primary font-medium h-full cursor-pointer transition duration-200 ease-in-out bg-gray-100 m-2 px-2 rounded">
+                            <i class="ti ti-menu-2 text-2xl"></i>
+                        </a>
+                        <div
+                            class="w-[260px] absolute top-12 right-0 bg-gray-100 border-b border-gray-200 shadow-xl opacity-0 translate-y-2 pointer-events-none group-hover:opacity-100 group-hover:translate-y-0 group-hover:pointer-events-auto transition-all duration-200 z-50">
+                            <div class="p-5">
+                                <ul class="gap-4 flex flex-col">
+                                    <li><a href="#"
+                                            class="block text-sm text-gray-700 hover:text-primary font-medium">Health
+                                            Packages</a></li>
+                                    <li><a href="#"
+                                            class="block text-sm text-gray-700 hover:text-primary font-medium">TPA &
+                                            Insurance</a></li>
+                                    <li><a href="#"
+                                            class="block text-sm text-gray-700 hover:text-primary font-medium">Career</a>
+                                    </li>
+                                    <li><a href="#"
+                                            class="block text-sm text-gray-700 hover:text-primary font-medium">Contact
+                                            Us</a></li>
+                                    <li><a href="#"
+                                            class="block text-sm text-gray-700 hover:text-primary font-medium">News &
+                                            Events</a></li>
+                                    <li><a href="#"
+                                            class="block text-sm text-gray-700 hover:text-primary font-medium">Press
+                                            Releases</a></li>
+                                    <li><a href="#"
+                                            class="block text-sm text-gray-700 hover:text-primary font-medium">Gallery</a>
+                                    </li>
+                                    <li><a href="#"
+                                            class="block text-sm text-gray-700 hover:text-primary font-medium">Blogs</a>
+                                    </li>
+                                    <li><a href="#"
+                                            class="block text-sm text-gray-700 hover:text-primary font-medium">FAQs</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+                <!-- // Navigation -->
+            </div>
+            <div class="flex items-center gap-4">
+                <img src="assets/images/certified_logo.webp" class="w-24 lg:w-32 xl:w-48" alt=""
+                    srcset="assets/images/certified_logo.webp">
+                <button id="mobile-menu-open"
+                    class="xl:hidden flex items-center bg-gray-100 h-[36px] text-gray-600 hover:text-gray-900 focus:outline-none p-1.5 leading-none rounded-md"
+                    aria-label="Open Menu">
+                    <i class="ti ti-menu-2 text-2xl"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+    <!-- // Header -->
+
+    <!-- Breadcrumb -->
+    <div class="bg-gray-50 py-2">
+        <div class="w-[90%] mx-auto">
+            <nav class="flex" aria-label="Breadcrumb">
+                <ol class="inline-flex items-center space-x-1 md:space-x-2">
+                    <li class="inline-flex items-center">
+                        <a href="index.html" class="text-sm font-medium text-black hover:text-primary">Home</a>
+                    </li>
+                    <li>
+                        <div class="flex items-center gap-2">
+                            <i class="ti ti-chevron-right text-gray-500"></i>
+                            <a href="#" class="text-sm font-medium text-black hover:text-primary">International Patient Desk</a>
+                        </div>
+                    </li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+    <!-- // Breadcrumb -->
+
+    <!-- International patient hero -->
+    <section class="relative overflow-hidden text-white">
+        <div class="absolute inset-0 h-full -z-[1] bg-[linear-gradient(to_right,#0E4681_0%,#0080C6_50%,#0E4681_100%)]"></div>
+        <div class="layer-tile opacity-25"></div>
+        <div class="relative z-10 mx-auto grid min-h-[520px] w-[90%] max-w-7xl items-center gap-10 py-14 lg:min-h-[590px] lg:grid-cols-[1.2fr_.8fr] lg:py-20">
+            <div class="max-w-2xl space-y-5">
+                <p class="inline-flex items-center gap-2 rounded-full border border-white/30 bg-white/10 px-4 py-2 text-sm font-semibold">
+                    <i class="ti ti-world text-lg text-white"></i> INTERNATIONAL PATIENT DESK
+                </p>
+                <h1 class="text-4xl font-bold leading-tight sm:text-5xl lg:text-6xl">Expert care. A smoother journey.</h1>
+                <p class="max-w-xl text-base leading-relaxed text-white/90 sm:text-lg">
+                    From your first question to planning your visit, our team helps you connect with the right care at The Mission Hospital, Durgapur.
+                </p>
+                <div class="flex flex-col gap-3 pt-2 sm:flex-row">
+                    <a href="#international-enquiry"
+                        class="inline-flex items-center justify-center gap-2 bg-secondary px-6 py-3.5 font-semibold text-white transition hover:bg-red-700">
+                        Talk to our team <i class="ti ti-arrow-right"></i>
+                    </a>
+                    <a href="#patient-journey"
+                        class="inline-flex items-center justify-center gap-2 border border-white/70 px-6 py-3.5 font-semibold text-white transition hover:bg-white hover:text-tertiary">
+                        See how it works <i class="ti ti-chevron-down"></i>
+                    </a>
+                </div>
+                <div class="flex flex-wrap gap-x-6 gap-y-2 pt-3 text-sm text-white/90">
+                    <span class="inline-flex items-center gap-2"><i class="ti ti-check text-lg text-cyan-200"></i> One point of contact</span>
+                    <span class="inline-flex items-center gap-2"><i class="ti ti-check text-lg text-cyan-200"></i> Coordinated care planning</span>
+                </div>
+            </div>
+            <aside class="ml-auto w-full max-w-md rounded-2xl border border-white/30 bg-white/95 p-6 text-gray-800 shadow-2xl backdrop-blur sm:p-8">
+                <span class="inline-flex h-12 w-12 items-center justify-center rounded-full bg-primary/10 text-2xl text-primary">
+                    <i class="ti ti-message-circle"></i>
+                </span>
+                <h2 class="mt-4 text-2xl font-bold text-tertiary">Planning care from abroad?</h2>
+                <p class="mt-2">Share a few details and our team can guide you on the next steps. For urgent medical needs, please call the hospital directly.</p>
+                <a href="#international-enquiry" class="mt-5 inline-flex items-center gap-2 font-bold text-secondary hover:text-red-700">
+                    Send an enquiry <i class="ti ti-arrow-right"></i>
+                </a>
+                <div class="mt-6 border-t border-gray-200 pt-5">
+                    <p class="text-xs font-bold uppercase tracking-[.16em] text-gray-500">Call the hospital</p>
+                    <a href="tel:+918687500500" class="mt-1 inline-flex items-center gap-2 text-xl font-bold text-tertiary">
+                        <i class="ti ti-phone text-primary"></i> +91 86875 00500
+                    </a>
+                </div>
+            </aside>
+        </div>
+    </section>
+
+    <!-- Introduction -->
+    <section class="bg-[#F3F6F7] py-12 lg:py-20">
+        <div class="mx-auto w-[90%] max-w-7xl">
+            <div class="mb-8 max-w-3xl space-y-4 lg:mb-10">
+                <h2 class="text-3xl font-bold leading-tight text-tertiary sm:text-4xl">Comprehensive international patient services</h2>
+                <p class="max-w-2xl leading-relaxed text-gray-600">
+                    From your first consultation to the practical details of your stay, our international patient support team is here to help make your care journey easier to navigate.
+                </p>
+            </div>
+            <div class="grid items-stretch gap-6 lg:grid-cols-12 lg:gap-8">
+                <div class="relative min-h-[320px] overflow-hidden rounded-2xl shadow-lg sm:min-h-[420px] lg:col-span-5">
+                    <img src="assets/images/hospital-img.jpg" alt="The Mission Hospital campus in Durgapur"
+                        class="absolute inset-0 h-full w-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-[#062745]/90 via-[#0E4681]/20 to-transparent"></div>
+                    <div class="absolute inset-x-0 bottom-0 p-6 text-white sm:p-8">
+                        <span class="inline-flex items-center gap-2 rounded-full border border-white/40 bg-white/15 px-3 py-1.5 text-xs font-semibold uppercase tracking-wider backdrop-blur-sm">
+                            <i class="ti ti-world"></i> International patient desk
+                        </span>
+                        <h3 class="mt-4 max-w-sm text-2xl font-bold leading-tight sm:text-3xl">Care coordination that goes beyond your appointment</h3>
+                        <p class="mt-2 max-w-md leading-relaxed text-white/85">One team to help you prepare, arrive and feel supported during your visit.</p>
+                    </div>
+                </div>
+                <div class="grid gap-3 sm:grid-cols-2 lg:col-span-7">
+                    <article class="flex gap-4 rounded-xl border border-gray-100 bg-white p-4 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md sm:p-5">
+                        <span class="flex h-11 w-11 shrink-0 items-center justify-center rounded-lg bg-primary/10 text-2xl text-primary"><i class="ti ti-video"></i></span>
+                        <div>
+                            <h3 class="font-bold text-lg leading-5 text-tertiary">Pre-arrival tele-consultation</h3>
+                            <p class="mt-1.5 leading-relaxed">Request a virtual consultation or second opinion with a doctor before travelling.</p>
+                        </div>
+                    </article>
+                    <article class="flex gap-4 rounded-xl border border-gray-100 bg-white p-4 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md sm:p-5">
+                        <span class="flex h-11 w-11 shrink-0 items-center justify-center rounded-lg bg-secondary/10 text-2xl text-secondary"><i class="ti ti-passport"></i></span>
+                        <div>
+                            <h3 class="font-bold text-lg leading-5 text-tertiary">Medical visa assistance</h3>
+                            <p class="mt-1.5 leading-relaxed">Guidance with Visa Invitation Letters (VIL) and coordination with the relevant embassy.</p>
+                        </div>
+                    </article>
+                    <article class="flex gap-4 rounded-xl border border-gray-100 bg-white p-4 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md sm:p-5">
+                        <span class="flex h-11 w-11 shrink-0 items-center justify-center rounded-lg bg-primary/10 text-2xl text-primary"><i class="ti ti-plane-arrival"></i></span>
+                        <div>
+                            <h3 class="font-bold text-lg leading-5 text-tertiary">Airport pickup &amp; transfer</h3>
+                            <p class="mt-1.5 leading-relaxed">Complimentary airport reception, transfer and local transport support for your visit.</p>
+                        </div>
+                    </article>
+                    <article class="flex gap-4 rounded-xl border border-gray-100 bg-white p-4 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md sm:p-5">
+                        <span class="flex h-11 w-11 shrink-0 items-center justify-center rounded-lg bg-secondary/10 text-2xl text-secondary"><i class="ti ti-user-heart"></i></span>
+                        <div>
+                            <h3 class="font-bold text-lg leading-5 text-tertiary">Dedicated relationship manager</h3>
+                            <p class="mt-1.5 leading-relaxed">A single point of contact to guide you and coordinate support through each step.</p>
+                        </div>
+                    </article>
+                    <article class="flex gap-4 rounded-xl border border-gray-100 bg-white p-4 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md sm:p-5">
+                        <span class="flex h-11 w-11 shrink-0 items-center justify-center rounded-lg bg-primary/10 text-2xl text-primary"><i class="ti ti-language"></i></span>
+                        <div>
+                            <h3 class="font-bold text-lg leading-5 text-tertiary">Language interpretation</h3>
+                            <p class="mt-1.5 leading-relaxed">Interpreter support in languages including Arabic, French, Russian, Bengali and Swahili.</p>
+                        </div>
+                    </article>
+                    <article class="flex gap-4 rounded-xl border border-gray-100 bg-white p-4 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md sm:p-5">
+                        <span class="flex h-11 w-11 shrink-0 items-center justify-center rounded-lg bg-secondary/10 text-2xl text-secondary"><i class="ti ti-bed"></i></span>
+                        <div>
+                            <h3 class="font-bold text-lg leading-5 text-tertiary">Accommodation &amp; dining</h3>
+                            <p class="mt-1.5 leading-relaxed">Help with nearby partner hotel or guest-house bookings and international dietary options.</p>
+                        </div>
+                    </article>
+                    <article class="flex gap-4 rounded-xl border border-gray-100 bg-white p-4 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md sm:col-span-2 sm:p-5">
+                        <span class="flex h-11 w-11 shrink-0 items-center justify-center rounded-lg bg-primary/10 text-2xl text-primary"><i class="ti ti-cash-banknote"></i></span>
+                        <div>
+                            <h3 class="font-bold text-lg leading-5 text-tertiary">Financial &amp; insurance services</h3>
+                            <p class="mt-1.5 leading-relaxed">Guidance on foreign currency exchange, wire transfers and coordination with international health insurance providers.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why choose us -->
+    <section class="bg-slate-200 py-12 lg:py-20">
+        <div class="mx-auto w-[90%] max-w-7xl">
+            <div class="mx-auto mb-9 max-w-2xl space-y-3 text-center lg:mb-12">
+                <h2 class="text-3xl font-bold text-tertiary sm:text-4xl">Why choose The Mission Hospital?</h2>
+                <p class="leading-relaxed text-gray-600">A dedicated team helps make complex care decisions and visit planning easier to navigate.</p>
+            </div>
+            <div class="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+                <article class="group rounded-xl bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+                    <span class="inline-flex h-14 w-14 items-center justify-center rounded-xl bg-primary/10 text-3xl text-primary"><i class="ti ti-user-heart"></i></span>
+                    <h3 class="mt-5 text-xl font-bold text-tertiary">Dedicated coordination</h3>
+                    <p class="mt-2">A clear point of contact for enquiries, appointment requests and visit planning.</p>
+                </article>
+                <article class="group rounded-xl bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+                    <span class="inline-flex h-14 w-14 items-center justify-center rounded-xl bg-secondary/10 text-3xl text-secondary"><i class="ti ti-stethoscope"></i></span>
+                    <h3 class="mt-5 text-xl font-bold text-tertiary">Multispecialty care</h3>
+                    <p class="mt-2">Access to a range of clinical specialties and experienced medical professionals.</p>
+                </article>
+                <article class="group rounded-xl bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+                    <span class="inline-flex h-14 w-14 items-center justify-center rounded-xl bg-primary/10 text-3xl text-primary"><i class="ti ti-microscope"></i></span>
+                    <h3 class="mt-5 text-xl font-bold text-tertiary">Connected diagnostics</h3>
+                    <p class="mt-2">Diagnostic and treatment services coordinated around your clinician’s advice.</p>
+                </article>
+                <article class="group rounded-xl bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+                    <span class="inline-flex h-14 w-14 items-center justify-center rounded-xl bg-secondary/10 text-3xl text-secondary"><i class="ti ti-map-pin-heart"></i></span>
+                    <h3 class="mt-5 text-xl font-bold text-tertiary">Practical visit guidance</h3>
+                    <p class="mt-2">Ask us about travel, accommodation and local arrangements for your visit.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Patient journey -->
+    <section id="patient-journey" class="relative overflow-hidden bg-white py-12 lg:py-20">
+        <div class="pointer-events-none absolute -right-20 top-10 h-64 w-64 rounded-full bg-primary/5"></div>
+        <div class="relative mx-auto w-[90%] max-w-7xl">
+            <div class="mx-auto mb-10 max-w-2xl space-y-3 text-center lg:mb-14">
+                <h2 class="text-3xl font-bold text-tertiary sm:text-4xl">A simple, step-by-step journey</h2>
+                <p class="leading-relaxed text-gray-600">Our team will help you understand what to expect at each stage.</p>
+            </div>
+            <div class="grid gap-5 md:grid-cols-2 lg:grid-cols-4">
+                <article class="relative rounded-xl border border-gray-100 bg-slate-100 p-6">
+                    <span class="flex h-12 w-12 items-center justify-center rounded-full bg-primary text-lg font-bold text-white">01</span>
+                    <h3 class="mt-5 text-lg font-bold text-tertiary">Get in touch</h3>
+                    <p class="mt-2 text-sm leading-relaxed text-gray-600">Tell us about your enquiry and how we can reach you.</p>
+                </article>
+                <article class="relative rounded-xl border border-gray-100 bg-slate-100 p-6">
+                    <span class="flex h-12 w-12 items-center justify-center rounded-full bg-primary text-lg font-bold text-white">02</span>
+                    <h3 class="mt-5 text-lg font-bold text-tertiary">Share your reports</h3>
+                    <p class="mt-2 text-sm leading-relaxed text-gray-600">Send relevant records securely when our team tells you how.</p>
+                </article>
+                <article class="relative rounded-xl border border-gray-100 bg-slate-100 p-6">
+                    <span class="flex h-12 w-12 items-center justify-center rounded-full bg-primary text-lg font-bold text-white">03</span>
+                    <h3 class="mt-5 text-lg font-bold text-tertiary">Discuss your options</h3>
+                    <p class="mt-2 text-sm leading-relaxed text-gray-600">The appropriate clinical team can review your case and advise on next steps.</p>
+                </article>
+                <article class="relative rounded-xl border border-gray-100 bg-slate-100 p-6">
+                    <span class="flex h-12 w-12 items-center justify-center rounded-full bg-secondary text-lg font-bold text-white">04</span>
+                    <h3 class="mt-5 text-lg font-bold text-tertiary">Plan your visit</h3>
+                    <p class="mt-2 text-sm leading-relaxed text-gray-600">Coordinate appointments and ask about practical arrangements before you travel.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Specialties and doctors -->
+    <section class="bg-[#F3F6F7] py-12 lg:py-20">
+        <div class="mx-auto w-[90%] max-w-7xl">
+            <div class="mb-8 flex flex-col justify-between gap-4 md:flex-row md:items-end">
+                <div class="max-w-4xl space-y-3">
+                    <h2 class="text-3xl font-bold text-tertiary sm:text-4xl">Care across key specialties</h2>
+                    <p class="leading-relaxed text-gray-600">Explore selected specialties and meet members of our medical team. Your care team will depend on your individual needs.</p>
+                </div>
+                <a href="doctors.html" class="inline-flex w-fit items-center gap-2 font-bold text-primary hover:text-secondary">View all doctors <i class="ti ti-arrow-right"></i></a>
+            </div>
+            <div class="relative px-4 lg:px-0">
+                <div class="doctors-slider">
+                    <div class="m-2 lg:m-3">
+                        <article class="border border-dashed border-black/15 bg-white p-2 shadow-[0_4px_10px_rgba(0,0,0,0.05)]">
+                            <img src="assets/images/doctors/d1.jpg" alt="Dr. Arijit Ghosh" class="aspect-[4/3] w-full object-cover object-center">
+                            <div class="px-2 py-4 text-center">
+                                <h3 class="text-base font-bold text-tertiary xl:text-xl">Dr. Arijit Ghosh</h3>
+                                <p class="mt-2 min-h-10 line-clamp-2 text-xs text-tertiary lg:text-sm xl:min-h-12 xl:text-base" title="Orthopaedics">Orthopaedics</p>
+                                <a href="drArijit-ghosh.html" class="mt-4 inline-flex items-center gap-3 border border-tertiary px-3 py-1.5 text-xs font-medium text-tertiary transition hover:bg-tertiary hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-tertiary lg:px-5 lg:py-2.5 lg:text-sm">
+                                    VIEW PROFILE <i class="ti ti-arrow-right text-lg leading-none"></i>
+                                </a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="m-2 lg:m-3">
+                        <article class="border border-dashed border-black/15 bg-white p-2 shadow-[0_4px_10px_rgba(0,0,0,0.05)]">
+                            <img src="assets/images/doctors/d2.jpg" alt="Dr. Shantanu Kumar Das" class="aspect-[4/3] w-full object-cover object-center">
+                            <div class="px-2 py-4 text-center">
+                                <h3 class="text-base font-bold text-tertiary xl:text-xl">Dr. Shantanu Kumar Das</h3>
+                                <p class="mt-2 min-h-10 line-clamp-2 text-xs text-tertiary lg:text-sm xl:min-h-12 xl:text-base" title="Pulmonology &amp; Respiratory Medicine">Pulmonology &amp; Respiratory Medicine</p>
+                                <a href="doctors.html" class="mt-4 inline-flex items-center gap-3 border border-tertiary px-3 py-1.5 text-xs font-medium text-tertiary transition hover:bg-tertiary hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-tertiary lg:px-5 lg:py-2.5 lg:text-sm">
+                                    VIEW DOCTORS <i class="ti ti-arrow-right text-lg leading-none"></i>
+                                </a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="m-2 lg:m-3">
+                        <article class="border border-dashed border-black/15 bg-white p-2 shadow-[0_4px_10px_rgba(0,0,0,0.05)]">
+                            <img src="assets/images/doctors/d3.jpg" alt="Dr. Urmi Sanyal" class="aspect-[4/3] w-full object-cover object-center">
+                            <div class="px-2 py-4 text-center">
+                                <h3 class="text-base font-bold text-tertiary xl:text-xl">Dr. Urmi Sanyal</h3>
+                                <p class="mt-2 min-h-10 line-clamp-2 text-xs text-tertiary lg:text-sm xl:min-h-12 xl:text-base" title="Obstetrics &amp; Gynaecology">Obstetrics &amp; Gynaecology</p>
+                                <a href="doctors.html" class="mt-4 inline-flex items-center gap-3 border border-tertiary px-3 py-1.5 text-xs font-medium text-tertiary transition hover:bg-tertiary hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-tertiary lg:px-5 lg:py-2.5 lg:text-sm">
+                                    VIEW DOCTORS <i class="ti ti-arrow-right text-lg leading-none"></i>
+                                </a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="m-2 lg:m-3">
+                        <article class="border border-dashed border-black/15 bg-white p-2 shadow-[0_4px_10px_rgba(0,0,0,0.05)]">
+                            <img src="assets/images/doctors/d4.jpg" alt="Dr. Rahul Bose" class="aspect-[4/3] w-full object-cover object-center">
+                            <div class="px-2 py-4 text-center">
+                                <h3 class="text-base font-bold text-tertiary xl:text-xl">Dr. Rahul Bose</h3>
+                                <p class="mt-2 min-h-10 line-clamp-2 text-xs text-tertiary lg:text-sm xl:min-h-12 xl:text-base" title="Cardiothoracic &amp; Vascular Surgery">Cardiothoracic &amp; Vascular Surgery</p>
+                                <a href="doctors.html" class="mt-4 inline-flex items-center gap-3 border border-tertiary px-3 py-1.5 text-xs font-medium text-tertiary transition hover:bg-tertiary hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-tertiary lg:px-5 lg:py-2.5 lg:text-sm">
+                                    VIEW DOCTORS <i class="ti ti-arrow-right text-lg leading-none"></i>
+                                </a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="m-2 lg:m-3">
+                        <article class="border border-dashed border-black/15 bg-white p-2 shadow-[0_4px_10px_rgba(0,0,0,0.05)]">
+                            <img src="assets/images/doctors/d3.jpg" alt="Dr. Urmi Sanyal" class="aspect-[4/3] w-full object-cover object-center">
+                            <div class="px-2 py-4 text-center">
+                                <h3 class="text-base font-bold text-tertiary xl:text-xl">Dr. Urmi Sanyal</h3>
+                                <p class="mt-2 min-h-10 line-clamp-2 text-xs text-tertiary lg:text-sm xl:min-h-12 xl:text-base" title="Obstetrics &amp; Gynaecology">Obstetrics &amp; Gynaecology</p>
+                                <a href="doctors.html" class="mt-4 inline-flex items-center gap-3 border border-tertiary px-3 py-1.5 text-xs font-medium text-tertiary transition hover:bg-tertiary hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-tertiary lg:px-5 lg:py-2.5 lg:text-sm">
+                                    VIEW DOCTORS <i class="ti ti-arrow-right text-lg leading-none"></i>
+                                </a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust and credentials -->
+    <section class="bg-white py-12 lg:py-16">
+        <div class="mx-auto grid w-[90%] max-w-7xl items-center gap-8 rounded-2xl bg-primary p-6 text-white sm:p-9 lg:grid-cols-[1fr_auto] lg:p-12">
+            <div class="max-w-3xl">
+                <p class="text-sm font-bold uppercase tracking-[.18em] text-white/80">Trust &amp; transparency</p>
+                <h2 class="mt-3 text-3xl font-bold text-white sm:text-4xl">Accreditations, certifications &amp; standards</h2>
+                <p class="mt-4 leading-relaxed text-white/90">We believe patients should be able to make informed decisions. For details about our current accreditations, certifications and quality standards, please contact our team or speak with your coordinator.</p>
+                <a href="#international-enquiry" class="mt-5 inline-flex items-center gap-2 font-bold text-white underline decoration-white/60 underline-offset-4 transition hover:text-white/80">Ask our team <i class="ti ti-arrow-right"></i></a>
+            </div>
+            <div class="flex min-h-36 items-center justify-center rounded-xl bg-white p-5 shadow-sm">
+                <img src="assets/images/certified_logo.webp" alt="The Mission Hospital certification and accreditation marks" class="max-h-28 w-auto object-contain">
+            </div>
+        </div>
+    </section>
+
+    <!-- Enquiry and contact -->
+    <section id="international-enquiry" class="bg-white py-12 lg:py-20">
+        <div class="mx-auto grid w-[90%] max-w-7xl gap-8 lg:grid-cols-[.8fr_1.2fr] lg:gap-12">
+            <div class="space-y-5">
+                <h2 class="text-3xl font-bold leading-tight text-tertiary sm:text-4xl">Start a conversation with our team</h2>
+                <p class="leading-relaxed">Send a general enquiry and let us know how to contact you. Please do not include sensitive medical records or urgent medical information in this form.</p>
+                <div class="space-y-5 rounded-xl border border-primary/10 bg-gray-100 p-6 sm:p-7">
+                    <a href="tel:+918687500500" class="group flex items-center gap-4 text-tertiary">
+                        <span class="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-primary/10 text-2xl text-primary transition group-hover:bg-primary group-hover:text-white">
+                            <i class="ti ti-phone"></i>
+                        </span>
+                        <span>
+                            <small class="block text-xs font-bold uppercase tracking-wider text-gray-500">Call the hospital</small>
+                            <strong class="mt-1 block text-xl font-bold text-primary transition group-hover:text-secondary sm:text-2xl">+91 86875 00500</strong>
+                        </span>
+                    </a>
+                    <a href="mailto:info@themissionhospital.com" class="group flex items-center gap-4 border-t border-gray-100 pt-5 text-tertiary">
+                        <span class="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-primary/10 text-2xl text-primary transition group-hover:bg-primary group-hover:text-white">
+                            <i class="ti ti-mail"></i>
+                        </span>
+                        <span class="min-w-0">
+                            <small class="block text-xs font-bold uppercase tracking-wider text-gray-500">Email</small>
+                            <strong class="mt-1 block break-all text-base font-bold text-primary transition group-hover:text-secondary sm:text-lg">info@themissionhospital.com</strong>
+                        </span>
+                    </a>
+                    <div class="flex items-start gap-4 border-t border-gray-100 pt-5 text-tertiary">
+                        <span class="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-secondary/10 text-2xl text-secondary">
+                            <i class="ti ti-map-pin"></i>
+                        </span>
+                        <span>
+                            <small class="block text-xs font-bold uppercase tracking-wider text-gray-500">Visit us</small>
+                            <strong class="mt-1 block text-base font-semibold leading-relaxed text-tertiary sm:text-lg">Immon Kalyan Sarani, Sector IIC Bidhan Nagar, Durgapur – 713212, West Bengal, India</strong>
+                        </span>
+                    </div>
+                </div>
+                <p class="text-sm leading-relaxed text-gray-600">For medical emergencies, call the hospital directly. This enquiry form is not monitored as an emergency service.</p>
+            </div>
+            <form action="contact-us.html" method="post" class="relative">
+                <h3 class="text-2xl font-bold text-tertiary">International patient enquiry</h3>
+                <p class="mt-2 text-sm text-gray-600">Fields marked with * are required.</p>
+                <div class="mt-6 grid gap-5 sm:grid-cols-2">
+                    <div>
+                        <label for="international-name" class="mb-1 block font-medium uppercase font-secondary text-sm">Full name *</label>
+                        <input id="international-name" name="name" type="text" autocomplete="name" required
+                            class="w-full border border-[#b8b8b2] bg-transparent px-4 py-3 outline-none placeholder:text-[#8a8a84] placeholder:font-[300] focus:border-[#222]">
+                    </div>
+                    <div>
+                        <label for="international-email" class="mb-1 block font-medium uppercase font-secondary text-sm">Email address *</label>
+                        <input id="international-email" name="email" type="email" autocomplete="email" required
+                            class="w-full border border-[#b8b8b2] bg-transparent px-4 py-3 outline-none placeholder:text-[#8a8a84] placeholder:font-[300] focus:border-[#222]">
+                    </div>
+                    <div>
+                        <label for="international-phone" class="mb-1 block font-medium uppercase font-secondary text-sm">Phone / WhatsApp *</label>
+                        <input id="international-phone" name="phone" type="tel" autocomplete="tel" required
+                            class="w-full border border-[#b8b8b2] bg-transparent px-4 py-3 outline-none placeholder:text-[#8a8a84] placeholder:font-[300] focus:border-[#222]">
+                    </div>
+                    <div>
+                        <label for="international-country" class="mb-1 block font-medium uppercase font-secondary text-sm">Country of residence</label>
+                        <input id="international-country" name="country" type="text" autocomplete="country-name"
+                            class="w-full border border-[#b8b8b2] bg-transparent px-4 py-3 outline-none placeholder:text-[#8a8a84] placeholder:font-[300] focus:border-[#222]">
+                    </div>
+                    <div class="sm:col-span-2">
+                        <label for="international-specialty" class="mb-1 block font-medium uppercase font-secondary text-sm">Specialty or service of interest</label>
+                        <select id="international-specialty" name="specialty"
+                            class="w-full border border-[#b8b8b2] bg-transparent px-4 py-3 outline-none placeholder:text-[#8a8a84] placeholder:font-[300] focus:border-[#222]">
+                            <option value="">Please select (optional)</option>
+                            <option>Cardiology</option>
+                            <option>Cardiothoracic Surgery</option>
+                            <option>Orthopaedics</option>
+                            <option>Oncology</option>
+                            <option>Neurology</option>
+                            <option>Pulmonology</option>
+                            <option>Other / Not sure</option>
+                        </select>
+                    </div>
+                    <div class="sm:col-span-2">
+                        <label for="international-message" class="mb-1 block font-medium uppercase font-secondary text-sm">How can we help?</label>
+                        <textarea id="international-message" name="message" rows="4" placeholder="Please share a brief, non-sensitive description of your enquiry."
+                            class="w-full border border-[#b8b8b2] bg-transparent px-4 py-3 outline-none placeholder:text-[#8a8a84] placeholder:font-[300] focus:border-[#222]"></textarea>
+                    </div>
+                </div>
+                <button type="submit" class="mt-6 inline-flex w-full items-center justify-center gap-2 bg-secondary px-6 py-3.5 font-bold text-white transition hover:bg-red-700 sm:w-auto">
+                    Send enquiry <i class="ti ti-arrow-right"></i>
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Frequently asked questions -->
+    <section class="relative bg-slate-200 py-8 lg:py-12 2xl:py-16">
+        <div class="relative z-10 mx-auto grid w-[90%] max-w-7xl grid-cols-1 items-start gap-4 lg:grid-cols-12 lg:gap-6 xl:gap-8">
+            <div class="space-y-6 lg:sticky lg:top-36 lg:col-span-5 lg:space-y-8 xl:space-y-12">
+                <div class="space-y-2 text-left lg:space-y-4 xl:space-y-6">
+                    <h2 class="text-2xl font-bold leading-tight text-sky-600 md:text-3xl xl:text-4xl">Frequently Asked Questions</h2>
+                    <p class="text-sm leading-relaxed text-gray-700 md:text-base lg:text-lg">
+                        Find answers to common questions about planning your visit, consultations, medical visa support and services for international patients.
+                    </p>
+                </div>
+                <div class="flex flex-col space-y-3 border-2 border-white bg-white/50 p-5 backdrop-blur-md lg:space-y-4 xl:space-y-6 lg:p-7 xl:p-10">
+                    <div class="h-16 w-16 overflow-hidden rounded-full border border-white shadow-[0_0_20px_rgba(255,0,0,0.25)]">
+                        <img src="assets/images/author.jpg" alt="" aria-hidden="true" class="h-full w-full object-cover">
+                    </div>
+                    <h3 class="text-xl font-bold text-tertiary lg:text-2xl">International patient support</h3>
+                    <p class="text-base leading-relaxed text-gray-700 lg:text-lg">Need help planning your care journey? Send our team an enquiry and we’ll guide you on the next steps.</p>
+                    <a href="#international-enquiry" class="inline-flex items-center justify-center gap-3 bg-secondary px-4 py-3 font-medium uppercase text-white transition-all duration-300 hover:bg-red-700 lg:px-6">
+                        Send an enquiry <i class="ti ti-arrow-right text-lg leading-none"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="space-y-3 lg:col-span-7 lg:pl-6 2xl:space-y-4 2xl:pl-10">
+                <details name="international-patient-faq" open class="group overflow-hidden border-2 border-white bg-white/50 backdrop-blur-md">
+                    <summary class="flex cursor-pointer list-none items-center justify-between gap-4 px-5 py-5 text-left sm:px-6">
+                        <span class="text-base font-semibold text-gray-900 lg:text-xl">Can I speak with a doctor before travelling?</span>
+                        <span class="shrink-0 text-xl font-medium transition-transform duration-300 ease-in-out group-open:rotate-45"><i class="ti ti-plus"></i></span>
+                    </summary>
+                    <div class="px-5 pb-5 text-gray-600 sm:px-6">
+                        <p>Pre-arrival tele-consultations or second-opinion requests can be made through the International Patient Desk. The team can explain the process and help coordinate a request with the appropriate doctor.</p>
+                    </div>
+                </details>
+
+                <details name="international-patient-faq" class="group overflow-hidden border-2 border-white bg-white/50 backdrop-blur-md">
+                    <summary class="flex cursor-pointer list-none items-center justify-between gap-4 px-5 py-5 text-left sm:px-6">
+                        <span class="text-base font-semibold text-gray-900 lg:text-xl">What medical records should I share?</span>
+                        <span class="shrink-0 text-xl font-medium transition-transform duration-300 ease-in-out group-open:rotate-45"><i class="ti ti-plus"></i></span>
+                    </summary>
+                    <div class="px-5 pb-5 text-gray-600 sm:px-6">
+                        <p>Share relevant reports, investigation results, prescriptions and a brief medical history when requested. The team will guide you on how to provide records securely; please do not send sensitive medical documents through an unsecured enquiry form.</p>
+                    </div>
+                </details>
+
+                <details name="international-patient-faq" class="group overflow-hidden border-2 border-white bg-white/50 backdrop-blur-md">
+                    <summary class="flex cursor-pointer list-none items-center justify-between gap-4 px-5 py-5 text-left sm:px-6">
+                        <span class="text-base font-semibold text-gray-900 lg:text-xl">Can you help with a medical visa invitation letter?</span>
+                        <span class="shrink-0 text-xl font-medium transition-transform duration-300 ease-in-out group-open:rotate-45"><i class="ti ti-plus"></i></span>
+                    </summary>
+                    <div class="px-5 pb-5 text-gray-600 sm:px-6">
+                        <p>Contact the International Patient Desk to ask about a Visa Invitation Letter (VIL) and supporting documentation. Visa decisions are made by the relevant authorities, and patients should confirm current requirements with the appropriate embassy or consulate.</p>
+                    </div>
+                </details>
+
+                <details name="international-patient-faq" class="group overflow-hidden border-2 border-white bg-white/50 backdrop-blur-md">
+                    <summary class="flex cursor-pointer list-none items-center justify-between gap-4 px-5 py-5 text-left sm:px-6">
+                        <span class="text-base font-semibold text-gray-900 lg:text-xl">Is airport pickup available for international patients?</span>
+                        <span class="shrink-0 text-xl font-medium transition-transform duration-300 ease-in-out group-open:rotate-45"><i class="ti ti-plus"></i></span>
+                    </summary>
+                    <div class="px-5 pb-5 text-gray-600 sm:px-6">
+                        <p>Airport reception and transfer support may be arranged for international patients. Please confirm availability, eligibility, pickup details and any booking requirements with the team before finalizing your travel plans.</p>
+                    </div>
+                </details>
+
+                <details name="international-patient-faq" class="group overflow-hidden border-2 border-white bg-white/50 backdrop-blur-md">
+                    <summary class="flex cursor-pointer list-none items-center justify-between gap-4 px-5 py-5 text-left sm:px-6">
+                        <span class="text-base font-semibold text-gray-900 lg:text-xl">Can I get language interpretation during my visit?</span>
+                        <span class="shrink-0 text-xl font-medium transition-transform duration-300 ease-in-out group-open:rotate-45"><i class="ti ti-plus"></i></span>
+                    </summary>
+                    <div class="px-5 pb-5 text-gray-600 sm:px-6">
+                        <p>Interpretation support can be requested in advance. Tell the team your preferred language—such as Arabic, French, Russian, Bengali or Swahili—so they can confirm what support is available for your visit.</p>
+                    </div>
+                </details>
+
+                <details name="international-patient-faq" class="group overflow-hidden border-2 border-white bg-white/50 backdrop-blur-md">
+                    <summary class="flex cursor-pointer list-none items-center justify-between gap-4 px-5 py-5 text-left sm:px-6">
+                        <span class="text-base font-semibold text-gray-900 lg:text-xl">Can you help arrange accommodation and special meals?</span>
+                        <span class="shrink-0 text-xl font-medium transition-transform duration-300 ease-in-out group-open:rotate-45"><i class="ti ti-plus"></i></span>
+                    </summary>
+                    <div class="px-5 pb-5 text-gray-600 sm:px-6">
+                        <p>The team can guide you about nearby partner accommodation and available dietary options. Please share your preferences early and confirm current availability and arrangements directly with the hospital.</p>
+                    </div>
+                </details>
+
+                <details name="international-patient-faq" class="group overflow-hidden border-2 border-white bg-white/50 backdrop-blur-md">
+                    <summary class="flex cursor-pointer list-none items-center justify-between gap-4 px-5 py-5 text-left sm:px-6">
+                        <span class="text-base font-semibold text-gray-900 lg:text-xl">How do payments and international insurance work?</span>
+                        <span class="shrink-0 text-xl font-medium transition-transform duration-300 ease-in-out group-open:rotate-45"><i class="ti ti-plus"></i></span>
+                    </summary>
+                    <div class="px-5 pb-5 text-gray-600 sm:px-6">
+                        <p>Contact the team to discuss accepted payment arrangements, foreign currency or wire transfer guidance, and coordination with your insurer. Coverage and reimbursement depend on your insurance policy and provider; please verify them before treatment.</p>
+                    </div>
+                </details>
+
+                <details name="international-patient-faq" class="group overflow-hidden border-2 border-white bg-white/50 backdrop-blur-md">
+                    <summary class="flex cursor-pointer list-none items-center justify-between gap-4 px-5 py-5 text-left sm:px-6">
+                        <span class="text-base font-semibold text-gray-900 lg:text-xl">What should I do if I need urgent medical attention?</span>
+                        <span class="shrink-0 text-xl font-medium transition-transform duration-300 ease-in-out group-open:rotate-45"><i class="ti ti-plus"></i></span>
+                    </summary>
+                    <div class="px-5 pb-5 text-gray-600 sm:px-6">
+                        <p>Do not use this enquiry form for emergencies. Contact local emergency services or call The Mission Hospital directly at <a href="tel:+918687500500" class="font-semibold text-primary underline">+91 86875 00500</a>.</p>
+                    </div>
+                </details>
+            </div>
+        </div>
+    </section>
+    
+
+
+    <!-- Footer -->
+    <footer class="bg-tertiary text-white py-8 lg:py-12 2xl:py-16 relative">
+        <div class="mx-auto w-[90%] space-y-6 lg:space-y-8 xl:space-y-12">
+            <div class="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
+                <!-- Column 1 -->
+                <div class="space-y-6">
+                    <div>
+                        <h4 class="text-lg lg:text-xl font-bold">About Us</h4>
+                        <ul class="flist mt-2 space-y-1.5 text-sm">
+                            <li><a href="#">Overview</a></li>
+                            <li><a href="#">Chairman's Message</a></li>
+                            <li><a href="#">Managing Director's Message</a></li>
+                            <li><a href="#">Mission &amp; Vision</a></li>
+                            <li><a href="#">Awards &amp; Recognition</a></li>
+                            <li><a href="#">Infrastructure &amp; Facilities</a></li>
+                            <li><a href="#">CSR Activities</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="text-lg lg:text-xl font-bold">Diagnostics</h4>
+                        <ul class="flist mt-2 space-y-1.5 text-sm">
+                            <li><a href="#">Pathology</a></li>
+                            <li><a href="#">Radiology</a></li>
+                            <li><a href="#">Nuclear Medicine</a></li>
+                            <li><a href="#">Laboratory Services</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="text-lg lg:text-xl font-bold">News &amp; Media</h4>
+                        <ul class="flist mt-2 space-y-1.5 text-sm">
+                            <li><a href="#">News &amp; Events</a></li>
+                            <li><a href="#">Press Releases</a></li>
+                            <li><a href="#">Gallery</a></li>
+                            <li><a href="#">Blogs</a></li>
+                            <li><a href="#">FAQs</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Column 2 -->
+                <div class="space-y-6">
+                    <div>
+                        <h4 class="text-lg lg:text-xl font-bold">Clinical Departments</h4>
+                        <ul class="flist mt-2 space-y-1.5 text-sm">
+                            <li><a href="#">Cardiology</a></li>
+                            <li><a href="#">Cardiothoracic Surgery</a></li>
+                            <li><a href="#">Neurology</a></li>
+                            <li><a href="#">Orthopaedics</a></li>
+                            <li><a href="#">General Medicine</a></li>
+                            <li><a href="#">Gastroenterology</a></li>
+                            <li><a href="#">Nephrology</a></li>
+                            <li><a href="#">Urology</a></li>
+                            <li><a href="#">Oncology</a></li>
+                            <li><a href="#">Medical Oncology</a></li>
+                            <li><a href="#">Obstetrics &amp; Gynaecology</a></li>
+                            <li><a href="#">Paediatrics</a></li>
+                            <li><a href="#">ENT</a></li>
+                            <li><a href="#">Dermatology</a></li>
+                            <li><a href="#">Psychiatry</a></li>
+                            <li><a href="#">Endocrinology</a></li>
+                            <li><a href="#">Rheumatology</a></li>
+                            <li><a href="#">Pulmonology</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="text-lg lg:text-xl font-bold">Doctors &amp; Patients</h4>
+                        <ul class="flist mt-2 space-y-1.5 text-sm">
+                            <li><a href="#">Find a Doctor</a></li>
+                            <li><a href="#">Patient Corner</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Column 3 -->
+                <div class="space-y-6">
+                    <div>
+                        <h4 class="text-lg lg:text-xl font-bold">Services</h4>
+                        <ul class="flist mt-2 space-y-1.5 text-sm">
+                            <li><a href="#">Emergency &amp; Trauma (24x7)</a></li>
+                            <li><a href="#">Ambulance Service</a></li>
+                            <li><a href="#">Blood Bank</a></li>
+                            <li><a href="#">Pharmacy (24x7)</a></li>
+                            <li><a href="#">Dialysis Centre</a></li>
+                            <li><a href="#">Health Check-up</a></li>
+                            <li><a href="#">Home Care Services</a></li>
+                            <li><a href="#">Physiotherapy &amp; Rehabilitation</a></li>
+                            <li><a href="#">Organ Transplant Services</a></li>
+                            <li><a href="#">Pain Management</a></li>
+                            <li><a href="#">Vaccination Centre</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="text-lg lg:text-xl font-bold">Others Link</h4>
+                        <ul class="flist mt-2 space-y-1.5 text-sm">
+                            <li><a href="health-packages.html">Health Packages</a></li>
+                            <li><a href="#">TPA &amp; Insurance</a></li>
+                            <li><a href="#">Career</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="text-lg lg:text-xl font-bold">Legal Information</h4>
+                        <ul class="flist mt-2 space-y-1.5 text-sm">
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms &amp; Conditions</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Column 4 -->
+                <div>
+                    <!-- Replace with: <img src="logo.png" alt="The Mission Hospital Durgapur" class="h-14"> -->
+                    <img src="assets/images/logo_footer.webp" alt="The Mission Hospital Durgapur" class="h-20">
+
+                    <h4 class="mt-8 text-lg lg:text-xl font-bold">Location</h4>
+                    <address class="mt-2 not-italic leading-relaxed text-white/90">
+                        Immon Kalyan Sarani, Sector IIC Bidhan Nagar, Durgapur – 713212, Paschim Bardhaman, West Bengal
+                    </address>
+
+                    <a href="tel:+918687500500" class="mt-6 block text-2xl font-medium tracking-wide">+91 86875
+                        00500</a>
+                    <a href="mailto:info@themissionhospital.com"
+                        class="mt-1 block text-white/90 hover:underline">info@themissionhospital.com</a>
+
+                    <h4 class="mt-6 text-lg lg:text-xl font-bold">Social Media</h4>
+                    <div class="mt-3 flex items-center gap-3">
+                        <a href="#" aria-label="Facebook" class="hover:opacity-80">
+                            <svg class="h-8 w-8" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M20 2H4a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h8.6v-8.2H9.8V10h2.8V7.6c0-2.8 1.7-4.3 4.2-4.3 1.2 0 2.2.1 2.5.1v2.9h-1.7c-1.4 0-1.6.6-1.6 1.600V10h3.2l-.4 3.800h-2.800V22H20a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2z" />
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="X" class="hover:opacity-80">
+                            <svg class="h-8 w-8" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M18.200 2.300h3.300l-7.200 8.300 8.500 11.200h-6.700l-5.200-6.800-6 6.800H1.600l7.700-8.800L1.200 2.300H8l4.700 6.200 5.500-6.200zm-1.200 17.500h1.800L7.100 4.100H5.100l11.900 15.700z" />
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="YouTube" class="hover:opacity-80">
+                            <svg class="h-8 w-8" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M22.500 7.200a2.800 2.800 0 0 0-2-2C18.800 4.800 12 4.800 12 4.800s-6.800 0-8.500.4a2.800 2.800 0 0 0-2 2C1.100 8.900 1.100 12 1.100 12s0 3.100.4 4.800a2.800 2.800 0 0 0 2 2c1.700.4 8.500.4 8.500.4s6.800 0 8.500-.4a2.800 2.800 0 0 0 2-2c.4-1.700.4-4.800.4-4.800s0-3.100-.4-4.800zM9.900 15.100V8.900l5.700 3.100-5.700 3.100z" />
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="Instagram" class="hover:opacity-80">
+                            <svg class="h-8 w-8" viewBox="0 0 24 24" fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm5 5.500A4.500 4.500 0 1 0 12 16.500 4.500 4.500 0 0 0 12 7.500zm0 2A2.500 2.500 0 1 1 12 14.500 2.500 2.500 0 0 1 12 9.500zm5.200-3.700a1.100 1.100 0 1 0 0 2.200 1.100 1.100 0 0 0 0-2.200z" />
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="LinkedIn" class="hover:opacity-80">
+                            <svg class="h-8 w-8" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M20.500 2h-17A1.500 1.500 0 0 0 2 3.500v17A1.500 1.500 0 0 0 3.500 22h17a1.500 1.500 0 0 0 1.500-1.500v-17A1.500 1.500 0 0 0 20.500 2zM8 19H5V9.500h3V19zM6.500 8.200a1.700 1.700 0 1 1 0-3.400 1.700 1.700 0 0 1 0 3.400zM19 19h-3v-4.600c0-1.100 0-2.500-1.500-2.500s-1.800 1.200-1.800 2.400V19h-3V9.500h2.800v1.300h.1c.4-.7 1.400-1.500 2.800-1.500 3 0 3.600 2 3.600 4.600V19z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-white/20 py-5 text-center text-white/90">
+                Copyright © 2008-2026 The Mission Hospital. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+    <!-- // Footer -->
+
+    <!-- Chatbot -->
+    <div class="fixed right-5 bottom-5 z-50 flex flex-col items-center">
+        <!-- MIHU Bubble -->
+        <a href="#"
+            class="mihu-bubble relative mb-2 flex h-11 w-16 flex-col items-center justify-center rounded-full bg-[#173B59] text-white shadow-lg">
+            <span class="text-[13px] font-medium leading-none">
+                MIHU?
+            </span>
+            <span class="mt-0.5 text-[9px] font-normal leading-none">
+                Click Here
+            </span>
+            <!-- Arrow -->
+            <span class="absolute -bottom-1.5 left-1/2 h-3 w-3 -translate-x-1/2 rotate-45 bg-[#173B59]"></span>
+        </a>
+        <!-- Main Button -->
+        <a href="#"
+            class="relative flex h-14 w-14 items-center justify-center rounded-full bg-[#E51D2A] shadow-lg transition-all duration-300 hover:scale-110">
+            <!-- Pulse Ring -->
+            <span class="absolute inset-0 rounded-full bg-[#E51D2A] animate-ping opacity-30"></span>
+            <!-- Icon -->
+            <span class="relative z-10 flex h-10 w-10 items-center justify-center rounded-full">
+                <img src="assets/images/chat_icon.png" alt="MIHU" class="h-10 w-10 object-contain">
+            </span>
+        </a>
+    </div>
+
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://unpkg.com/lenis@1.3.11/dist/lenis.min.js"></script>
+    <script src="assets/js/menu.js"></script>
+    <script>
+        // Smooth Scroll (Lenis)
+        if (typeof Lenis !== "undefined") {
+            const lenis = new Lenis({
+                duration: 1.2,
+                smooth: true,
+                direction: 'vertical'
+            });
+
+            function raf(time) {
+                lenis.raf(time);
+                requestAnimationFrame(raf);
+            }
+            requestAnimationFrame(raf);
+        }
+
+        if (window.jQuery && $.fn.slick && $('.doctors-slider').length) {
+            $('.doctors-slider').slick({
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                autoplay: false,
+                dots: false,
+                arrows: true,
+                prevArrow: '<button type="button" class="slick-prev" aria-label="Previous doctors"><i class="ti ti-arrow-left"></i></button>',
+                nextArrow: '<button type="button" class="slick-next" aria-label="Next doctors"><i class="ti ti-arrow-right"></i></button>',
+                responsive: [
+                    {
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 3
+                        }
+                    },
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow: 2
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            slidesToShow: 1
+                        }
+                    }
+                ]
+            });
+        }
+    </script>
+</body>
+</html>
