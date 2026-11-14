@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-labelledby="title-06-surgical-scalpel">
+  <title id="title-06-surgical-scalpel">Surgery</title>
+  <g fill="none" stroke="#1463D6" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M26 97l17-17M37 102l12-12"/>
+    <path d="M43 80l53-53c5-5 13-5 18 0s5 13 0 18L61 98"/>
+    <path stroke="#E63946" d="M30 100h43l-17-17H30zM61 98l-18-18"/>
+  
+  </g>
+</svg>

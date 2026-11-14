@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-labelledby="title-20-prenatal-care">
+  <title id="title-20-prenatal-care">Prenatal care</title>
+  <g fill="none" stroke="#1463D6" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M34 31c0-10 8-18 18-18h24c10 0 18 8 18 18v46c0 20-13 34-30 34S34 97 34 77z"/>
+    <path stroke="#E63946" d="M64 36c12 0 22 10 22 22 0 11-9 20-20 20-11 0-20-9-20-20 0-9 7-17 15-17 6 0 11 5 11 11 0 5-4 9-9 9"/>
+    <path d="M37 91h54"/>
+  
+  </g>
+</svg>

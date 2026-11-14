@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-labelledby="title-07-first-aid-kit">
+  <title id="title-07-first-aid-kit">First aid kit</title>
+  <g fill="none" stroke="#1463D6" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="29" y="48" width="48" height="52" rx="8"/>
+    <path d="M42 48v-8c0-7 5-12 12-12h8c7 0 12 5 12 12v8M84 34c13 4 19 16 15 29M95 63c0 8-6 14-14 14-5 0-9-3-11-7"/>
+    <path stroke="#E63946" d="M53 66v18M44 75h18"/>
+  
+  </g>
+</svg>

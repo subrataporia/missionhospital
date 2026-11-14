@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-labelledby="title-24-urology">
+  <title id="title-24-urology">Urology</title>
+  <g fill="none" stroke="#1463D6" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M45 22C28 22 21 36 24 52c3 16 13 25 25 21 10-3 10-15 4-22-6-7-3-15 4-17-2-8-6-12-12-12zM83 22c17 0 24 14 21 30-3 16-13 25-25 21-10-3-10-15-4-22 6-7 3-15-4-17 2-8 6-12 12-12z"/>
+    <path d="M53 59v36M75 59v36M53 95c0 8 5 13 11 13s11-5 11-13"/>
+    <path stroke="#E63946" d="M64 74v34"/>
+  
+  </g>
+</svg>

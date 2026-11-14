@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-labelledby="title-28-spine-care">
+  <title id="title-28-spine-care">Spine care</title>
+  <g fill="none" stroke="#1463D6" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M64 15c-11 8-11 16 0 22-11 7-11 15 0 22-11 7-11 15 0 22-11 7-11 15 0 22"/>
+    <path d="M64 15l-12-4M64 15l12-4M64 37l-13-4M64 37l13-4M64 59l-13-4M64 59l13-4M64 81l-13-4M64 81l13-4M64 103l-12-4M64 103l12-4"/>
+    <path stroke="#E63946" d="M76 70c8 2 14 8 16 16"/>
+  
+  </g>
+</svg>

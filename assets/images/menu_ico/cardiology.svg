@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-labelledby="title-08-cardiology">
+  <title id="title-08-cardiology">Cardiology</title>
+  <g fill="none" stroke="#1463D6" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke="#E63946" d="M67 106C35 88 21 70 21 50c0-15 18-23 31-10l8 9 8-9c13-13 31-5 31 10 0 20-14 38-32 56z"/>
+    <path d="M60 49c-5 11-12 15-22 15M60 49c8 4 15 8 25 8M42 64c0 14 6 27 17 37"/>
+    <path d="M43 43c-5-12-11-17-18-18M54 36c3-10 8-15 16-16"/>
+  
+  </g>
+</svg>

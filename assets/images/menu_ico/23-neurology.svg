@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-labelledby="title-23-neurology">
+  <title id="title-23-neurology">Neurology</title>
+  <g fill="none" stroke="#1463D6" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M58 19c-15 0-27 11-27 25 0 6 2 11 5 15-5 4-8 10-8 17 0 12 9 22 21 22 4 0 8-1 11-3 3 2 7 3 11 3 16 0 29-13 29-29 0-8-3-15-9-20 2-4 3-8 3-12 0-13-11-24-24-24-5 0-9 1-12 3z"/>
+    <path d="M60 22v72M39 43c7 2 12 7 12 15M34 72c8-1 15 4 17 12M80 38c-8 2-13 8-13 16M84 69c-9 1-15 7-17 15"/>
+    <path stroke="#E63946" d="M50 31c4 4 5 9 4 14M72 25c5 3 8 8 8 14"/>
+  
+  </g>
+</svg>

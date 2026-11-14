@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-labelledby="title-26-ophthalmology">
+  <title id="title-26-ophthalmology">Ophthalmology</title>
+  <g fill="none" stroke="#1463D6" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke="#E63946" d="M14 64s18-30 50-30 50 30 50 30-18 30-50 30S14 64 14 64z"/>
+    <circle cx="64" cy="64" r="17"/>
+    <path d="M55 64c0-5 4-9 9-9"/>
+  
+  </g>
+</svg>

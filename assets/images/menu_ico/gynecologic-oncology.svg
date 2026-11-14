@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-labelledby="title-25-gynecologic-oncology">
+  <title id="title-25-gynecologic-oncology">Gynecologic oncology</title>
+  <g fill="none" stroke="#1463D6" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M30 42c8-12 19-16 30-9h8c11-7 22-3 30 9M32 42c-6 0-10 4-10 10s4 10 10 10 10-4 10-10V43M96 42c6 0 10 4 10 10s-4 10-10 10-10-4-10-10V43"/>
+    <path d="M43 43c3 27 11 40 21 45 10-5 18-18 21-45M64 88v17"/>
+    <path stroke="#E63946" d="M77 77l13 24M90 77L77 101"/>
+  
+  </g>
+</svg>

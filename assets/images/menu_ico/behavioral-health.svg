@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-labelledby="title-04-behavioral-health">
+  <title id="title-04-behavioral-health">Behavioral health</title>
+  <g fill="none" stroke="#1463D6" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M50 20c-18 0-32 14-32 32 0 13 7 24 17 29v20h29V82c11-6 18-17 18-30 0-18-14-32-32-32z"/>
+    <path d="M50 20c18 0 32 14 32 32v18c0 12 7 21 17 25"/>
+    <path stroke="#E63946" d="M50 69c-12-7-16-12-16-18 0-6 7-9 16-2 9-7 16-4 16 2 0 6-4 11-16 18z"/>
+  
+  </g>
+</svg>

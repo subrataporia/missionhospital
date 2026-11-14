@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-labelledby="title-13-dentistry">
+  <title id="title-13-dentistry">Dentistry</title>
+  <g fill="none" stroke="#1463D6" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M64 19c29 0 46 22 46 46 0 28-16 44-30 44-8 0-9-24-16-24s-8 24-16 24c-14 0-30-16-30-44 0-24 17-46 46-46z"/>
+    <path stroke="#E63946" d="M88 55v20M78 65h20"/>
+  
+  </g>
+</svg>

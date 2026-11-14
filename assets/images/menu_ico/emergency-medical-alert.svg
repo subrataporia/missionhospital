@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-labelledby="title-01-emergency-medical-alert">
+  <title id="title-01-emergency-medical-alert">Emergency medical alert</title>
+  <g fill="none" stroke="#1463D6" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M30 102V67c0-19 15-34 34-34s34 15 34 34v35"/>
+    <path d="M25 102h78l-6-13H31zM64 33V20M38 39l-9-10M90 39l9-10M30 61H17M111 61H98"/>
+    <path stroke="#E63946" d="M64 51v22M53 62h22"/>
+  
+  </g>
+</svg>

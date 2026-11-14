@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-labelledby="title-22-infectious-disease">
+  <title id="title-22-infectious-disease">Infectious disease</title>
+  <g fill="none" stroke="#1463D6" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="64" cy="64" r="29"/>
+    <path d="M64 17v12M64 99v12M17 64h12M99 64h12M31 31l9 9M88 88l9 9M97 31l-9 9M40 88l-9 9"/>
+    <circle cx="52" cy="52" r="3"/><circle cx="76" cy="50" r="3"/><circle cx="72" cy="76" r="3"/><circle cx="49" cy="72" r="3"/>
+    <path stroke="#E63946" d="M64 53v22M53 64h22"/>
+  
+  </g>
+</svg>
