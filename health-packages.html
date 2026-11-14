@@ -696,16 +696,17 @@
     </div>
     <!-- // Breadcrumb -->
 
-    <section class="relative isolate overflow-hidden py-12 lg:py-16">
-        <div class="absolute inset-0 -z-10 bg-[linear-gradient(to_right,#0E4681_0%,#0080C6_50%,#0E4681_100%)]"></div>
-        <div class="layer-tile opacity-25"></div>
-        <div class="mx-auto w-[90%] max-w-4xl space-y-4 text-center text-white">
+    <section class="relative isolate overflow-hidden bg-[url(assets/images/health_package_bg.webp)] bg-cover bg-center py-12 lg:py-16">
+        <!-- <div class="absolute inset-0 -z-10 bg-[linear-gradient(to_right,rgba(14,70,129,0.82)_0%,rgba(0,128,198,0.72)_50%,rgba(14,70,129,0.82)_100%)]"></div> -->
+        <div class="layer-tile opacity-50"></div>
+        <div class="absolute inset-0 -z-10 bg-gradient-to-r from-slate-950/80 via-slate-950/40 to-transparent" aria-hidden="true"></div>
+        <div class="mx-auto w-[90%] space-y-4 text-white">
             <span class="inline-flex items-center gap-2 rounded-full border border-white/30 bg-white/10 px-4 py-2 text-xs font-bold uppercase tracking-[0.16em]">
                 <i class="ti ti-heart-rate-monitor" aria-hidden="true"></i>
                 Preventive care
             </span>
             <h1 class="text-3xl font-bold sm:text-4xl lg:text-5xl">Health Packages</h1>
-            <p class="mx-auto max-w-3xl text-base leading-7 text-white/90 sm:text-lg">
+            <p class="max-w-2xl text-base leading-7 text-white/90 sm:text-lg">
                 Thoughtful health check-ups to help you understand your wellbeing, assess important risk factors and plan your next steps with your care team.
             </p>
             <a href="#packages" class="inline-flex items-center gap-2 rounded-lg bg-white px-5 py-3 text-sm font-bold text-primary shadow-lg transition hover:-translate-y-0.5 hover:bg-blue-50">
@@ -714,7 +715,198 @@
         </div>
     </section>
 
-    <section id="packages" class="bg-gray-50 py-10 lg:py-16">
+    <!-- Categories Wise Section -->
+    <section class="bg-gray-50 py-10 lg:py-16">
+        <div class="mx-auto w-[90%]">
+            <!-- Section Heading -->
+            <h2 class="text-2xl md:text-3xl font-bold text-gray-900 mb-8">
+                Condition Health Packages
+            </h2>
+
+            <!-- Packages Grid -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-6">
+
+                <!-- Package 01 -->
+                <div class="group">
+                    <div class="relative overflow-hidden rounded-2xl aspect-square border">
+                        <img src="https://assets.afcdn.com/story/20241003/2270142_w1280h960c1cx640cy400cxt0cyt0cxb1280cyb800.jpg"
+                            alt="Vitamin Profile"
+                            class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                    </div>
+
+                    <h3 class="text-xl md:text-2xl font-bold text-gray-900 my-4">
+                        Vitamin Profile
+                    </h3>
+
+                    <div class="flex items-center gap-3">
+                        <span class="text-sm text-gray-400 line-through">₹ 870</span>
+                        <span class="bg-secondary text-white text-base font-semibold px-3 py-1 rounded-lg">
+                            ₹ 765 onwards
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Package 02 -->
+                <div class="group">
+                    <div class="relative overflow-hidden rounded-2xl aspect-square border">
+                        <img src="https://static.wixstatic.com/media/e1a4cd_f88ac546f0c64d41aa2cebd2d7ed1e62~mv2.png/v1/fill/w_1000%2Ch_667%2Cal_c%2Cq_90%2Cusm_0.66_1.00_0.01/e1a4cd_f88ac546f0c64d41aa2cebd2d7ed1e62~mv2.png"
+                            alt="Thyroid Profile"
+                            class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                    </div>
+
+                    <h3 class="text-xl md:text-2xl font-bold text-gray-900 my-4">
+                        Thyroid Profile
+                    </h3>
+
+                    <div class="flex items-center gap-3">
+                        <span class="text-sm text-gray-400 line-through">₹ 400</span>
+                        <span class="bg-secondary text-white text-base font-semibold px-3 py-1 rounded-lg">
+                            ₹ 349 onwards
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Package 03 -->
+                <div class="group">
+                    <div class="relative overflow-hidden rounded-2xl aspect-square border">
+                        <img src="https://dft2fymcn9opj.cloudfront.net/Pictures/600xany/4/1/2/11412_Doctor-check-diabetes-from-finger-blood-sugar-level-with-finger-lancet.jpg"
+                            alt="Diabetes Screening"
+                            class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+
+                        <!-- Offer Badge -->
+                        <div class="absolute bottom-5 left-0 flex items-center text-white shadow-lg">
+                            <span class="bg-sky-600 text-lg font-bold px-3 py-2">
+                                30% OFF +
+                            </span>
+                            <span class="bg-sky-800 text-xs font-semibold uppercase px-3 py-2 leading-tight">
+                                Additional<br>10% OFF
+                            </span>
+                        </div>
+                    </div>
+
+                    <h3 class="text-xl md:text-2xl font-bold text-gray-900 my-4">
+                        Diabetes Screening
+                    </h3>
+
+                    <div class="flex items-center gap-3">
+                        <span class="text-sm text-gray-400 line-through">₹ 330</span>
+                        <span class="bg-secondary text-white text-base font-semibold px-3 py-1 rounded-lg">
+                            ₹ 290 onwards
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Package 04 -->
+                <div class="group">
+                    <div class="relative overflow-hidden rounded-2xl aspect-square border">
+                        <img src="https://www.drozdogan.com/images/news/polikistik-over-sendromu-pcos-belirtiler-tedavi-ve-yasam-tarzi-onerileri-694379-966-544.jpg"
+                            alt="PCOD Test"
+                            class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+
+                        <!-- Offer Badge -->
+                        <div class="absolute bottom-5 right-0 bg-sky-600 text-white text-xs font-medium px-3 py-2 rounded-l-lg">
+                            Only for 2nd or 3rd day<br>
+                            of menstrual cycle
+                        </div>
+                    </div>
+
+                    <h3 class="text-xl md:text-2xl font-bold text-gray-900 my-4">
+                        PCOD Test
+                    </h3>
+
+                    <div class="flex items-center gap-3">
+                        <span class="text-sm text-gray-400 line-through">₹ 1490</span>
+                        <span class="bg-secondary text-white text-base font-semibold px-3 py-1 rounded-lg">
+                            ₹ 1299 onwards
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Package 05 -->
+                <div class="group">
+                    <div class="relative overflow-hidden rounded-2xl aspect-square border">
+                        <img src="https://www.oxfordgutandliver.co.uk/media/hy5dubte/abnormal-liver-blood-tests.jpg?anchor=center&height=604&mode=crop&rnd=132410522278600000&width=960"
+                            alt="Liver Function Test"
+                            class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                    </div>
+
+                    <h3 class="text-xl md:text-2xl font-bold text-gray-900 my-4">
+                        Liver Function Test
+                    </h3>
+
+                    <div class="flex items-center gap-3">
+                        <span class="text-sm text-gray-400 line-through">₹ 570</span>
+                        <span class="bg-secondary text-white text-base font-semibold px-3 py-1 rounded-lg">
+                            ₹ 499 onwards
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Package 06 -->
+                <div class="group">
+                    <div class="relative overflow-hidden rounded-2xl aspect-square border">
+                        <img src="https://images.news18.com/news18marathi/uploads/2026/03/kidney-7-2026-03-3878531c78202bd97af86f46f04144e1-1200x800.jpg?im=Resize%2Cwidth%3D3840%2Caspect%3Dfit%2Ctype%3Dnormal"
+                            alt="Kidney Function Test"
+                            class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                    </div>
+
+                    <h3 class="text-xl md:text-2xl font-bold text-gray-900 my-4">
+                        Kidney Function Test
+                    </h3>
+
+                    <div class="flex items-center gap-3">
+                        <span class="text-sm text-gray-400 line-through">₹ 400</span>
+                        <span class="bg-secondary text-white text-base font-semibold px-3 py-1 rounded-lg">
+                            ₹ 350 onwards
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Package 07 -->
+                <div class="group">
+                    <div class="relative overflow-hidden rounded-2xl aspect-square border">
+                        <img src="https://static.wixstatic.com/media/e1a4cd_f88ac546f0c64d41aa2cebd2d7ed1e62~mv2.png/v1/fill/w_1000%2Ch_667%2Cal_c%2Cq_90%2Cusm_0.66_1.00_0.01/e1a4cd_f88ac546f0c64d41aa2cebd2d7ed1e62~mv2.png"
+                            alt="Advanced Thyroid Care"
+                            class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                    </div>
+
+                    <h3 class="text-xl md:text-2xl font-bold text-gray-900 my-4">
+                        Advanced Thyroid Care
+                    </h3>
+
+                    <div class="flex items-center gap-3">
+                        <span class="text-sm text-gray-400 line-through">₹ 560</span>
+                        <span class="bg-secondary text-white text-base font-semibold px-3 py-1 rounded-lg">
+                            ₹ 493 onwards
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Package 08 -->
+                <div class="group">
+                    <div class="relative overflow-hidden rounded-2xl aspect-square border">
+                        <img src="https://www.netpharmacy.co.nz/cdn/shop/products/nutralife-fish-oil-1500mg-plus-vitamin-d-300-capsules.png?v=1748232509&width=1200"
+                            alt="Vitamin D Test"
+                            class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                    </div>
+
+                    <h3 class="text-xl md:text-2xl font-bold text-gray-900 my-4">
+                        Vitamin D Test
+                    </h3>
+
+                    <div class="flex items-center gap-3">
+                        <span class="text-sm text-gray-400 line-through">₹ 1610</span>
+                        <span class="bg-secondary text-white text-base font-semibold px-3 py-1 rounded-lg">
+                            ₹ 1400 onwards
+                        </span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="packages" class="bg-white py-10 lg:py-16">
         <div class="mx-auto w-[90%]">
             <div class="mb-8 flex flex-col justify-between gap-4 md:flex-row md:items-end">
                 <div class="max-w-2xl">
@@ -729,23 +921,25 @@
             </div>
 
             <div id="package-card-grid" class="grid gap-5 lg:gap-8 sm:grid-cols-2 lg:grid-cols-4" aria-label="Health package options">
-                <article class="flex h-full flex-col overflow-hidden border border-gray-100 bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl" data-package-description="Heart-focused screening to assess key risk markers and support better understanding of your heart health." data-package-price="₹2,499">
-                    <img src="assets/images/healthpackage/h1.jpg" alt="Healthy Heart Package" class="aspect-[21/9] w-full object-cover" loading="lazy">
+                <article class="flex h-full flex-col overflow-hidden border border-gray-100 bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl" data-package-description="Heart-focused screening to assess key risk markers and support better understanding of your heart health." data-package-original-price="₹2,499" data-package-price="₹1,999">
+                    <img src="https://images.unsplash.com/photo-1460672985063-6764ac8b9c74?auto=format&amp;fit=crop&amp;w=800&amp;h=600&amp;q=80" alt="Anatomical heart model" class="aspect-[4/3] w-full object-cover" loading="lazy">
                     <div class="flex flex-1 flex-col gap-4 p-5">
                         <div>
                             <span class="text-xs font-bold uppercase tracking-wider text-primary">Cardiac wellness</span>
                             <h3 class="mt-1 min-h-14 text-xl font-bold text-gray-900">Healthy Heart Package</h3>
                         </div>
-                        <ul class="space-y-2 text-sm text-gray-700" aria-label="Package focus areas">
+                        <ul class="hidden" aria-label="Package focus areas">
                             <li data-package-item class="flex items-start gap-2"><i class="ti ti-arrow-right mt-0.5 shrink-0 text-primary" aria-hidden="true"></i><span>Heart health assessment</span></li>
                             <li data-package-item class="flex items-start gap-2"><i class="ti ti-arrow-right mt-0.5 shrink-0 text-primary" aria-hidden="true"></i><span>Key cardiac risk markers</span></li>
                             <li data-package-item class="flex items-start gap-2"><i class="ti ti-arrow-right mt-0.5 shrink-0 text-primary" aria-hidden="true"></i><span>Screening focus tailored to heart wellness</span></li>
                             <li data-package-item class="flex items-start gap-2"><i class="ti ti-arrow-right mt-0.5 shrink-0 text-primary" aria-hidden="true"></i><span>Cardiovascular risk discussion</span></li>
                             <li data-package-item class="flex items-start gap-2"><i class="ti ti-arrow-right mt-0.5 shrink-0 text-primary" aria-hidden="true"></i><span>Heart-health follow-up guidance</span></li>
                         </ul>
-                        <div class="mt-auto flex flex-wrap items-center justify-between gap-2 border-t border-gray-100 pt-4">
-                            <div><p class="text-xs font-medium uppercase tracking-wide text-gray-500">Indicative price*</p><p class="font-bold text-primary">₹2,499</p></div>
-                            <span class="rounded-full bg-red-50 px-3 py-1.5 text-xs font-semibold text-secondary">Ask about current offers</span>
+                        <div class="mt-auto border-t border-gray-100 pt-4">
+                            <div class="flex items-end justify-between gap-3">
+                                <div><p class="text-xs font-medium uppercase tracking-wide text-gray-500">Price*</p><p class="text-sm text-gray-500 line-through">₹2,499</p></div>
+                                <div class="text-right"><p class="text-xs font-medium uppercase tracking-wide text-gray-500">Discount price*</p><p class="font-bold text-primary">₹1,999</p></div>
+                            </div>
                         </div>
                         <div class="grid grid-cols-2 gap-2">
                             <button type="button" class="package-details-button text-xs uppercase flex items-center justify-center gap-1 bg-red-600 hover:bg-red-700 text-white font-medium p-2 transition-all duration-300" data-package="heart">View Details <i class="ti ti-arrow-right text-lg leading-none" aria-hidden="true"></i></button>
@@ -753,29 +947,29 @@
                         </div>
                     </div>
                 </article>
-                <article class="flex h-full flex-col overflow-hidden border border-gray-100 bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl" data-package-description="A comprehensive health assessment to review overall wellbeing and identify potential health risks." data-package-price="₹1,999">
-                    <img src="assets/images/healthpackage/h2.jpg" alt="Wellness 360 Health Check Package" class="aspect-[21/9] w-full object-cover" loading="lazy">
+                <article class="flex h-full flex-col overflow-hidden border border-gray-100 bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl" data-package-description="A comprehensive health assessment to review overall wellbeing and identify potential health risks." data-package-original-price="₹1,999" data-package-price="₹1,599">
+                    <img src="https://images.unsplash.com/photo-1631815587646-b85a1bb027e1?auto=format&amp;fit=crop&amp;w=800&amp;h=600&amp;q=80" alt="Blood pressure screening during a health check" class="aspect-[4/3] w-full object-cover" loading="lazy">
                     <div class="flex flex-1 flex-col gap-4 p-5">
                         <div><span class="text-xs font-bold uppercase tracking-wider text-primary">Whole-body wellness</span><h3 class="mt-1 min-h-14 text-xl font-bold text-gray-900">Wellness 360 Health Check Package</h3></div>
-                        <ul class="space-y-2 text-sm text-gray-700" aria-label="Package focus areas">
+                        <ul class="hidden" aria-label="Package focus areas">
                             <li data-package-item class="flex items-start gap-2"><i class="ti ti-arrow-right mt-0.5 shrink-0 text-primary" aria-hidden="true"></i><span>Overall wellbeing assessment</span></li>
                             <li data-package-item class="flex items-start gap-2"><i class="ti ti-arrow-right mt-0.5 shrink-0 text-primary" aria-hidden="true"></i><span>Preventive health review</span></li>
                             <li data-package-item class="flex items-start gap-2"><i class="ti ti-arrow-right mt-0.5 shrink-0 text-primary" aria-hidden="true"></i><span>Potential health risk assessment</span></li>
                             <li data-package-item class="flex items-start gap-2"><i class="ti ti-arrow-right mt-0.5 shrink-0 text-primary" aria-hidden="true"></i><span>General health priorities</span></li>
                             <li data-package-item class="flex items-start gap-2"><i class="ti ti-arrow-right mt-0.5 shrink-0 text-primary" aria-hidden="true"></i><span>Preventive care guidance</span></li>
                         </ul>
-                        <div class="mt-auto flex flex-wrap items-center justify-between gap-2 border-t border-gray-100 pt-4"><div><p class="text-xs font-medium uppercase tracking-wide text-gray-500">Indicative price*</p><p class="font-bold text-primary">₹1,999</p></div><span class="rounded-full bg-red-50 px-3 py-1.5 text-xs font-semibold text-secondary">Ask about current offers</span></div>
+                        <div class="mt-auto border-t border-gray-100 pt-4"><div class="flex items-end justify-between gap-3"><div><p class="text-xs font-medium uppercase tracking-wide text-gray-500">Price*</p><p class="text-sm text-gray-500 line-through">₹1,999</p></div><div class="text-right"><p class="text-xs font-medium uppercase tracking-wide text-gray-500">Discount price*</p><p class="font-bold text-primary">₹1,599</p></div></div></div>
                         <div class="grid grid-cols-2 gap-2">
                             <button type="button" class="package-details-button text-xs uppercase flex items-center justify-center gap-1 bg-red-600 hover:bg-red-700 text-white font-medium p-2 transition-all duration-300" data-package="wellness">View Details <i class="ti ti-arrow-right text-lg leading-none" aria-hidden="true"></i></button>
                             <button type="button" class="package-details-button text-xs uppercase flex items-center justify-center gap-1 border border-tertiary p-2 font-medium text-tertiary transition hover:bg-tertiary hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-tertiary" data-package="wellness">Book Now <i class="ti ti-arrow-right text-lg leading-none" aria-hidden="true"></i></button>
                         </div>
                     </div>
                 </article>
-                <article class="flex h-full flex-col overflow-hidden border border-gray-100 bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl" data-package-description="Focused screening options across selected specialties and health concerns. Ask the hospital team which screening option best matches your needs." data-package-price="₹1,499">
-                    <img src="assets/images/healthpackage/h3.jpg" alt="Special Screening Packages" class="aspect-[21/9] w-full object-cover" loading="lazy">
+                <article class="flex h-full flex-col overflow-hidden border border-gray-100 bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl" data-package-description="Focused screening options across selected specialties and health concerns. Ask the hospital team which screening option best matches your needs." data-package-original-price="₹1,499" data-package-price="₹1,199">
+                    <img src="https://images.unsplash.com/photo-1614935151651-0bea6508db6b?auto=format&amp;fit=crop&amp;w=800&amp;h=600&amp;q=80" alt="Laboratory screening and sample analysis" class="aspect-[4/3] w-full object-cover" loading="lazy">
                     <div class="flex flex-1 flex-col gap-4 p-5">
                         <div><span class="text-xs font-bold uppercase tracking-wider text-primary">Focused screening</span><h3 class="mt-1 min-h-14 text-xl font-bold text-gray-900">Special Screening Packages</h3></div>
-                        <ul class="space-y-2 text-sm text-gray-700" aria-label="Package focus areas">
+                        <ul class="hidden" aria-label="Package focus areas">
                             <li data-package-item class="flex items-start gap-2"><i class="ti ti-arrow-right mt-0.5 shrink-0 text-primary" aria-hidden="true"></i><span>Renal / kidney screening</span></li>
                             <li data-package-item class="flex items-start gap-2"><i class="ti ti-arrow-right mt-0.5 shrink-0 text-primary" aria-hidden="true"></i><span>Diabetes screening</span></li>
                             <li data-package-item class="flex items-start gap-2"><i class="ti ti-arrow-right mt-0.5 shrink-0 text-primary" aria-hidden="true"></i><span>Rheumatology screening</span></li>
@@ -785,97 +979,97 @@
                             <li data-package-item class="hidden"><i class="ti ti-arrow-right mt-0.5 shrink-0 text-primary" aria-hidden="true"></i><span>Stroke-risk screening</span></li>
                             <li><button type="button" class="package-details-button text-xs uppercase font-semibold text-primary hover:text-secondary hover:underline" data-package="screening">+2 more</button></li>
                         </ul>
-                        <div class="mt-auto flex flex-wrap items-center justify-between gap-2 border-t border-gray-100 pt-4"><div><p class="text-xs font-medium uppercase tracking-wide text-gray-500">Indicative price*</p><p class="font-bold text-primary">₹1,499</p></div><span class="rounded-full bg-red-50 px-3 py-1.5 text-xs font-semibold text-secondary">Ask about current offers</span></div>
+                        <div class="mt-auto border-t border-gray-100 pt-4"><div class="flex items-end justify-between gap-3"><div><p class="text-xs font-medium uppercase tracking-wide text-gray-500">Price*</p><p class="text-sm text-gray-500 line-through">₹1,499</p></div><div class="text-right"><p class="text-xs font-medium uppercase tracking-wide text-gray-500">Discount price*</p><p class="font-bold text-primary">₹1,199</p></div></div></div>
                         <div class="grid grid-cols-2 gap-2">
                             <button type="button" class="package-details-button text-xs uppercase flex items-center justify-center gap-1 bg-red-600 hover:bg-red-700 text-white font-medium p-2 transition-all duration-300" data-package="screening">View Details <i class="ti ti-arrow-right text-lg leading-none" aria-hidden="true"></i></button>
                             <button type="button" class="package-details-button text-xs uppercase flex items-center justify-center gap-1 border border-tertiary p-2 font-medium text-tertiary transition hover:bg-tertiary hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-tertiary" data-package="screening">Book Now <i class="ti ti-arrow-right text-lg leading-none" aria-hidden="true"></i></button>
                         </div>
                     </div>
                 </article>
-                <article class="flex h-full flex-col overflow-hidden border border-gray-100 bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl" data-package-description="Ask the hospital team about the availability of diabetes-focused screening and which options may suit your health needs." data-package-price="₹1,299">
-                    <img src="assets/images/healthpackage/h2.jpg" alt="Diabetes Screening Enquiry" class="aspect-[21/9] w-full object-cover" loading="lazy">
+                <article class="flex h-full flex-col overflow-hidden border border-gray-100 bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl" data-package-description="Ask the hospital team about the availability of diabetes-focused screening and which options may suit your health needs." data-package-original-price="₹1,299" data-package-price="₹999">
+                    <img src="https://images.unsplash.com/photo-1684156486280-ff59f07fc5bb?auto=format&amp;fit=crop&amp;w=800&amp;h=600&amp;q=80" alt="Blood glucose testing with a glucometer" class="aspect-[4/3] w-full object-cover" loading="lazy">
                     <div class="flex flex-1 flex-col gap-4 p-5">
                         <div><span class="text-xs font-bold uppercase tracking-wider text-primary">Diabetes health</span><h3 class="mt-1 min-h-14 text-xl font-bold text-gray-900">Diabetes Screening Enquiry</h3></div>
-                        <ul class="space-y-2 text-sm text-gray-700" aria-label="Package focus areas">
+                        <ul class="hidden" aria-label="Package focus areas">
                             <li data-package-item class="flex items-start gap-2"><i class="ti ti-arrow-right mt-0.5 shrink-0 text-primary" aria-hidden="true"></i><span>Diabetes risk screening discussion</span></li>
                             <li data-package-item class="flex items-start gap-2"><i class="ti ti-arrow-right mt-0.5 shrink-0 text-primary" aria-hidden="true"></i><span>Relevant health history review</span></li>
                             <li data-package-item class="flex items-start gap-2"><i class="ti ti-arrow-right mt-0.5 shrink-0 text-primary" aria-hidden="true"></i><span>Clinician-guided screening needs</span></li>
                             <li data-package-item class="flex items-start gap-2"><i class="ti ti-arrow-right mt-0.5 shrink-0 text-primary" aria-hidden="true"></i><span>Risk-factor and prevention discussion</span></li>
                             <li data-package-item class="flex items-start gap-2"><i class="ti ti-arrow-right mt-0.5 shrink-0 text-primary" aria-hidden="true"></i><span>Follow-up guidance</span></li>
                         </ul>
-                        <div class="mt-auto flex flex-wrap items-center justify-between gap-2 border-t border-gray-100 pt-4"><div><p class="text-xs font-medium uppercase tracking-wide text-gray-500">Indicative price*</p><p class="font-bold text-primary">₹1,299</p></div><span class="rounded-full bg-red-50 px-3 py-1.5 text-xs font-semibold text-secondary">Ask about current offers</span></div>
+                        <div class="mt-auto border-t border-gray-100 pt-4"><div class="flex items-end justify-between gap-3"><div><p class="text-xs font-medium uppercase tracking-wide text-gray-500">Price*</p><p class="text-sm text-gray-500 line-through">₹1,299</p></div><div class="text-right"><p class="text-xs font-medium uppercase tracking-wide text-gray-500">Discount price*</p><p class="font-bold text-primary">₹999</p></div></div></div>
                         <div class="grid grid-cols-2 gap-2">
                             <button type="button" class="package-details-button text-xs uppercase flex items-center justify-center gap-1 bg-red-600 hover:bg-red-700 text-white font-medium p-2 transition-all duration-300" data-package="diabetes">View Details <i class="ti ti-arrow-right text-lg leading-none" aria-hidden="true"></i></button>
                             <button type="button" class="package-details-button text-xs uppercase flex items-center justify-center gap-1 border border-tertiary p-2 font-medium text-tertiary transition hover:bg-tertiary hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-tertiary" data-package="diabetes">Book Now <i class="ti ti-arrow-right text-lg leading-none" aria-hidden="true"></i></button>
                         </div>
                     </div>
                 </article>
-                <article class="hidden flex h-full flex-col overflow-hidden border border-gray-100 bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl" data-package-description="Enquire about kidney-health screening options and discuss appropriate next steps with the hospital team." data-package-price="₹1,599">
-                    <img src="assets/images/healthpackage/h3.jpg" alt="Kidney Health Screening Enquiry" class="aspect-[21/9] w-full object-cover" loading="lazy">
+                <article class="flex h-full flex-col overflow-hidden border border-gray-100 bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl" data-package-description="Enquire about kidney-health screening options and discuss appropriate next steps with the hospital team." data-package-original-price="₹1,599" data-package-price="₹1,299">
+                    <img src="https://images.unsplash.com/photo-1559757175-053139280de2?auto=format&amp;fit=crop&amp;w=800&amp;h=600&amp;q=80" alt="Kidney anatomy model" class="aspect-[4/3] w-full object-cover" loading="lazy">
                     <div class="flex flex-1 flex-col gap-4 p-5">
                         <div><span class="text-xs font-bold uppercase tracking-wider text-primary">Kidney health</span><h3 class="mt-1 min-h-14 text-xl font-bold text-gray-900">Kidney Health Screening Enquiry</h3></div>
-                        <ul class="space-y-2 text-sm text-gray-700" aria-label="Package focus areas">
+                        <ul class="hidden" aria-label="Package focus areas">
                             <li data-package-item class="flex items-start gap-2"><i class="ti ti-arrow-right mt-0.5 shrink-0 text-primary" aria-hidden="true"></i><span>Kidney health screening discussion</span></li>
                             <li data-package-item class="flex items-start gap-2"><i class="ti ti-arrow-right mt-0.5 shrink-0 text-primary" aria-hidden="true"></i><span>Relevant health history review</span></li>
                             <li data-package-item class="flex items-start gap-2"><i class="ti ti-arrow-right mt-0.5 shrink-0 text-primary" aria-hidden="true"></i><span>Clinician-guided screening needs</span></li>
                             <li data-package-item class="flex items-start gap-2"><i class="ti ti-arrow-right mt-0.5 shrink-0 text-primary" aria-hidden="true"></i><span>Risk-factor discussion</span></li>
                             <li data-package-item class="flex items-start gap-2"><i class="ti ti-arrow-right mt-0.5 shrink-0 text-primary" aria-hidden="true"></i><span>Follow-up guidance</span></li>
                         </ul>
-                        <div class="mt-auto flex flex-wrap items-center justify-between gap-2 border-t border-gray-100 pt-4"><div><p class="text-xs font-medium uppercase tracking-wide text-gray-500">Indicative price*</p><p class="font-bold text-primary">₹1,599</p></div><span class="rounded-full bg-red-50 px-3 py-1.5 text-xs font-semibold text-secondary">Ask about current offers</span></div>
+                        <div class="mt-auto border-t border-gray-100 pt-4"><div class="flex items-end justify-between gap-3"><div><p class="text-xs font-medium uppercase tracking-wide text-gray-500">Price*</p><p class="text-sm text-gray-500 line-through">₹1,599</p></div><div class="text-right"><p class="text-xs font-medium uppercase tracking-wide text-gray-500">Discount price*</p><p class="font-bold text-primary">₹1,299</p></div></div></div>
                         <div class="grid grid-cols-2 gap-2">
                             <button type="button" class="package-details-button text-xs uppercase flex items-center justify-center gap-1 bg-red-600 hover:bg-red-700 text-white font-medium p-2 transition-all duration-300" data-package="kidney">View Details <i class="ti ti-arrow-right text-lg leading-none" aria-hidden="true"></i></button>
                             <button type="button" class="package-details-button text-xs uppercase flex items-center justify-center gap-1 border border-tertiary p-2 font-medium text-tertiary transition hover:bg-tertiary hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-tertiary" data-package="kidney">Book Now <i class="ti ti-arrow-right text-lg leading-none" aria-hidden="true"></i></button>
                         </div>
                     </div>
                 </article>
-                <article class="hidden flex h-full flex-col overflow-hidden border border-gray-100 bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl" data-package-description="Ask whether a rheumatology-focused screening option is available and suitable for you." data-package-price="₹1,899">
-                    <img src="assets/images/healthpackage/h1.jpg" alt="Rheumatology Screening Enquiry" class="aspect-[21/9] w-full object-cover" loading="lazy">
+                <article class="flex h-full flex-col overflow-hidden border border-gray-100 bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl" data-package-description="Ask whether a rheumatology-focused screening option is available and suitable for you." data-package-original-price="₹1,899" data-package-price="₹1,499">
+                    <img src="https://images.unsplash.com/photo-1768839722722-b1b2cb93c71d?auto=format&amp;fit=crop&amp;w=800&amp;h=600&amp;q=80" alt="Person experiencing elbow joint pain" class="aspect-[4/3] w-full object-cover" loading="lazy">
                     <div class="flex flex-1 flex-col gap-4 p-5">
                         <div><span class="text-xs font-bold uppercase tracking-wider text-primary">Joint and autoimmune health</span><h3 class="mt-1 min-h-14 text-xl font-bold text-gray-900">Rheumatology Screening Enquiry</h3></div>
-                        <ul class="space-y-2 text-sm text-gray-700" aria-label="Package focus areas">
+                        <ul class="hidden" aria-label="Package focus areas">
                             <li data-package-item class="flex items-start gap-2"><i class="ti ti-arrow-right mt-0.5 shrink-0 text-primary" aria-hidden="true"></i><span>Joint and mobility concerns</span></li>
                             <li data-package-item class="flex items-start gap-2"><i class="ti ti-arrow-right mt-0.5 shrink-0 text-primary" aria-hidden="true"></i><span>Relevant health history review</span></li>
                             <li data-package-item class="flex items-start gap-2"><i class="ti ti-arrow-right mt-0.5 shrink-0 text-primary" aria-hidden="true"></i><span>Clinician-guided screening needs</span></li>
                             <li data-package-item class="flex items-start gap-2"><i class="ti ti-arrow-right mt-0.5 shrink-0 text-primary" aria-hidden="true"></i><span>Symptoms and risk discussion</span></li>
                             <li data-package-item class="flex items-start gap-2"><i class="ti ti-arrow-right mt-0.5 shrink-0 text-primary" aria-hidden="true"></i><span>Follow-up guidance</span></li>
                         </ul>
-                        <div class="mt-auto flex flex-wrap items-center justify-between gap-2 border-t border-gray-100 pt-4"><div><p class="text-xs font-medium uppercase tracking-wide text-gray-500">Indicative price*</p><p class="font-bold text-primary">₹1,899</p></div><span class="rounded-full bg-red-50 px-3 py-1.5 text-xs font-semibold text-secondary">Ask about current offers</span></div>
+                        <div class="mt-auto border-t border-gray-100 pt-4"><div class="flex items-end justify-between gap-3"><div><p class="text-xs font-medium uppercase tracking-wide text-gray-500">Price*</p><p class="text-sm text-gray-500 line-through">₹1,899</p></div><div class="text-right"><p class="text-xs font-medium uppercase tracking-wide text-gray-500">Discount price*</p><p class="font-bold text-primary">₹1,499</p></div></div></div>
                         <div class="grid grid-cols-2 gap-2">
                             <button type="button" class="package-details-button text-xs uppercase flex items-center justify-center gap-1 bg-red-600 hover:bg-red-700 text-white font-medium p-2 transition-all duration-300" data-package="rheumatology">View Details <i class="ti ti-arrow-right text-lg leading-none" aria-hidden="true"></i></button>
                             <button type="button" class="package-details-button text-xs uppercase flex items-center justify-center gap-1 border border-tertiary p-2 font-medium text-tertiary transition hover:bg-tertiary hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-tertiary" data-package="rheumatology">Book Now <i class="ti ti-arrow-right text-lg leading-none" aria-hidden="true"></i></button>
                         </div>
                     </div>
                 </article>
-                <article class="hidden flex h-full flex-col overflow-hidden border border-gray-100 bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl" data-package-description="Enquire about urology screening options and discuss your concerns with the hospital team." data-package-price="₹1,799">
-                    <img src="assets/images/healthpackage/h3.jpg" alt="Urology Screening Enquiry" class="aspect-[21/9] w-full object-cover" loading="lazy">
+                <article class="flex h-full flex-col overflow-hidden border border-gray-100 bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl" data-package-description="Enquire about urology screening options and discuss your concerns with the hospital team." data-package-original-price="₹1,799" data-package-price="₹1,399">
+                    <img src="https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?auto=format&amp;fit=crop&amp;w=800&amp;h=600&amp;q=80" alt="Doctor consulting with a patient" class="aspect-[4/3] w-full object-cover" loading="lazy">
                     <div class="flex flex-1 flex-col gap-4 p-5">
                         <div><span class="text-xs font-bold uppercase tracking-wider text-primary">Urological health</span><h3 class="mt-1 min-h-14 text-xl font-bold text-gray-900">Urology Screening Enquiry</h3></div>
-                        <ul class="space-y-2 text-sm text-gray-700" aria-label="Package focus areas">
+                        <ul class="hidden" aria-label="Package focus areas">
                             <li data-package-item class="flex items-start gap-2"><i class="ti ti-arrow-right mt-0.5 shrink-0 text-primary" aria-hidden="true"></i><span>Urological health discussion</span></li>
                             <li data-package-item class="flex items-start gap-2"><i class="ti ti-arrow-right mt-0.5 shrink-0 text-primary" aria-hidden="true"></i><span>Relevant health history review</span></li>
                             <li data-package-item class="flex items-start gap-2"><i class="ti ti-arrow-right mt-0.5 shrink-0 text-primary" aria-hidden="true"></i><span>Clinician-guided screening needs</span></li>
                             <li data-package-item class="flex items-start gap-2"><i class="ti ti-arrow-right mt-0.5 shrink-0 text-primary" aria-hidden="true"></i><span>Symptoms and risk discussion</span></li>
                             <li data-package-item class="flex items-start gap-2"><i class="ti ti-arrow-right mt-0.5 shrink-0 text-primary" aria-hidden="true"></i><span>Follow-up guidance</span></li>
                         </ul>
-                        <div class="mt-auto flex flex-wrap items-center justify-between gap-2 border-t border-gray-100 pt-4"><div><p class="text-xs font-medium uppercase tracking-wide text-gray-500">Indicative price*</p><p class="font-bold text-primary">₹1,799</p></div><span class="rounded-full bg-red-50 px-3 py-1.5 text-xs font-semibold text-secondary">Ask about current offers</span></div>
+                        <div class="mt-auto border-t border-gray-100 pt-4"><div class="flex items-end justify-between gap-3"><div><p class="text-xs font-medium uppercase tracking-wide text-gray-500">Price*</p><p class="text-sm text-gray-500 line-through">₹1,799</p></div><div class="text-right"><p class="text-xs font-medium uppercase tracking-wide text-gray-500">Discount price*</p><p class="font-bold text-primary">₹1,399</p></div></div></div>
                         <div class="grid grid-cols-2 gap-2">
                             <button type="button" class="package-details-button text-xs uppercase flex items-center justify-center gap-1 bg-red-600 hover:bg-red-700 text-white font-medium p-2 transition-all duration-300" data-package="urology">View Details <i class="ti ti-arrow-right text-lg leading-none" aria-hidden="true"></i></button>
                             <button type="button" class="package-details-button text-xs uppercase flex items-center justify-center gap-1 border border-tertiary p-2 font-medium text-tertiary transition hover:bg-tertiary hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-tertiary" data-package="urology">Book Now <i class="ti ti-arrow-right text-lg leading-none" aria-hidden="true"></i></button>
                         </div>
                     </div>
                 </article>
-                <article class="hidden flex h-full flex-col overflow-hidden border border-gray-100 bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl" data-package-description="Ask the hospital team about liver-focused screening availability and appropriate care options." data-package-price="₹1,699">
-                    <img src="assets/images/healthpackage/h2.jpg" alt="Liver Health Screening Enquiry" class="aspect-[21/9] w-full object-cover" loading="lazy">
+                <article class="flex h-full flex-col overflow-hidden border border-gray-100 bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl" data-package-description="Ask the hospital team about liver-focused screening availability and appropriate care options." data-package-original-price="₹1,699" data-package-price="₹1,299">
+                    <img src="https://images.unsplash.com/photo-1615461066159-fea0960485d5?auto=format&amp;fit=crop&amp;w=800&amp;h=600&amp;q=80" alt="Blood sample collection for liver screening" class="aspect-[4/3] w-full object-cover" loading="lazy">
                     <div class="flex flex-1 flex-col gap-4 p-5">
                         <div><span class="text-xs font-bold uppercase tracking-wider text-primary">Liver health</span><h3 class="mt-1 min-h-14 text-xl font-bold text-gray-900">Liver Health Screening Enquiry</h3></div>
-                        <ul class="space-y-2 text-sm text-gray-700" aria-label="Package focus areas">
+                        <ul class="hidden" aria-label="Package focus areas">
                             <li data-package-item class="flex items-start gap-2"><i class="ti ti-arrow-right mt-0.5 shrink-0 text-primary" aria-hidden="true"></i><span>Liver health screening discussion</span></li>
                             <li data-package-item class="flex items-start gap-2"><i class="ti ti-arrow-right mt-0.5 shrink-0 text-primary" aria-hidden="true"></i><span>Relevant health history review</span></li>
                             <li data-package-item class="flex items-start gap-2"><i class="ti ti-arrow-right mt-0.5 shrink-0 text-primary" aria-hidden="true"></i><span>Clinician-guided screening needs</span></li>
                             <li data-package-item class="flex items-start gap-2"><i class="ti ti-arrow-right mt-0.5 shrink-0 text-primary" aria-hidden="true"></i><span>Risk-factor discussion</span></li>
                             <li data-package-item class="flex items-start gap-2"><i class="ti ti-arrow-right mt-0.5 shrink-0 text-primary" aria-hidden="true"></i><span>Follow-up guidance</span></li>
                         </ul>
-                        <div class="mt-auto flex flex-wrap items-center justify-between gap-2 border-t border-gray-100 pt-4"><div><p class="text-xs font-medium uppercase tracking-wide text-gray-500">Indicative price*</p><p class="font-bold text-primary">₹1,699</p></div><span class="rounded-full bg-red-50 px-3 py-1.5 text-xs font-semibold text-secondary">Ask about current offers</span></div>
+                        <div class="mt-auto border-t border-gray-100 pt-4"><div class="flex items-end justify-between gap-3"><div><p class="text-xs font-medium uppercase tracking-wide text-gray-500">Price*</p><p class="text-sm text-gray-500 line-through">₹1,699</p></div><div class="text-right"><p class="text-xs font-medium uppercase tracking-wide text-gray-500">Discount price*</p><p class="font-bold text-primary">₹1,299</p></div></div></div>
                         <div class="grid grid-cols-2 gap-2">
                             <button type="button" class="package-details-button text-xs uppercase flex items-center justify-center gap-1 bg-red-600 hover:bg-red-700 text-white font-medium p-2 transition-all duration-300" data-package="liver">View Details <i class="ti ti-arrow-right text-lg leading-none" aria-hidden="true"></i></button>
                             <button type="button" class="package-details-button text-xs uppercase flex items-center justify-center gap-1 border border-tertiary p-2 font-medium text-tertiary transition hover:bg-tertiary hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-tertiary" data-package="liver">Book Now <i class="ti ti-arrow-right text-lg leading-none" aria-hidden="true"></i></button>
@@ -883,12 +1077,12 @@
                     </div>
                 </article>
             </div>
-            <button type="button" id="load-more-packages" class="mx-auto mt-8 flex w-fit items-center justify-center gap-2 rounded-lg bg-secondary px-6 py-3 text-sm font-bold text-white shadow-sm transition hover:-translate-y-0.5 hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-secondary focus:ring-offset-2" aria-controls="package-card-grid">
+            <button type="button" id="load-more-packages" class="mx-auto mt-8 flex w-fit items-center justify-center gap-2 rounded-lg bg-secondary px-6 py-3 text-sm font-bold text-white shadow-sm transition hover:-translate-y-0.5 hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-secondary focus:ring-offset-2" aria-controls="package-card-grid" hidden>
                 Load More <i class="ti ti-arrow-down" aria-hidden="true"></i>
             </button>
             <p id="package-load-status" class="sr-only" role="status" aria-live="polite"></p>
             <div class="mt-8 rounded-xl border border-blue-100 bg-white p-5 leading-6">
-                <p><strong class="text-gray-900">Please note:</strong> The prices shown are editable sample placeholders and are not confirmed hospital prices. These cards show health-screening areas to enquire about and are not confirmation that each is currently offered as a package. Listed focus areas are not a guaranteed test list. Please confirm availability, inclusions, clinical suitability, price and any current discount with the hospital before booking.</p>
+                <p><strong class="text-gray-900">Please note:</strong> The prices and discounts shown are editable sample placeholders and are not confirmed hospital prices. These cards show health-screening areas to enquire about and are not confirmation that each is currently offered as a package. Listed focus areas are not a guaranteed test list. Please confirm availability, inclusions, clinical suitability, price and any current discount with the hospital before booking.</p>
             </div>
         </div>
     </section>
@@ -1301,12 +1495,12 @@
                         <p id="modal-package-description" class="mt-4 text-lg font-medium leading-8 text-gray-800"></p>
                         <div class="mt-6 grid gap-3 sm:grid-cols-2">
                             <div class="rounded-xl border border-blue-100 bg-white p-4">
-                                <p class="text-xs font-bold uppercase tracking-wide text-gray-500">Indicative sample price*</p>
-                                <p id="modal-package-price" class="mt-1 font-bold text-primary"></p>
+                                <p class="text-xs font-bold uppercase tracking-wide text-gray-500">Price (sample)*</p>
+                                <p id="modal-package-original-price" class="mt-1 text-sm text-gray-500 line-through"></p>
                             </div>
                             <div class="rounded-xl border border-red-100 bg-white p-4">
-                                <p class="text-xs font-bold uppercase tracking-wide text-gray-500">Offers / discounts</p>
-                                <p class="mt-1 font-bold text-secondary">Ask our team about current offers</p>
+                                <p class="text-xs font-bold uppercase tracking-wide text-gray-500">Discount price (sample)*</p>
+                                <p id="modal-package-price" class="mt-1 font-bold text-primary"></p>
                             </div>
                         </div>
                         <div class="mt-8">
@@ -1315,7 +1509,7 @@
                             <ul id="modal-package-items" class="mt-5 grid gap-3 sm:grid-cols-2"></ul>
                         </div>
                         <div class="mt-8 rounded-xl border border-blue-100 bg-blue-50 p-4">
-                            <p class="flex items-start gap-3 leading-6 text-gray-700"><i class="ti ti-info-circle mt-0.5 text-xl text-primary" aria-hidden="true"></i><span>*Price is a sample placeholder, not a confirmed hospital price. Package inclusions, availability and recommendations can vary. Please confirm the details with the hospital team.</span></p>
+                            <p class="flex items-start gap-3 leading-6 text-gray-700"><i class="ti ti-info-circle mt-0.5 text-xl text-primary" aria-hidden="true"></i><span>*Prices and discounts are editable sample placeholders, not confirmed hospital prices. Package inclusions, availability and recommendations can vary. Please confirm the details with the hospital team.</span></p>
                         </div>
                     </div>
                 </section>
@@ -1455,6 +1649,13 @@
         const packageCardGrid = document.getElementById('package-card-grid');
         const packageLoadStatus = document.getElementById('package-load-status');
         const loadMorePackages = document.getElementById('load-more-packages');
+        const initialPackageCount = 8;
+        const packageCards = [...packageCardGrid.querySelectorAll('article')];
+        packageCards.forEach((card, index) => {
+            card.classList.toggle('hidden', index >= initialPackageCount);
+        });
+        loadMorePackages.hidden = packageCards.length <= initialPackageCount;
+
         loadMorePackages.addEventListener('click', () => {
             packageCardGrid.querySelectorAll('article.hidden').forEach((card) => {
                 card.classList.remove('hidden');
@@ -1467,6 +1668,7 @@
         const modalPackageName = document.getElementById('modal-package-name');
         const modalPackageCategory = document.getElementById('modal-package-category');
         const modalPackageDescription = document.getElementById('modal-package-description');
+        const modalPackageOriginalPrice = document.getElementById('modal-package-original-price');
         const modalPackagePrice = document.getElementById('modal-package-price');
         const modalPackageItems = document.getElementById('modal-package-items');
         const selectedPackage = document.getElementById('selected-package');
@@ -1488,6 +1690,7 @@
             modalPackageName.textContent = packageName;
             modalPackageCategory.textContent = card.querySelector('span').textContent.trim();
             modalPackageDescription.textContent = card.dataset.packageDescription;
+            modalPackageOriginalPrice.textContent = card.dataset.packageOriginalPrice;
             modalPackagePrice.textContent = card.dataset.packagePrice;
             selectedPackage.value = packageName;
             modalPackageItems.replaceChildren(...[...card.querySelectorAll('[data-package-item]')].map((item) => {
