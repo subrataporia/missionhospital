@@ -248,6 +248,20 @@ body {
     display: block;
 }
 
+.team-testimonial-slider .slick-track {
+    display: flex;
+    align-items: stretch;
+}
+
+.team-testimonial-slider .slick-slide {
+    height: auto;
+}
+
+.team-testimonial-slider .slick-slide>div,
+.team-testimonial-slider article {
+    height: 100%;
+}
+
 .customIcon svg,
 .customIcon i {
     width: 50px;
