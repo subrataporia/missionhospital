@@ -572,23 +572,203 @@
     </section>
 
     <!-- Contact Details -->
-    <section class="bg-white relative py-8 lg:py-12 2xl:py-16">
-        <div class="w-[90%] mx-auto grid grid-cols-3 gap-6 lg:gap-10">
-            
+    <section class="relative overflow-hidden bg-white py-12 sm:py-16 lg:py-20 2xl:py-24">
+        <div class="mx-auto grid w-[90%] max-w-[1440px] grid-cols-1 items-center gap-10 lg:grid-cols-12 lg:gap-14 xl:gap-20">
+            <!-- Visit information -->
+            <div class="lg:col-span-7">
+                <h2 class="max-w-xl text-4xl font-medium leading-[1.08] tracking-[-0.03em] text-[#063f3b] sm:text-5xl lg:text-6xl xl:text-[4.25rem]">
+                    Visit The Mission Hospital
+                </h2>
+
+                <p class="mt-7 max-w-2xl text-base leading-8 text-[#49605e] sm:mt-9 sm:text-lg lg:text-xl">
+                    Our hospital in Durgapur is committed to providing compassionate, patient-focused care through advanced medical services and experienced healthcare professionals. Visit us for consultations, appointments, diagnostic services, and specialised treatment.
+                </p>
+
+                <a href="https://maps.app.goo.gl/Zcm6Ccjdh4fhkiTX7"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="mt-8 inline-flex items-center justify-center rounded-full border border-[#f2a58b] px-7 py-3 text-sm font-semibold uppercase tracking-[0.12em] text-[#df9479] transition duration-300 hover:bg-[#df9479] hover:text-white sm:mt-10 sm:px-8 sm:py-4">
+                    Get hospital directions
+                    <i class="ti ti-arrow-up-right ml-2 text-lg leading-none"></i>
+                </a>
+            </div>
+
+            <!-- Opening hours -->
+            <div class="relative flex min-h-[360px] items-center justify-center rounded-[1.5rem] bg-primary px-8 py-16 text-center shadow-sm sm:min-h-[390px] sm:px-12 lg:col-span-5 lg:min-h-[390px] xl:min-h-[410px]">
+                <span class="absolute left-1/2 top-0 -translate-x-1/2 -translate-y-1/2 rounded-full bg-secondary border border-white px-5 py-2.5 text-sm font-semibold uppercase tracking-[0.15em] text-white shadow-sm sm:px-6 sm:py-4">
+                    OPD &amp; Emergency hours
+                </span>
+
+                <div class="space-y-8 text-white sm:space-y-9">
+                    <div>
+                        <h3 class="text-lg tracking-wide">OPD: Monday – Saturdays</h3>
+                        <p class="mt-1 text-base font-semibold text-white lg:text-3xl">9am – 5pm</p>
+                    </div>
+                    <div>
+                        <h3 class="text-lg tracking-wide">OPD: Sundays</h3>
+                        <p class="mt-1 text-base font-semibold text-white lg:text-3xl">9am – 3pm</p>
+                    </div>
+                    <div>
+                        <h3 class="text-lg tracking-wide">Emergency Services</h3>
+                        <p class="mt-1 text-base font-semibold text-white lg:text-3xl">24 hours · 7 days</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
-    <!-- // Speciality List -->
+    <!-- // Speciality List -->    
 
-    <!-- Map Section -->
-    <section>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.3453370081234!2d87.352926274785!3d23.5200785975807!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f770441b6a2cb7%3A0xc7c4abf33d85de56!2sThe%20Mission%20Hospital%20%2C%20Durgapur!5e0!3m2!1sen!2sin!4v1791515412297!5m2!1sen!2sin" width="100%" height="300" style="border:0; display: block;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+    <!-- Outreach Clinics -->
+    <section class="relative overflow-hidden bg-[#f7f5f0] py-12 sm:py-16 lg:py-20 2xl:py-24">
+        <div class="mx-auto w-[90%]">
+            <div class="mb-8 flex flex-col gap-5 sm:mb-10 sm:flex-row sm:items-end sm:justify-between">
+                <div class="max-w-2xl">
+                    <p class="mb-3 text-sm font-semibold uppercase tracking-[0.18em] text-secondary">Care closer to you</p>
+                    <h2 class="text-3xl font-medium leading-tight tracking-[-0.03em] text-[#063f3b] sm:text-4xl lg:text-5xl">Outreach Clinics</h2>
+                    <p class="mt-4 text-base leading-7 text-[#49605e] sm:text-lg">Connect with Mission Hospital specialists at our outreach clinics across Eastern India. Choose a clinic to view its OPD schedule and appointment details.</p>
+                </div>
+                <div class="flex shrink-0 gap-3">
+                    <button type="button" class="outreach-prev inline-flex h-11 w-11 items-center justify-center rounded-full border border-tertiary text-tertiary transition hover:bg-tertiary hover:text-white" aria-label="Previous outreach clinic"><i class="ti ti-arrow-left text-xl"></i></button>
+                    <button type="button" class="outreach-next inline-flex h-11 w-11 items-center justify-center rounded-full border border-tertiary text-tertiary transition hover:bg-tertiary hover:text-white" aria-label="Next outreach clinic"><i class="ti ti-arrow-right text-xl"></i></button>
+                </div>
+            </div>
+
+            <div class="outreach-slider -mx-2 overflow-hidden px-2" aria-live="polite">
+                <div class="outreach-track flex gap-4 transition-transform duration-500 ease-out">
+                    <article class="outreach-card min-w-[calc(100%-1rem)] bg-white p-6 shadow-sm sm:min-w-[calc(50%-0.5rem)] lg:min-w-[calc(33.333%-0.7rem)] xl:min-w-[calc(25%-0.75rem)]">
+                        <span class="text-sm font-semibold uppercase tracking-wide text-secondary">Durgapur</span>
+                        <h3 class="mt-3 text-xl font-bold text-[#063f3b]">City Center</h3>
+                        <p class="mt-3 min-h-[96px] text-sm leading-6 text-gray-600">The Mission Hospital Super Specialty Clinic, A-49, Moulana Azad Sarani, Durgapur.</p>
+                        <p class="mt-4 text-sm font-semibold text-primary">9800885555 / 0343 2542555</p>
+                    </article>
+                    <article class="outreach-card min-w-[calc(100%-1rem)] bg-white p-6 shadow-sm sm:min-w-[calc(50%-0.5rem)] lg:min-w-[calc(33.333%-0.7rem)] xl:min-w-[calc(25%-0.75rem)]">
+                        <span class="text-sm font-semibold uppercase tracking-wide text-secondary">West Bengal</span>
+                        <h3 class="mt-3 text-xl font-bold text-[#063f3b]">Burdwan</h3>
+                        <p class="mt-3 min-h-[96px] text-sm leading-6 text-gray-600">Smartlife Clinic, Khosbagan, Bardhaman, West Bengal - 713101.</p>
+                        <p class="mt-4 text-sm font-semibold text-primary">8116605015 / 9800802349</p>
+                    </article>
+                    <article class="outreach-card min-w-[calc(100%-1rem)] bg-white p-6 shadow-sm sm:min-w-[calc(50%-0.5rem)] lg:min-w-[calc(33.333%-0.7rem)] xl:min-w-[calc(25%-0.75rem)]">
+                        <span class="text-sm font-semibold uppercase tracking-wide text-secondary">North Bengal</span>
+                        <h3 class="mt-3 text-xl font-bold text-[#063f3b]">Siliguri</h3>
+                        <p class="mt-3 min-h-[96px] text-sm leading-6 text-gray-600">Dr. Chhang's Super Specialty Hospital, Himachal Vihar Phase - III Township, Matigara, Siliguri - 734010.</p>
+                        <p class="mt-4 text-sm font-semibold text-primary">9800881791</p>
+                    </article>
+                    <article class="outreach-card min-w-[calc(100%-1rem)] bg-white p-6 shadow-sm sm:min-w-[calc(50%-0.5rem)] lg:min-w-[calc(33.333%-0.7rem)] xl:min-w-[calc(25%-0.75rem)]">
+                        <span class="text-sm font-semibold uppercase tracking-wide text-secondary">West Bengal</span>
+                        <h3 class="mt-3 text-xl font-bold text-[#063f3b]">Raniganj</h3>
+                        <p class="mt-3 min-h-[96px] text-sm leading-6 text-gray-600">Global Diagnostics &amp; Healthcare, 101, NSB Road West, PO - Searsole, Raniganj - 713358.</p>
+                        <p class="mt-4 text-sm font-semibold text-primary">9800666320 / 9800881652</p>
+                    </article>
+                    <article class="outreach-card min-w-[calc(100%-1rem)] bg-white p-6 shadow-sm sm:min-w-[calc(50%-0.5rem)] lg:min-w-[calc(33.333%-0.7rem)] xl:min-w-[calc(25%-0.75rem)]">
+                        <span class="text-sm font-semibold uppercase tracking-wide text-secondary">Jharkhand</span>
+                        <h3 class="mt-3 text-xl font-bold text-[#063f3b]">Dhanbad</h3>
+                        <p class="mt-3 min-h-[96px] text-sm leading-6 text-gray-600">The Mission Hospital Super Specialty Clinic, Near Bus Stand, Bartand, Dhanbad - 826001.</p>
+                        <p class="mt-4 text-sm font-semibold text-primary">9771493962 / 9771493961</p>
+                    </article>
+                    <article class="outreach-card min-w-[calc(100%-1rem)] bg-white p-6 shadow-sm sm:min-w-[calc(50%-0.5rem)] lg:min-w-[calc(33.333%-0.7rem)] xl:min-w-[calc(25%-0.75rem)]">
+                        <span class="text-sm font-semibold uppercase tracking-wide text-secondary">Jharkhand</span>
+                        <h3 class="mt-3 text-xl font-bold text-[#063f3b]">Bokaro</h3>
+                        <p class="mt-3 min-h-[96px] text-sm leading-6 text-gray-600">Hi-tech Diagnostic Centre, A-1 Laxmi Market, Center Market, Sector 4, Bokaro Steel City - 827004.</p>
+                        <p class="mt-4 text-sm font-semibold text-primary">9771493960</p>
+                    </article>
+                    <article class="outreach-card min-w-[calc(100%-1rem)] bg-white p-6 shadow-sm sm:min-w-[calc(50%-0.5rem)] lg:min-w-[calc(33.333%-0.7rem)] xl:min-w-[calc(25%-0.75rem)]">
+                        <span class="text-sm font-semibold uppercase tracking-wide text-secondary">West Bengal</span>
+                        <h3 class="mt-3 text-xl font-bold text-[#063f3b]">Bankura</h3>
+                        <p class="mt-3 min-h-[96px] text-sm leading-6 text-gray-600">Bandopadhyay Health Care Pvt. Ltd., Panchbag, Zunbedia Bye Pass, Bankura - 722101.</p>
+                        <p class="mt-4 text-sm font-semibold text-primary">9800881648</p>
+                    </article>
+                    <article class="outreach-card min-w-[calc(100%-1rem)] bg-white p-6 shadow-sm sm:min-w-[calc(50%-0.5rem)] lg:min-w-[calc(33.333%-0.7rem)] xl:min-w-[calc(25%-0.75rem)]">
+                        <span class="text-sm font-semibold uppercase tracking-wide text-secondary">West Bengal</span>
+                        <h3 class="mt-3 text-xl font-bold text-[#063f3b]">Berhampore</h3>
+                        <p class="mt-3 min-h-[96px] text-sm leading-6 text-gray-600">Manobikshan Pathology, Berhampore, Murshidabad, West Bengal - 742101.</p>
+                        <p class="mt-4 text-sm font-semibold text-primary">9800881451</p>
+                    </article>
+                    <article class="outreach-card min-w-[calc(100%-1rem)] bg-white p-6 shadow-sm sm:min-w-[calc(50%-0.5rem)] lg:min-w-[calc(33.333%-0.7rem)] xl:min-w-[calc(25%-0.75rem)]">
+                        <span class="text-sm font-semibold uppercase tracking-wide text-secondary">West Bengal</span>
+                        <h3 class="mt-3 text-xl font-bold text-[#063f3b]">Krishnanagar</h3>
+                        <p class="mt-3 min-h-[96px] text-sm leading-6 text-gray-600">IMA Bhawan 'Nirnay', 9 Church Road, Near Govt. College, Krishnanagar, Nadia.</p>
+                        <p class="mt-4 text-sm font-semibold text-primary">9800881451</p>
+                    </article>
+                    <article class="outreach-card min-w-[calc(100%-1rem)] bg-white p-6 shadow-sm sm:min-w-[calc(50%-0.5rem)] lg:min-w-[calc(33.333%-0.7rem)] xl:min-w-[calc(25%-0.75rem)]">
+                        <span class="text-sm font-semibold uppercase tracking-wide text-secondary">West Bengal</span>
+                        <h3 class="mt-3 text-xl font-bold text-[#063f3b]">Bolpur</h3>
+                        <p class="mt-3 min-h-[96px] text-sm leading-6 text-gray-600">Ganguly's Healthcare, 2/1 Saradapally, Jambani, Shantiniketan Road, Bolpur - 721204.</p>
+                        <p class="mt-4 text-sm font-semibold text-primary">6296515018</p>
+                    </article>
+                    <article class="outreach-card min-w-[calc(100%-1rem)] bg-white p-6 shadow-sm sm:min-w-[calc(50%-0.5rem)] lg:min-w-[calc(33.333%-0.7rem)] xl:min-w-[calc(25%-0.75rem)]">
+                        <span class="text-sm font-semibold uppercase tracking-wide text-secondary">North Bengal</span>
+                        <h3 class="mt-3 text-xl font-bold text-[#063f3b]">Jalpaiguri</h3>
+                        <p class="mt-3 min-h-[96px] text-sm leading-6 text-gray-600">Touch Nursing Home, Netaji Subhash Chandra Bose Road, Rajbari Para, Jalpaiguri - 735101.</p>
+                        <p class="mt-4 text-sm font-semibold text-primary">9800881791 / 03561222511</p>
+                    </article>
+                    <article class="outreach-card min-w-[calc(100%-1rem)] bg-white p-6 shadow-sm sm:min-w-[calc(50%-0.5rem)] lg:min-w-[calc(33.333%-0.7rem)] xl:min-w-[calc(25%-0.75rem)]">
+                        <span class="text-sm font-semibold uppercase tracking-wide text-secondary">Jharkhand</span>
+                        <h3 class="mt-3 text-xl font-bold text-[#063f3b]">Deoghar</h3>
+                        <p class="mt-3 min-h-[96px] text-sm leading-6 text-gray-600">City Care Hospital, Court Road, VIP Chowk, Deoghar, Jharkhand - 814112.</p>
+                        <p class="mt-4 text-sm font-semibold text-primary">9771493967</p>
+                    </article>
+                    <article class="outreach-card min-w-[calc(100%-1rem)] bg-white p-6 shadow-sm sm:min-w-[calc(50%-0.5rem)] lg:min-w-[calc(33.333%-0.7rem)] xl:min-w-[calc(25%-0.75rem)]">
+                        <span class="text-sm font-semibold uppercase tracking-wide text-secondary">Jharkhand</span>
+                        <h3 class="mt-3 text-xl font-bold text-[#063f3b]">Ranchi</h3>
+                        <p class="mt-3 min-h-[96px] text-sm leading-6 text-gray-600">Balpan Children Hospital, Opposite PHED, Near Jai Prakash Nagar, Booty More, Ranchi.</p>
+                        <p class="mt-4 text-sm font-semibold text-primary">9771493963</p>
+                    </article>
+                    <article class="outreach-card min-w-[calc(100%-1rem)] bg-white p-6 shadow-sm sm:min-w-[calc(50%-0.5rem)] lg:min-w-[calc(33.333%-0.7rem)] xl:min-w-[calc(25%-0.75rem)]">
+                        <span class="text-sm font-semibold uppercase tracking-wide text-secondary">Jharkhand</span>
+                        <h3 class="mt-3 text-xl font-bold text-[#063f3b]">Dumka</h3>
+                        <p class="mt-3 min-h-[96px] text-sm leading-6 text-gray-600">Nu Care Hospital (Ashoka Life Care), Kumar Para, Dumka, Jharkhand - 814101.</p>
+                        <p class="mt-4 text-sm font-semibold text-primary">9800144961</p>
+                    </article>
+                    <article class="outreach-card min-w-[calc(100%-1rem)] bg-white p-6 shadow-sm sm:min-w-[calc(50%-0.5rem)] lg:min-w-[calc(33.333%-0.7rem)] xl:min-w-[calc(25%-0.75rem)]">
+                        <span class="text-sm font-semibold uppercase tracking-wide text-secondary">West Bengal</span>
+                        <h3 class="mt-3 text-xl font-bold text-[#063f3b]">Purulia</h3>
+                        <p class="mt-3 min-h-[96px] text-sm leading-6 text-gray-600">Trident Med, Rajlaxmi Apartment, West Lake Road, near Bharat Sevashram Sangha, Purulia - 723101.</p>
+                        <p class="mt-4 text-sm font-semibold text-primary">Contact via clinic</p>
+                    </article>
+                    <article class="outreach-card min-w-[calc(100%-1rem)] bg-white p-6 shadow-sm sm:min-w-[calc(50%-0.5rem)] lg:min-w-[calc(33.333%-0.7rem)] xl:min-w-[calc(25%-0.75rem)]">
+                        <span class="text-sm font-semibold uppercase tracking-wide text-secondary">West Bengal</span>
+                        <h3 class="mt-3 text-xl font-bold text-[#063f3b]">Illambazar</h3>
+                        <p class="mt-3 min-h-[96px] text-sm leading-6 text-gray-600">Green Life Polyclinic and Diagnostic Centre, Bolpur Road, near Sat Sangha Kendra, Sukhbazar - 731214.</p>
+                        <p class="mt-4 text-sm font-semibold text-primary">9800881650 / 8900244444</p>
+                    </article>
+                    <article class="outreach-card min-w-[calc(100%-1rem)] bg-white p-6 shadow-sm sm:min-w-[calc(50%-0.5rem)] lg:min-w-[calc(33.333%-0.7rem)] xl:min-w-[calc(25%-0.75rem)]">
+                        <span class="text-sm font-semibold uppercase tracking-wide text-secondary">Jharkhand</span>
+                        <h3 class="mt-3 text-xl font-bold text-[#063f3b]">Jamshedpur</h3>
+                        <p class="mt-3 min-h-[96px] text-sm leading-6 text-gray-600">Outer Circle Road, Jiva Clinic, near Medica / Kantilal Hospital, Jamshedpur - 831001.</p>
+                        <p class="mt-4 text-sm font-semibold text-primary">Contact via clinic</p>
+                    </article>
+                </div>
+            </div>
+        </div>
     </section>
-    <!-- // Map Section -->
+    <script>
+        (() => {
+            const track = document.querySelector('.outreach-track');
+            const previous = document.querySelector('.outreach-prev');
+            const next = document.querySelector('.outreach-next');
+            const cards = track.querySelectorAll('.outreach-card');
+            let activeIndex = 0;
+
+            const visibleCards = () => window.innerWidth >= 1280 ? 4 : window.innerWidth >= 1024 ? 3 : window.innerWidth >= 640 ? 2 : 1;
+            const updateSlider = () => {
+                const visible = visibleCards();
+                activeIndex = Math.min(activeIndex, Math.max(0, cards.length - visible));
+                track.style.transform = `translateX(-${activeIndex * (cards[0].offsetWidth + 16)}px)`;
+            };
+
+            previous.addEventListener('click', () => { activeIndex = activeIndex > 0 ? activeIndex - 1 : cards.length - visibleCards(); updateSlider(); });
+            next.addEventListener('click', () => { activeIndex = activeIndex < cards.length - visibleCards() ? activeIndex + 1 : 0; updateSlider(); });
+            window.addEventListener('resize', updateSlider);
+            setInterval(() => { activeIndex = activeIndex < cards.length - visibleCards() ? activeIndex + 1 : 0; updateSlider(); }, 5000);
+            requestAnimationFrame(updateSlider);
+        })();
+    </script>
+    <!-- // Outreach Clinics -->
 
     <!-- Faq Section -->
-    <section class="py-8 lg:py-12 2xl:py-16 relative bg-slate-100">
-        <div class="mx-auto w-[90%] relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-4 lg:gap-6 xl:gap-8 items-start">
-            <div class="lg:col-span-5 space-y-6 lg:space-y-8 xl:space-y-12 sticky top-36">
+    <section class="py-8 lg:py-12 2xl:py-16 relative bg-white">
+        <div class="mx-auto w-[90%] relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-6 xl:gap-8 items-start">
+            <div class="space-y-4">
                 <div class="space-y-2 lg:space-y-4 xl:space-y-6 text-left">
                     <!-- Content for specialities -->
                     <h2 class="text-2xl md:text-3xl xl:text-4xl font-bold text-sky-600 leading-tight">Frequently Asked Questions</h2>
@@ -596,22 +776,8 @@
                         Find answers to common questions about our doctors, specialties, appointments, consultations, and healthcare services.
                     </p>
                 </div>
-                <div class="bg-white/50 backdrop-blur-md border-2 border-white p-5 lg:p-7 xl:p-10 space-y-3 lg:space-y-4 xl:space-y-6 flex flex-col">
-                    <div class="overflow-hidden w-16 h-16 rounded-full border border-white shadow-[0_0_20px_rgba(255,0,0,0.25)]">
-                        <img src="assets/images/author.jpg" alt="faq" class="w-full h-full object-cover">
-                    </div>
-                    <h2 class="text-tertiary font-bold text-xl lg:text-2xl">Book a 15 min call</h2>
-                    <p class="text-lg">If you any questions, just book a 15-minute call with us before any doubts.</p>
-                    <a href="#" class="inline-flex items-center justify-center uppercase gap-3 bg-red-600 hover:bg-red-700 text-white font-medium lg:px-6 px-4 py-3 transition-all duration-300">
-                        Request a call back <i class="ti ti-arrow-right text-lg leading-none"></i>
-                    </a>
-                </div>
-            </div>
-
-            <div class="lg:col-span-7 2xl:space-y-4 space-y-3 2xl:pl-10 lg:pl-6">
-
                 <!-- FAQ 1 -->
-                <div class="faq-item bg-white/50 backdrop-blur-md border-2 border-white overflow-hidden">
+                <div class="faq-item bg-white border border-slate-200 overflow-hidden">
                     <button type="button" class="faq-btn w-full flex items-center justify-between gap-4 px-6 py-5 text-left" onclick="toggleFaq(this)">
                         <span class="text-md lg:text-xl font-semibold text-gray-900">
                             How can I contact The Mission Hospital?
@@ -626,10 +792,8 @@
                         </p>
                     </div>
                 </div>
-            
-            
                 <!-- FAQ 2 -->
-                <div class="faq-item bg-white/50 backdrop-blur-md border-2 border-white overflow-hidden">
+                <div class="faq-item bg-white border border-slate-200 overflow-hidden">
                     <button type="button"
                             class="faq-btn w-full flex items-center justify-between gap-4 px-6 py-5 text-left"
                             onclick="toggleFaq(this)">
@@ -646,53 +810,9 @@
                             The Mission Hospital is located in Durgapur, West Bengal. You can visit our Contact Us page for the complete address and location details.
                         </p>
                     </div>
-                </div>
-            
-            
-                <!-- FAQ 3 -->
-                <div class="faq-item bg-white/50 backdrop-blur-md border-2 border-white overflow-hidden">
-                    <button type="button"
-                            class="faq-btn w-full flex items-center justify-between gap-4 px-6 py-5 text-left"
-                            onclick="toggleFaq(this)">
-                        <span class="text-md lg:text-xl font-semibold text-gray-900">
-                            How can I make an appointment?
-                        </span>
-                        <span class="faq-icon shrink-0 text-xl font-medium transform transition-transform duration-300 ease-in-out">
-                            <i class="ti ti-plus"></i>
-                        </span>
-                    </button>
-            
-                    <div class="faq-content max-h-0 opacity-0 overflow-hidden transition-all duration-500 ease-in-out">
-                        <p class="px-5 pb-4 text-gray-600">
-                            You can request an appointment online through our appointment booking system or contact our hospital team for assistance with scheduling your visit.
-                        </p>
-                    </div>
-                </div>
-            
-            
-                <!-- FAQ 4 -->
-                <div class="faq-item bg-white/50 backdrop-blur-md border-2 border-white overflow-hidden">
-                    <button type="button"
-                            class="faq-btn w-full flex items-center justify-between gap-4 px-6 py-5 text-left"
-                            onclick="toggleFaq(this)">
-                        <span class="text-md lg:text-xl font-semibold text-gray-900">
-                            How can I get information about hospital services?
-                        </span>
-                        <span class="faq-icon shrink-0 text-xl font-medium transform transition-transform duration-300 ease-in-out">
-                            <i class="ti ti-plus"></i>
-                        </span>
-                    </button>
-            
-                    <div class="faq-content max-h-0 opacity-0 overflow-hidden transition-all duration-500 ease-in-out">
-                        <p class="px-5 pb-4 text-gray-600">
-                            You can explore our website to learn about our medical departments, specialties, healthcare services, doctors, facilities, and other hospital services.
-                        </p>
-                    </div>
-                </div>
-            
-            
+                </div>            
                 <!-- FAQ 5 -->
-                <div class="faq-item bg-white/50 backdrop-blur-md border-2 border-white overflow-hidden">
+                <div class="faq-item bg-white border border-slate-200 overflow-hidden">
                     <button type="button"
                             class="faq-btn w-full flex items-center justify-between gap-4 px-6 py-5 text-left"
                             onclick="toggleFaq(this)">
@@ -710,10 +830,8 @@
                         </p>
                     </div>
                 </div>
-            
-            
                 <!-- FAQ 6 -->
-                <div class="faq-item bg-white/50 backdrop-blur-md border-2 border-white overflow-hidden">
+                <div class="faq-item bg-white border border-slate-200 overflow-hidden">
                     <button type="button"
                             class="faq-btn w-full flex items-center justify-between gap-4 px-6 py-5 text-left"
                             onclick="toggleFaq(this)">
@@ -731,10 +849,8 @@
                         </p>
                     </div>
                 </div>
-            
-            
                 <!-- FAQ 7 -->
-                <div class="faq-item bg-white/50 backdrop-blur-md border-2 border-white overflow-hidden">
+                <div class="faq-item bg-white border border-slate-200 overflow-hidden">
                     <button type="button"
                             class="faq-btn w-full flex items-center justify-between gap-4 px-6 py-5 text-left"
                             onclick="toggleFaq(this)">
@@ -752,28 +868,63 @@
                         </p>
                     </div>
                 </div>
-            
-            
-                <!-- FAQ 8 -->
-                <div class="faq-item bg-white/50 backdrop-blur-md border-2 border-white overflow-hidden">
-                    <button type="button"
-                            class="faq-btn w-full flex items-center justify-between gap-4 px-6 py-5 text-left"
-                            onclick="toggleFaq(this)">
-                        <span class="text-md lg:text-xl font-semibold text-gray-900">
-                            How can I provide feedback or share a concern?
-                        </span>
-                        <span class="faq-icon shrink-0 text-xl font-medium transform transition-transform duration-300 ease-in-out">
-                            <i class="ti ti-plus"></i>
-                        </span>
-                    </button>
-            
-                    <div class="faq-content max-h-0 opacity-0 overflow-hidden transition-all duration-500 ease-in-out">
-                        <p class="px-5 pb-4 text-gray-600">
-                            You can contact our hospital team through the available contact channels and share your feedback, suggestion, or concern. Our team will review your message and assist you accordingly.
-                        </p>
+            </div>
+
+            <div class="2xl:space-y-4 space-y-3 2xl:pl-10 lg:pl-6">
+                <div class="col-span-1 md:col-span-5 flex flex-col gap-4 md:gap-8 lg:gap-12">
+                    <!-- Heading -->
+                    <div class="space-y-4 md:space-y-6">
+                        <h3 class="text-xl lg:text-2xl xl:text-3xl font-bold text-gray-800">Ask a different question</h3>
+                        <p class="text-gray-700 text-xl italic mx-auto">Do not hesitate to contact us if you have any questions or concerns. Our committed staff is here to assist you around-the-clock. Reach out to us at the mentioned address. Get in touch with us via phone or email. We'll respond to you as soon as possible</p>
                     </div>
+                    <!-- Contact Form -->
+                    <form action="" method="post">
+                        <div class="grid grid-cols-1 gap-6 sm:grid-cols-2">
+                            <!-- Name -->
+                            <div>
+                                <label for="name" class="mb-1 block font-medium uppercase font-secondary text-sm"> Name </label>
+                                <input id="name" type="text" placeholder="Your full name" class="w-full border border-[#b8b8b2] bg-transparent px-4 py-3 outline-none placeholder:text-[#8a8a84] placeholder:font-[300] focus:border-[#222]">
+                            </div>
+                            <!-- Email -->
+                            <div>
+                                <label for="email" class="mb-1 block font-medium uppercase font-secondary text-sm"> Email </label>
+                                <input id="email" type="email" placeholder="your@email.com" class="w-full border border-[#b8b8b2] bg-transparent px-4 py-3 outline-none placeholder:text-[#8a8a84] placeholder:font-[300] focus:border-[#222]">
+                            </div>
+                        </div>
+                        
+                        <div class="mt-6 grid grid-cols-1 gap-6 sm:grid-cols-2">
+                            <!-- Phone -->
+                            <div>
+                                <label for="phone" class="mb-1 block font-medium uppercase font-secondary text-sm"> Phone </label>
+                                <input id="phone" type="tel" placeholder="Enter your phone number" class="w-full border border-[#b8b8b2] bg-transparent px-4 py-3 outline-none placeholder:text-[#8a8a84] placeholder:font-[300] focus:border-[#222]">
+                            </div>
+                            <!-- Purpose -->
+                            <div>
+                                <label for="purpose" class="mb-1 block font-medium uppercase font-secondary text-sm"> Purpose </label>
+                                <div class="relative">
+                                    <select id="purpose" class="w-full border border-[#b8b8b2] bg-transparent px-4 py-3 outline-none focus:border-[#222]">
+                                        <option>Normal Query</option>
+                                        <option>Request An Appointment</option>
+                                        <option>Request Your Bill</option>
+                                    </select>
+                                    <!-- Arrow -->
+                                    <i class="ri-arrow-down-s-line absolute right-0 top-1/2 -translate-y-1/2 text-lg"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Message -->
+                        <div class="mt-6">
+                            <label for="message" class="mb-3 block font-medium uppercase font-secondary text-sm"> Message </label>
+                            <textarea id="message" rows="5" placeholder="How can I help you?" class="w-full resize-none border border-[#b8b8b2] bg-white px-3 py-3 outline-none placeholder:text-[#8a8a84] placeholder:font-[300] focus:border-[#222]"></textarea>
+                        </div>
+                        <!-- Submit -->
+                        <div class="mt-5">
+                            <button type="submit" class="flex items-center justify-center uppercase gap-3 bg-secondary text-white hover:bg-red-700 hover:text-white font-medium 2xl:px-6 px-4 py-3 transition-all duration-300">
+                                SEND MESSAGE <i class="ti ti-arrow-right text-lg leading-none"></i>
+                            </button>
+                        </div>
+                    </form>
                 </div>
-            
             </div>
 
         </div>
